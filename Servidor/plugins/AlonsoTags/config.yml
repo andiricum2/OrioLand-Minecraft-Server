@@ -37,7 +37,7 @@ Vault-not-available: '&cVault no sembla estar disponible al servidor :('
 Help:
     Admin: 
     - '&4 /alonsotags open <player> &f- &cObre la interfas de l' usuari de tags per el jugador'
-    - '&4 /alonsotags reload &f- &cRecarga la configuració (es recomane reiniciar)'
+    - '&4 /alonsotags reload &f- &cRecarga la configuració (es recomanble reiniciar)'
     User:
     - '&4 /alonsotags open &f- &cObre l' interfaz de l' usuari'
 Tags:
