@@ -1,5 +1,0 @@
-files:
-  - source: /Servidor/plugins
-    ignore:
-      - /Servidor/plugins/*.jar*
-    translation: /Traducciones/%language%/
