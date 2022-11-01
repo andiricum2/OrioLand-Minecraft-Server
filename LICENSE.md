@@ -1,4 +1,4 @@
-MIT License
+Licencia
 
 Copyright (c) 2022 OrioLand
 
