@@ -27,31 +27,30 @@
 #  ======================================================================================================================================
 Messages:
 
-No-permission: '&cNo tienes permiso para hacer esto.'
-Reloaded: '&aAlgunos mensajes y opciones se han recargado. Otros pueden requerir un reinicio!'
-Disabled-world: '&cNo puedes usar este comando en este mundo. ¡Inténtalo más tarde!'
-Invalid-player: '&c¡El jugador no está en línea!'
-Target-not-loaded: '&cEl jugador objetivo no se pudo cargar. ¡El jugador debe reconectarse al servidor!'
-Please-reconnect: '&cError inesperado. ¡Por favor, reconecta al servidor!'
-Error-purchasing: '&cError inesperado al comprar esta etiqueta. Inténtalo de nuevo más tarde, si el problema persiste, ponte en contacto con un administrador.'
-Vault-not-available: '&cVault no parece estar disponible en este servidor :('
+No-permission: '&cNo tens permisos per fer això.'
+Reloaded: ''&aAlguns missatges i opcions s'han recarregat. Altres poden requerrir un reinici! 
+Invalid-player: '&c¡El jugador no està en línea!'
+Target-not-loaded: '&cEl jugador objectiu no es pot carregar. ¡El jugador ha de reconectarse al servidor!'
+Please-reconnect: '&cError inesperad. ¡sius plau, reconectat al servidor!'
+Error-purchasing: '&cError inesperad al comprar aquesta etiqueta. Inténta-ho de nou més tard, si el problema segueix, possat en contacte amb un administrador.'
+Vault-not-available: '&cVault no sembla estar disponible al servidor :('
 Help:
     Admin: 
-    - '&4 /alonsotags open <player> &f- &cAbre la interfaz de usuario de tags para el jugador'
-    - '&4 /alonsotags reload &f- &cRecarga la configuración (se recomienda reiniciar)'
+    - '&4 /alonsotags open <player> &f- &cObre la interfas de l' usuari de tags per el jugador'
+    - '&4 /alonsotags reload &f- &cRecarga la configuració (es recomane reiniciar)'
     User:
-    - '&4 /alonsotags open &f- &cAbre la interfaz de usuario'
+    - '&4 /alonsotags open &f- &cObre l' interfaz de l' usuari'
 Tags:
     Title: '&8Tags disponibles ({PAGE}/{MAX})'
-    Already-selected: '&a¡Ya tienes esta etiqueta seleccionada!'
-    Tag-selected: '&aHas seleccionado la etiqueta {TAG}&a!'
-    Tag-cleared: '&cHas borrado tu etiqueta actual.'
-    Tag-not-selected: '&cNo tienes ninguna etiqueta seleccionada.'
+    Already-selected: '&a¡Ja tens aquesta etiqueta seleccionada!'
+    Tag-selected: '&aHas seleccionad la etiqueta {TAG}&a!'
+    Tag-cleared: '&cHas borrad la teva etiqueta actual.'
+    Tag-not-selected: '&cNo tens ninguna etiqueta seleccionada.'
     # You can use some placeholders here:
     # {PRICE} to replace with tag price
     # {TAG} to replace with tag (displayed tag)
     # {TAG_NAME} to replace with tag displayname (as the item)
-    Tag-purchased: '&aHas comprado la etiqueta &7{TAG_NAME}&a!'
+    Tag-purchased: '&aHas comprad la etiqueta &7{TAG_NAME}&a!'
   Placeholders:
     # This is for %alonsotags_tag%
     Tag:
@@ -119,14 +118,14 @@ Items:
     Slot: 53
     Material: ARROW
     Custom-model-data: 0
-    Displayname: '&aSiguiente pagina'
+    Displayname: '&aSeguent pagina'
     Lore:
-    - '&7Ir a la Siguiente pagina.'
+    - '&7Ir a la Seguent pagina.'
   Close:
     Slot: 48
     Material: BARRIER
     Custom-model-data: 0
-    Displayname: '&cCerrar Menu'
+    Displayname: '&ctancar Menu'
     Lore: []
     # Set to none to disable.
     # Command run (by player) when player clicks close item.
