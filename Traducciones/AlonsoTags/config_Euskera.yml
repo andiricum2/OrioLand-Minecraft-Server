@@ -1,0 +1,283 @@
+#               _   _                 _____                        Our plugins: https://alonsoaliaga.com/plugins
+#              /_\ | |___ _ _  ___ __|_   _|_ _ __ _ ___           Support server: https://alonsoaliaga.com/discord
+#             / _ \| / _ \ ' \(_-</ _ \| |/ _` / _` (_-<           Youtube: https://alonsoaliaga.com/play
+#            /_/ \_\_\___/_||_/__/\___/|_|\__,_\__, /__/           Test server: plugins.alonsoaliaga.com
+#                              by AlonsoAliaga |___/               Twitch: https://alonsoaliaga.com/twitch
+#       Considering donating? https://alonsoaliaga.com/donate      Want even more features? Consider purchasing Pro version on https://alonsoaliaga.com/AlonsoTagsPro
+#  ======================================================================================================================================
+#  |              Downloaded this jar in a server setup? Tell the author he is NOT allowed to upload someone else work!                 |
+#  |   Update to latest version as soon as possible. Support WON'T be given when using old versions. Specially from downloaded setups.  |
+#  | Remember: Support is only provided for .jar files downloaded DIRECTLY from spigotmc.org! Other files will be considered as invalid |
+#  |        as they are NOT the same .jar file the developer (me) uploaded and I cannot guarantee that the file is safe or not.         |
+#  |                   If you have issues with setup configs. Tell the setup author to update his config file.                          |
+#  ======================================================================================================================================
+
+#              _   _                 _____                        Our plugins: https://alonsoaliaga.com/plugins
+#             /_\ | |___ _ _  ___ __|_   _|_ _ __ _ ___           Support server: https://alonsoaliaga.com/discord
+#            / _ \| / _ \ ' \(_-</ _ \| |/ _` / _` (_-<           Youtube: https://alonsoaliaga.com/play
+#           /_/ \_\_\___/_||_/__/\___/|_|\__,_\__, /__/           Test server: plugins.alonsoaliaga.com
+#                             by AlonsoAliaga |___/               Twitch: https://alonsoaliaga.com/twitch
+#      Considering donating? https://alonsoaliaga.com/donate      Want even more features? Consider purchasing Pro version on https://alonsoaliaga.com/AlonsoTagsPro
+#  ======================================================================================================================================
+#  |              Downloaded this jar in a server setup? Tell the author he is NOT allowed to upload someone else work!                 |
+#  |   Update to latest version as soon as possible. Support WON'T be given when using old versions. Specially from downloaded setups.  |
+#  | Remember: Support is only provided for .jar files downloaded DIRECTLY from spigotmc.org! Other files will be considered as invalid |
+#  |        as they are NOT the same .jar file the developer (me) uploaded and I cannot guarantee that the file is safe or not.         |
+#  |                   If you have issues with setup configs. Tell the setup author to update his config file.                          |
+#  ======================================================================================================================================
+Messages:
+
+No-permission: '&cNo tienes permiso para hacer esto.'
+Reloaded: '&aAlgunos mensajes y opciones se han recargado. Otros pueden requerir un reinicio!'
+Disabled-world: '&cNo puedes usar este comando en este mundo. ¡Inténtalo más tarde!'
+Invalid-player: '&c¡El jugador no está en línea!'
+Target-not-loaded: '&cEl jugador objetivo no se pudo cargar. ¡El jugador debe reconectarse al servidor!'
+Please-reconnect: '&cError inesperado. ¡Por favor, reconecta al servidor!'
+Error-purchasing: '&cError inesperado al comprar esta etiqueta. Inténtalo de nuevo más tarde, si el problema persiste, ponte en contacto con un administrador.'
+Vault-not-available: '&cVault no parece estar disponible en este servidor :('
+Help:
+    Admin: 
+    - '&4 /alonsotags open <player> &f- &cAbre la interfaz de usuario de tags para el jugador'
+    - '&4 /alonsotags reload &f- &cRecarga la configuración (se recomienda reiniciar)'
+    User:
+    - '&4 /alonsotags open &f- &cAbre la interfaz de usuario'
+Tags:
+    Title: '&8Tags disponibles ({PAGE}/{MAX})'
+    Already-selected: '&a¡Ya tienes esta etiqueta seleccionada!'
+    Tag-selected: '&aHas seleccionado la etiqueta {TAG}&a!'
+    Tag-cleared: '&cHas borrado tu etiqueta actual.'
+    Tag-not-selected: '&cNo tienes ninguna etiqueta seleccionada.'
+    # You can use some placeholders here:
+    # {PRICE} to replace with tag price
+    # {TAG} to replace with tag (displayed tag)
+    # {TAG_NAME} to replace with tag displayname (as the item)
+    Tag-purchased: '&aHas comprado la etiqueta &7{TAG_NAME}&a!'
+  Placeholders:
+    # This is for %alonsotags_tag%
+    Tag:
+      None: ''
+      Format: '{TAG}'
+    # This is for %alonsotags_tag_chat%
+    Tag-chat:
+      # In case you don't wanna to display anything if player doesn't have a tag selected.
+      None: ''
+      # This is in case you WANT to add extra spaces for your Chat plugin like:
+      # If tag selected => '[KNIGHT] AlonsoAliaga: Hello my tag has an extra space to fix better.'
+      # If no tag selected => 'AlonsoAliaga: Hello I don't have a tag selected.'
+      Format: '{TAG} '
+    # This is for %alonsotags_tag_tab%
+    Tag-tab:
+      None: ''
+      Format: ' {TAG}'
+    # This is for %alonsotags_tag_identifier%
+    Tag-identifier:
+      None: 
+      Format: '{TAG}'
+    # This is for %alonsotags_tag_scoreboard%
+    Tag-scoreboard:
+      None: ''
+      # This is in case you WANT to add extra spaces.
+      Format: '{TAG}'
+
+Permissions:
+  Admin: alonsotags.admin
+
+Items:
+  Player:
+    Slot: 49
+    # Set to 'PLAYER' to use player head.
+    # Supports any other material EXCEPT CUSTOM_HEAD. (Only Pro version support CUSTOM_HEAD here.)
+    Material: PLAYER
+    # Supports model data (1.14+)
+    Custom-model-data: 0
+    Active:
+      # Supports PlaceholderAPI if available.
+      Displayname: '&a{PLAYER}'
+      # Supports PlaceholderAPI if available.
+      Lore:
+      - '&7Etiqueta Actual: &f{TAG}'
+      - ' '
+      - '&eHaga clic para borrar su etiqueta actual.'
+      Material: PLAYER
+      Custom-model-data: 0
+    Inactive:
+      # Supports PlaceholderAPI if available.
+      Displayname: '&c{PLAYER}'
+      # Supports PlaceholderAPI if available.
+      Lore:
+      - '&7Etiqueta actual: &cNo seleccionada'
+      Material: PLAYER
+      Custom-model-data: 0
+  Previous-page:
+    Slot: 45
+    Material: ARROW
+    Custom-model-data: 0
+    Displayname: '&aPagina anterior'
+    Lore:
+    - '&7Verver a la pagina anterior.'
+  Next-page:
+    Slot: 53
+    Material: ARROW
+    Custom-model-data: 0
+    Displayname: '&aSiguiente pagina'
+    Lore:
+    - '&7Ir a la Siguiente pagina.'
+  Close:
+    Slot: 48
+    Material: BARRIER
+    Custom-model-data: 0
+    Displayname: '&cCerrar Menu'
+    Lore: []
+    # Set to none to disable.
+    # Command run (by player) when player clicks close item.
+    # Read more about this on https://alonsoaliaga.com/AlonsoTags/command-modifiers
+    Command: none
+  # This is the item that will be displayed when a tag is locked.
+  # This is optional. If disabled the same item of the tag icon will be
+  # displayed. Supports CUSTOM_HEAD and requires 'Texture' value if so.
+  Locked-tag-icon:
+    Enabled: true
+    # Supports CUSTOM_HEAD material and requires 'Texture' if so.
+    Material: CUSTOM_HEAD
+    Custom-model-data: 0
+    Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDZiYTYzMzQ0ZjQ5ZGQxYzRmNTQ4OGU5MjZiZjNkOWUyYjI5OTE2YTZjNTBkNjEwYmI0MGE1MjczZGM4YzgyIn19fQ==
+    # If enable. Tag displayname will be obfuscated with color '&4&k&l' (dark red, bold, obfuscated)
+    # In Pro version, this color is customizable.
+    Obfuscate:
+      Enabled: true
+
+Options:
+  # To apply changes for aliases you must RESTART the server.
+  Aliases:
+  - alonsotag
+  - atags
+  - tags
+  - atag
+  - tag
+  - etiquetas
+  Debug: false
+  Close-on-action:
+    # Close gui on tag select?
+    Select: false
+    # Close gui on tag clear?
+    Clear: false
+  Tag:
+    # Use this option if you have issues with other plugins that override tags added by AlonsoTags.
+    # This option creates a delay after player connection to add the tag. Set to 0 to disable.
+    # Time is in ticks. 20 ticks = 1 second. If you want a 2 seconds delay, then you use 2 x 20 = 40.
+    # This is only when using NametagEdit. You should avoid using that plugin and using TAB plugin instead.
+    Delay: 0
+    # This option will parse placeholders from 'Messages.Placeholders' section.
+    # THIS DOES NOT INCLUDE PLACEHOLDERS IN TAGS. Only Pro version allows Placeholders in tags.
+    # Consider purchasing Pro version to support our work.
+    Parse-output: false
+  Items:
+    # If enabled, close item will be displayed in slot 48 (Customizable in Items section)
+    Close: true
+  Fill-empty-slots:
+    # Fill all empty slots with black stained glass pane?
+    Enabled: true
+    # Use custom model data? Use it only IF NECESSARY (Only 1.14+)
+    Custom-model-data: 0
+  Hooks:
+    # This will use NameTagEdit API if available to set player suffix. (ITS SUFFIX, NOT PREFIX)
+    # Highly recommend you to use TAB instead. NametagEdit is outdated.
+    # TAB requires to be configured.
+    Name-tag-edit: false
+  # Allowed worlds in which players can access '/alonsotags'
+  # If you wanna enable the command in all worlds. Just set to Allowed-worlds: []
+  Allowed-worlds:
+  - lobby
+  - survival
+  - survival_nether
+  - survival_end
+  - flatroom
+  - parkour
+  Compatibility:
+    # Recommended if you are using EssentialsChat. Some of my plugins add this support.
+    # Make sure you enable ONLY if it's necessary. In addition, ONLY one is enough. If you have this option enabled in
+    # one of my plugins you can disable this option in all others.
+    # This allow you to use any placeholder from PlaceholderAPI but replacing it with brackets instead of percentage signs.
+    # Example: %aplaceholder% => {aplaceholder}
+    # This includes the ones that are not from AlonsoTags.
+    Chat: false
+  # This is the amount of ticks the plugin will wait before loading data.
+  # Useful if your have issues with players 'losing' their stats on server change or reconnect.
+  # Set to 0 to disable. If enabled, it's like that some plugins that send messages on join will not fetch correct data from placeholders.
+  # To 'fix' this use this plugin made by our team which adds messages on player join with an option to set delay.
+  # We also support placeholder check to prevent message to be sent when player is in vanish mode. (Using placeholder to check if player is vanished)
+  # Check our plugin on https://alonsoaliaga.com/AlonsoJoin (If available)
+  Data-delay: 20
+  Auto-save:
+    # Time in minutes to auto save player data. Minimum 0 (If zero it will be disabled). Recommended 10 or greater.
+    # This will save data every X minutes to prevent data lose in case server crashes for any reason.
+    Interval: 15
+  Log-mode: true
+
+Database:
+  # Available types: SQLite, MySQL, HikariCP and IwantMySQL
+  # You can use MySQL to make it global or you can use SQLite to make it local.
+  # MySQL requires a server (local or external) it uses HikariCP <=========== BY DEFAULT as it's faster.
+  # SQLite doesn't require anything, it's saved in a db file in the folder.
+  # IN CASE YOU WANT TO USE MYSQL AND NOT HIKARICP YOU MUST USE
+  #      Type: 'IWantMySQL'    <---- Yes, like that.
+  Type: SQLite
+  Table: alonsotags
+  # If type is SQLite
+  File: database-alonsotags
+  # If type is MySQL
+  Host: 127.0.0.1
+  Port: 3306
+  Database: alonsotags
+  Username: root
+  Password: '12345'
+  # Modify this just if you know what you are doing.
+  # This will be added at the end of database url (Not in SQLITE, only in MySQL).
+  # Useful if you want to set useSSL or autoReconnect or any other modifier.
+  # This option is no longer used as HikariCP was implemented. Please use 'HikariCP.Source-properties' options.
+  # Use only if using 'IWantMySQL'
+  Additional-url: ''
+  # This option has been added to prevent connection timeout.
+  # Time is in minutes. Every X minutes the plugin will run a test query to keep connection alive.
+  # This option is no longer used as HikariCP was implemented.
+  # Use only if using 'IWantMySQL'
+  Keep-connection-interval: 30
+  HikariCP:
+    Warning:
+    - ========================================================================================
+    - You don't need to edit this text, it's ONLY displayed in config so you can read
+      it.
+    - ========================================================================================
+    - HikariCP is experimental. Remember that only modify the following IF YOU KNOW
+      HOW IT WORKS.
+    - You will not get support for HikariCP configurations as 1) I'm not a HikariCP
+      advanced user
+    - and 2) Customization depends on the owner and his knowledge level.
+    - 'Related to Source-properties, if you KNOW and want to add custom properties
+      follow the format:'
+    - 'Source-properties:'
+    - '  thePropertySelected1: 'theValue1''
+    - '  thePropertySelected2: 'theValue2''
+    - '[!] Remember to modify data only if you know what you are doing.'
+    - 'Available source properties can be found here: https://alonsoaliaga.com/HikariCP-sp'
+    - 'Available source class names can be found here: https://alonsoaliaga.com/HikariCP-cn'
+    Max-pool-size: 3
+    # Set your custom source class name ONLY IF YOU KNOW WHAT IT IS.
+    Custom-source-class-name: default
+    # This is the source properties to modify your HikariCP configurations.
+    # It allows you to select and specify custom configs IF YOU KNOW WHAT YOU ARE DOING.
+    # Source properties can be found here: https://alonsoaliaga.com/HikariCP-sp
+    Source-properties: []
+
+Updates:
+  # Auto update configuration? Enabling will delete comments.
+  Auto-update-configuration: true
+  # Check for updates? Recommended to keep it enabled.
+  Check-updates: true
+  # Notify updates when player with permission joins the server?
+  Notify-updates: true
+  # Permission required to receive update message.
+  Permission: alonsotags.update
+  # Message to send when update is found.
+  Message: '&4[AlonsoTags] &eHay una nueva versión disponible.
+    Descargar: &c{LINK}'

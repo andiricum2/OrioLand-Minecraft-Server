@@ -1,0 +1,215 @@
+# This file REQUIRES "Points-required" option in each league if "Options.Leagues.Formula.Enabled" is set to false.
+# Use this option ONLY if you want to set points required for each league without a formula.
+# I strongly recommend you to use the default formula or with some modifications.
+Warning:
+- 'READ, THIS IS IMPORTANT! REMEMBER:'
+- 1) This file is ALWAYS USED for leagues names, displayname, color and tags.
+- 2) Points-required from this file is ONLY used if 'Options.Leagues.Formula.Enabled'
+  is set to false.
+- 3) If you modify formula expression make sure you KNOW JAVASCRIPT. Support won't
+  be given to create formulas
+- '   as it was added as an option only for owners or configurators that knows how
+  to use it.'
+- 4) First league MUST be always 0.
+- 5) Points required is total. NOT PER LEAGUE.
+- '   It means that for league Bronce-4, 1200 total points are required. Not just
+  in league Bronce-5 to rank up.'
+- 'REMEMBER THAT LIMIT FOR INTEGERS IS: 2,147,483,647 (Also, don''t use commas)'
+- If your required points are higher than that the PLUGIN WILL DISABLE!
+- Do NOT modify this text as it's going to be replaced if so. This is to warn owners
+  about this.
+Leagues:
+  unranked:
+    Name: Sin liga
+    Displayname: '&8Sin liga'
+    Color: '&f'
+    # This is the tag. It's just cosmetic, you can use it if you don't want too much text and only want to use like a badge.
+    Tag: ''
+    # Points for the first rank is always 0. Even if other amount is specified.
+    Points-required: 0
+  Bronce-5:
+    Name: Bronce V
+    Displayname: '&eBronce V'
+    Color: '&e'
+    Tag: '&eB-V'
+    Points-required: 1000
+  Bronce-4:
+    Name: Bronce IV
+    Displayname: '&eBronce IV'
+    Color: '&e'
+    Tag: '&eB-IV'
+    Points-required: 2000
+  Bronce-3:
+    Name: Bronce III
+    Displayname: '&eBronce III'
+    Color: '&e'
+    Tag: '&eB-III'
+    Points-required: 3000
+  Bronce-2:
+    Name: Bronce II
+    Displayname: '&eBronce II'
+    Color: '&e'
+    Tag: '&eB-II'
+    Points-required: 4000
+  Bronce-1:
+    Name: Bronce I
+    Displayname: '&eBronce I'
+    Color: '&e'
+    Tag: '&eB-I'
+    Points-required: 5000
+  silver-5:
+    Name: Plata V
+    Displayname: '&fPlata V'
+    Color: '&f'
+    Tag: '&fS-V'
+    Points-required: 10000
+  Plata-4:
+    Name: Plata IV
+    Displayname: '&fPlata IV'
+    Color: '&f'
+    Tag: '&fS-IV'
+    Points-required: 15000
+  Plata-3:
+    Name: Plata III
+    Displayname: '&fPlata III'
+    Color: '&f'
+    Tag: '&fS-III'
+    Points-required: 20000
+  Plata-2:
+    Name: Plata II
+    Displayname: '&fPlata II'
+    Color: '&f'
+    Tag: '&fS-II'
+    Points-required: 25000
+  Plata-1:
+    Name: Plata I
+    Displayname: '&fPlata I'
+    Color: '&f'
+    Tag: '&fS-I'
+    Points-required: 30000
+  Oro-5:
+    Name: Oro V
+    Displayname: '&6Oro V'
+    Color: '&6'
+    Tag: '&6G-V'
+    Points-required: 40000
+  Oro-4:
+    Name: Oro IV
+    Displayname: '&6Oro IV'
+    Color: '&6'
+    Tag: '&6G-IV'
+    Points-required: 50000
+  Oro-3:
+    Name: Oro III
+    Displayname: '&6Oro III'
+    Color: '&6'
+    Tag: '&6G-III'
+    Points-required: 60000
+  Oro-2:
+    Name: Oro II
+    Displayname: '&6Oro II'
+    Color: '&6'
+    Tag: '&6G-II'
+    Points-required: 70000
+  Oro-1:
+    Name: Oro I
+    Displayname: '&6Oro I'
+    Color: '&6'
+    Tag: '&6G-I'
+    Points-required: 80000
+  Diamante-5:
+    Name: Diamante V
+    Displayname: '&bDiamante V'
+    Color: '&b'
+    Tag: '&bD-V'
+    Points-required: 100000
+  Diamante-4:
+    Name: Diamante IV
+    Displayname: '&bDiamante IV'
+    Color: '&b'
+    Tag: '&bD-IV'
+    Points-required: 120000
+  Diamante-3:
+    Name: Diamante III
+    Displayname: '&bDiamante III'
+    Color: '&b'
+    Tag: '&bD-III'
+    Points-required: 140000
+  Diamante-2:
+    Name: Diamante II
+    Displayname: '&bDiamante II'
+    Color: '&b'
+    Tag: '&bD-II'
+    Points-required: 160000
+  Diamante-1:
+    Name: Diamante I
+    Displayname: '&bDiamante I'
+    Color: '&b'
+    Tag: '&bD-I'
+    Points-required: 180000
+  Obsidiana-5:
+    Name: Obsidiana V
+    Displayname: '&5Obsidiana V'
+    Color: '&5'
+    Tag: '&5O-V'
+    Points-required: 250000
+  Obsidiana-4:
+    Name: Obsidiana IV
+    Displayname: '&5Obsidiana IV'
+    Color: '&5'
+    Tag: '&5O-IV'
+    Points-required: 300000
+  Obsidiana-3:
+    Name: Obsidiana III
+    Displayname: '&5Obsidiana III'
+    Color: '&5'
+    Tag: '&5O-III'
+    Points-required: 350000
+  Obsidiana-2:
+    Name: Obsidiana II
+    Displayname: '&5Obsidiana II'
+    Color: '&5'
+    Tag: '&5O-II'
+    Points-required: 400000
+  Obsidiana-1:
+    Name: Obsidiana I
+    Displayname: '&5Obsidiana I'
+    Color: '&5'
+    Tag: '&5O-I'
+    Points-required: 450000
+  champion-3:
+    Name: Champion III
+    Displayname: '&dChampion III'
+    Color: '&d'
+    Tag: '&dC-III'
+    Points-required: 500000
+  champion-2:
+    Name: Champion II
+    Displayname: '&dChampion II'
+    Color: '&d'
+    Tag: '&dC-II'
+    Points-required: 600000
+  champion-1:
+    Name: Champion I
+    Displayname: '&dChampion I'
+    Color: '&d'
+    Tag: '&dC-I'
+    Points-required: 700000
+  Maestro-3:
+    Name: Maestro III
+    Displayname: '&aMaestro III'
+    Color: '&a'
+    Tag: '&aM-III'
+    Points-required: 800000
+  Maestro-2:
+    Name: Maestro II
+    Displayname: '&aMaestro II'
+    Color: '&a'
+    Tag: '&aM-II'
+    Points-required: 900000
+  Maestro-1:
+    Name: Maestro I
+    Displayname: '&aMaestro I'
+    Color: '&a'
+    Tag: '&aM-I'
+    Points-required: 1000000

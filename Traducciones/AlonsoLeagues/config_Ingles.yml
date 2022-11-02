@@ -1,0 +1,288 @@
+#        _   _                  _                                     Our plugins: https://alonsoaliaga.com/plugins
+#       /_\ | |___ _ _  ___ ___| |   ___ __ _ __ _ _  _ ___ ___       Support server: https://alonsoaliaga.com/discord
+#      / _ \| / _ \ ' \(_-</ _ \ |__/ -_) _` / _` | || / -_|_-<       Youtube: https://alonsoaliaga.com/play
+#     /_/ \_\_\___/_||_/__/\___/____\___\__,_\__, |\_,_\___/__/       Test server: plugins.alonsoaliaga.com
+#                           by AlonsoAliaga  |___/                    Twitch: https://alonsoaliaga.com/twitch
+#      Considering donating? https://alonsoaliaga.com/donate          Want even more features? Consider purchasing Pro version on https://alonsoaliaga.com/AlonsoLeaguesPro
+Messages:
+  No-permission: "&cNo tienes permiso para hacer esto."
+  Reloaded: "&aSe ha reiniciado el plugin!"
+  Invalid-player: "&cEl jugador no esta conectado!"
+  Invalid-amount: "&cSe ha definido una cantidad invalida!"
+  Invalid-league: "&cLa liga no es valida!"
+  Please-reconnect: "&cAlgo ha ido mal, por favor reconectate al server!"
+  Please-reconnect-other: "&cEl jugador no esta registrado. {PLAYER} tiene que reconectarse al servidor!"
+  You-received: " &8+&d{POINTS} Punto(s)!"
+  You-lost: " &8-&d{POINTS} Punto(s)!"
+  You-added-to-target: "&aHas añadido {POINTS} punto(s) a {TARGET}!"
+  You-removed-from-target: "&aHas eliminado {POINTS} puntos(s) a {TARGET}!"
+  Target-not-registered: "&cEl jugador no esta registrado!"
+  #Set to none to disable
+  #Available placeholders:
+  # {PLAYER} replaced with player name;
+  # {OLD_LEAGUE_NAME} replaced with old league name
+  # {OLD_LEAGUE_DISPLAY} replaced with old league displayname
+  # {OLD_LEAGUE_TAG} replaced with old league tag
+  # {OLD_LEAGUE_COLOR} replaced with old league color
+  # {NEW_LEAGUE_NAME} replaced with new league name
+  # {NEW_LEAGUE_DISPLAY} replaced with new league displayname
+  # {NEW_LEAGUE_TAG} replaced with new league tag
+  # {NEW_LEAGUE_COLOR} replaced with new league color
+  #Supports PlaceholderAPI if available.
+  Rank-up:
+    Title: "{NEW_LEAGUE_COLOR}&l{NEW_LEAGUE_NAME}"
+    Subtitle: "&eHas subido de liga!"
+  Rank-down:
+    Title: "{NEW_LEAGUE_COLOR}&l{NEW_LEAGUE_NAME}"
+    Subtitle: "&cHas bajado de liga :("
+  Keys:
+    Progress-bar:
+      Amount: 15
+      Character: "■"
+      #Use Complete in case you WANT to replace the default rank color. Recommended to leave it like ""
+      Complete: "" #Example: "&c"
+      Remaining: "&7"
+    Progress:
+      Format: "&a{LEAGUE_POINTS}&7/&b{REQUIRED_POINTS}"
+      Max-league: "&c&lLIGA MAX"
+      Max-league-short: "&c&lMAX"
+      Max-next-league-color: "&c"
+  Add-points:
+    Cannot-add-zero: "&cNo se pueden añadir 0 puntos."
+    Error: "&cNo se pueden añadir puntos al jugador!"
+  Remove-points:
+    Cannot-remove-zero: "&cNo se pueden quitar 0 puntos."
+    Error: "&cNo se pueden quitar puntos al jugado!"
+  Set-points:
+    You-set-points: "&aHas definido los puntos de {TARGET} a {POINTS}!"
+  Reset:
+    You-reset-data: "&aHas reiniciado los datos de {TARGET}!"
+  Set:
+    Set-league: "&aHas definido la liga de {TARGET} a {LEAGUE}!"
+  Help:
+    Admin:
+    - "&6 /alonsoleagues stats <player> &f- &eCheck statistics of a players"
+    - "&6 /alonsoleagues addpoints <player> <points> <hide-output> &f- &eAdd points to player"
+    - "&6 /alonsoleagues addrandompoints <player> <min> <max> <hide-output> &f- &eAdd random points to player"
+    - "&6 /alonsoleagues removepoints <player> <points> <hide-ouput> &f- &eRemove points from player"
+    - "&6 /alonsoleagues setpoints <player> <points> <hide-ouput> &f- &eRemove points from player"
+    - "&6 /alonsoleagues setleague <player> <league-identifier> <hide-ouput> &f- &eSet league for player"
+    - "&6 /alonsoleagues resetdata <player> <hide-ouput> &f- &eReset data for player (Console only)"
+    - "&6 /alonsoleagues reload &f- &eReload configuration (Restart recommended)"
+    User:
+    - "&6 /liga &f- &eVer tus estadisticas"
+  Stats:
+    #Supports PlaceholderAPI if available.
+    Self:
+    - "{COLOR}&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r"
+    - "                &aTus estadisticas!"
+    - "&a "
+    - "  &7Liga actual: &a{LEAGUE}"
+    - "  &7Siguiente liga: &a{NEXT_LEAGUE}"
+    - "  &7Progreso: &b{PROGRESS} &3{PERCENT}%"
+    - "&b "
+    - "  &7Puntos actuales: &a{LEAGUE_POINTS}"
+    - "  &7Puntos requeridos: &a{REQUIRED_POINTS}"
+    - "  &7Puntos totales: &a{TOTAL_POINTS}"
+    - "{COLOR}&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r"
+    #Supports PlaceholderAPI if available.
+    Self-max-league:
+    - "{COLOR}&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r"
+    - "           &aTus estadisticas!"
+    - "             &c&lLIGA MAX!&r"
+    - "  &7Liga actual: &a{LEAGUE}&r"
+    - "  &7Puntos actuales: &a{TOTAL_POINTS}"
+    - "{COLOR}&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r"
+    #Supports PlaceholderAPI if available.
+    Other:
+    - "{COLOR}&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r"
+    - "          &aEstadisticas de {PLAYER}"
+    - "&a "
+    - "  &7Liga actual: &a{LEAGUE}"
+    - "  &7Siguiente liga: &a{NEXT_LEAGUE}"
+    - "  &7Progreso: &b{PROGRESS} &3{PERCENT}%"
+    - "&b "
+    - "  &7Puntos actuales: &a{LEAGUE_POINTS}"
+    - "  &7Puntos requeridos: &a{REQUIRED_POINTS}"
+    - "  &7Puntos totales: &a{TOTAL_POINTS}"
+    - "{COLOR}&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r"
+    #Supports PlaceholderAPI if available.
+    Other-max-league:
+    - "{COLOR}&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r"
+    - "      &aEstadisticas de {PLAYER}"
+    - "             &c&lLIGA MAX!&r"
+    - "  &7Liga actual: &a{LEAGUE}&r"
+    - "  &7Puntos actuales: &a{TOTAL_POINTS}"
+    - "{COLOR}&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r"
+  Leaderboards:
+    League:
+      Placeholders:
+        Entry: "&e{RANKING}. &b{PLAYER} &7- &e{SCORE}"
+        No-data: "&7No hay datos"
+        No-name: "&7Pues no lo sé"
+        No-score: "&7Pues no lo sé"
+      Signs:
+        Score:
+        - "&c--&e #{RANKING} &c--"
+        - "&f{PLAYER}"
+        - "&b{SCORE}"
+        - "&c-------------"
+        Empty:
+        - "&c--&e #{RANKING} &c--"
+        - "&cNingun Jugador"
+        - "&bNo sé"
+        - "&c-------------"
+    Points:
+      Placeholders:
+        Entry: "&e{RANKING}. &b{PLAYER} &7- &e{SCORE}"
+        No-data: "&7No hay datos"
+        No-name: "&7Pues no lo sé"
+        No-score: "&7Pues no lo sé"
+      Signs:
+        Score:
+        - "&c--&e #{RANKING} &c--"
+        - "&f{PLAYER}"
+        - "&b{SCORE}"
+        - "&c-------------"
+        Empty:
+        - "&c--&e #{RANKING} &c--"
+        - "&cNingun Jugador"
+        - "&bNo sé"
+        - "&c-------------"
+
+Permissions:
+  Admin: "alonsoleagues.admin"
+  Stats-others: "alonsoleagues.stats.others"
+
+Options:
+  Aliases:
+  - "aleagues"
+  - "aleague"
+  - "alonsoleague"
+  - "league"
+  - "leagues"
+  - "liga"
+  - "ligas"
+  Debug: false
+  #Enable to use leaderboards with AlonsoLeaderboards plugin.
+  AlonsoLeaderboards:
+    Enabled: false
+    #Delay in minutes before first data load to provide information to AlonsoLeaderboards plugin.
+    Delay: 3 #Recommended: 3 - 5 minutes
+    #Interval in minutes between data update to provide information AlonsoLeaderboards plugin.
+    Interval: 10 #Recommended: 10 - 15
+    #If enabled, particles will be spawned when sign is updated.
+    Play-effect: true
+    #Effect for sign update. Make sure you USE a valid effect name.
+    #Get effects from here: hub.spigotmc.org/javadocs/spigot/org/bukkit/Effect.html
+    Effect: "MOBSPAWNER_FLAMES"
+    #Time in seconds to delay the hook with AlonsoLeaderboards (this is in case you have issues with plugin loading order due to other plugins).
+    #Setting this to 15 seconds should be enough. (TIME IS IN SECONDS)
+    Load-delay: 30
+  Leagues:
+    Formula:
+      #If enabled, it will calculate the ranks based on the formula provided.
+      #If false YOU MUST PROVIDE THE LEAGUES AND REQUIRED POINTS FOR EACH LEAGUE IN leagues.yml
+      Enabled: true
+      #This formula is used to calculate new leagues from leagues.yml
+      #WARNING: MAKE SURE FIRST VALUE NEVER RETURNS 0. It must returns AT LEAST 1 or it will be ignored.
+      #WARNING: This formula is processed internally using eval methods. (Javascript)
+      #That means that it can be used to modify everything internally if not used with caution.
+      #That includes files, folders, etc. Make sure only YOU have access to this. You have been WARNED!
+      #Recommended to leave this as default if you DON'T UNDERSTAND HOW IT WORKS.
+      #DO NOT EVER COPY AND PASTE FORMULAS FROM INTERNET IF YOU DON'T UNDERSTAND THEM.
+      Formula: "25*(Math.pow(INDEX,2)) + (125*INDEX) + 850"
+  Auto-save:
+    #Interval in minutes between auto save cache data.
+    Interval: 10
+  Titles:
+    #Send title when player rank up
+    Up: true
+    #Send title when player rank down (opposite of rank up)
+    Down: true
+  Kick-on-fail:
+    Enabled: true
+    Reason:
+    #Support PlaceholderAPI, it might not properly with many plugins because is most likely that
+    #the placeholders are not loading at the moment the player is kicked. (because he just joined)
+    #Available placeholders: {PLAYER} player name, {UUID} player uuid
+    - "&cNo se han podido cargar tus datos."
+    - "&fReconectate al servidor por favor."
+    - "&r"
+    - "&7Si el problema persiste ponte en contacto con el administrador."
+  Compatibility:
+    #Recommended if you are using EssentialsChat. Some of my plugins add this support.
+    #Make sure you enable ONLY if it's necessary. In addition, ONLY one is enough. If you have this option enabled in
+    #one of my plugins you can disable this option in all others.
+    #This allow you to use any placeholder from PlaceholderAPI but replacing it with brackets instead of percentage signs.
+    #Example: %aplaceholder% => {aplaceholder}
+    #This includes the ones that are not from AlonsoLeagues.
+    Chat: false
+  #This is the amount of ticks the plugin will wait before loading data.
+  #Useful if your have issues with players "losing" their stats on server change or reconnect.
+  #Set to 0 to disable. If enabled, it's like that some plugins that send messages on join will not fetch correct data from placeholders.
+  #To "fix" this use this plugin made by our team which adds messages on player join with an option to set delay.
+  #We also support placeholder check to prevent message to be sent when player is in vanish mode. (Using placeholder to check if player is vanished)
+  #Check our plugin on https://alonsoaliaga.com/AlonsoJoin (If available)
+  Data-delay: 20
+
+Database:
+  #Available types: MySQL and SQLite
+  #You can use MySQL to make it global or you can use SQLite to make it local.
+  #MySQL requires a server (local or external)
+  #SQLite doesn't require anything, it's saved in a db file in the folder.
+  #IN CASE YOU WANT TO USE MYSQL AND NOT HIKARICP YOU MUST USE
+  #      Type: "IWantMySQL"    <---- Yes, like that.
+  Type: "SQLite"
+  Table: "alonsoleagues"
+  #If type is SQLite
+  File: "database-alonsoleagues"
+  #If type is MySQL
+  Host: 127.0.0.1
+  Port: 3306
+  Database: "alonsoleagues"
+  Username: "root"
+  Password: "12345"
+  #Modify this just if you know what you are doing.
+  #This will be added at the end of database url (Not in SQLITE, only in MySQL).
+  #Useful if you want to set useSSL or autoReconnect or any other modifier.
+  #This option is no longer used as HikariCP for hikari. Please use "HikariCP.Source-properties" options.
+  Additional-url: ""
+  #This option has been added to prevent connection timeout.
+  #Time is in minutes. Every X minutes the plugin will run a test query to keep connection alive.
+  #No longer used as HikariCP was implemented. Only required with "IWantMySQL"
+  Keep-connection-interval: 30
+  HikariCP:
+    Warning:
+    - "========================================================================================"
+    - "You don't need to edit this text, it's ONLY displayed in config so you can read it."
+    - "========================================================================================"
+    - "HikariCP is experimental. Remember that only modify the following IF YOU KNOW HOW IT WORKS."
+    - "You will not get support for HikariCP configurations as 1) I'm not a HikariCP advanced user"
+    - "and 2) Customization depends on the owner and his knowledge level."
+    - "Related to Source-properties, if you KNOW and want to add custom properties follow the format:"
+    - "Source-properties:"
+    - '  thePropertySelected1: "theValue1"'
+    - '  thePropertySelected2: "theValue2"'
+    - "[!] Remember to modify data only if you know what you are doing."
+    - "Available source properties can be found here: https://alonsoaliaga.com/HikariCP-sp"
+    - "Available source class names can be found here: https://alonsoaliaga.com/HikariCP-cn"
+    Max-pool-size: 15
+    #Set your custom source class name ONLY IF YOU KNOW WHAT IT IS.
+    Custom-source-class-name: "default"
+    #This is the source properties to modify your HikariCP configurations.
+    #It allows you to select and specify custom configs IF YOU KNOW WHAT YOU ARE DOING.
+    #Source properties can be found here: https://links.alonsoaliaga.com/HikariCP-sp
+    Source-properties: []
+
+Updates:
+  #Auto update configuration? Enabling will delete comments.
+  Auto-update-configuration: true
+  #Check for updates? Recommended to keep it enabled.
+  Check-updates: true
+  #Notify updates when player with permission joins the server?
+  Notify-updates: true
+  #Permission required to receive update message.
+  Permission: "alonsoleagues.update"
+  #Message to send when update is found.
+  Message: "&6[AlonsoLeagues] &eA new update has been found! You are using version {CURRENT}. Download version {NEW} here &c{LINK}"

@@ -1,0 +1,37 @@
+command:
+  cannot_be_used_by_console: This command cannot be used by the console. Sorry!
+  cannot_edit_owner: '&4No puedes cambiar el owner de esta proteccion, rompe el cartel para hacer esto.'
+  line_number_out_of_bounds: '&4Introduce un numero de linea entre 2 y 4 (2 y 4 Incluidos).'
+  no_permission: '&4You don''t have permission to execute this command. Sorry!'
+  no_sign_selected: '&4Tienes que seleccionar un cartel con el click derecho.'
+  player_name_too_long: '&4El nombre es mas largo de lo permitido (16 Caracteres).'
+  plugin_reloaded: '&6Reloaded the configuration files!'
+  sign_no_longer_part_of_protection: '&4El signo seleccionado ya no pertenece a la proteccion.'
+  updated_sign: '&6Cartel Actualizado!'
+protection:
+  add_more_users_sign_instead: '&4Solo puede haber un cartel [Privado] en una proteccion.
+    añade un cartel [Mas Usuarios].'
+  bypassed: '&6Has bypasseado la proteccion de {0}.'
+  cannot_change_sign: '&4No puedes cambiar una señal cerca de un contenedor reclamado.'
+  chest_hint: '&6Coloca una señal en este baúl para protegerlo.'
+  claimed_container: '&6Reclamó este contenedor. Nadie más puede acceder a él.'
+  claimed_manually: '&6Creó una reclamación. Solo las personas que figuran en la señal pueden acceder a ella.'
+  expired: '&6La protección de este bloque ha expirado debido a la inactividad del propietario.'
+  in_wilderness: '&4No puedes crear una protección aquí: estás en el wilderness.'
+  is_claimed_by: '&6Este bloque ha sido reclamado por {0}.'
+  no_access: '&4No puedes usar este bloque, está protegido por {0}.'
+  no_permission_for_claim: '&4No tienes permiso para reclamar un contenedor, lo sentimos.'
+  not_nearby: '&4No hay ningún bloque protegible cerca. (Shift-)right-click a un contenedor con una señal en tu mano para protegerlo.'
+  selected_sign: '&6Seleccionó una señal. Escriba "/blocklocker <número de línea> <nombre>" para editar esta señal. O, alternativamente, agregue estos: &n[Redstone]&r&6 &n[Todos]&r&6.'
+tag:
+  everyone: Todos
+  more_users: '[Mas Usuarios]'
+  private: '[Privado]'
+  redstone: Redstone
+  timer: Timer
+updater:
+  more_information: '&6More information: {0}'
+  unsupported_server: '&4The latest version of BlockLocker (version {0}) no longer
+    supports this Minecraft version, only Minecraft {1}.'
+  update_available: '&6An update for BlockLocker (version {0}) is available for manual
+    download.'

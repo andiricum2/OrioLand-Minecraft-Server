@@ -1,0 +1,138 @@
+# Registration
+'registration':
+    'disabled': '&6&lOL &7| &cEl registro está desactivado'
+    'name_taken': '&6&lOL &7| &cUsuario ya registrado'
+    'register_request': '&6&lOL &7| &fPor favor, regístrate con &e"/register <contraseña>'
+    'command_usage': '&6&lOL &7| &fUso: /register Contraseña ConfirmarContraseña'
+    'reg_only': '&6&lOL &7| &f¡Sólo para jugadores registrados! Por favor visita http://www.example.com/ para registrarte'
+    'success': '&6&lOL &7| &f¡Registrado correctamente!'
+    'kicked_admin_registered': '&6&lOL &7| &fUn administrador te acaba de registrar; entra en la cuenta de nuevo'
+# Password errors on registration
+'password':
+    'match_error': '&6&lOL &7| &cLas contraseñas no son iguales'
+    'name_in_password': '&6&lOL &7| &fNo puedes utilizar tu nombre como contraseña. Por favor, elija otra...'
+    'unsafe_password': '&6&lOL &7| &fLa contraseña elegida no es segura, por favor elija otra...'
+    'forbidden_characters': '&6&lOL &7| &fTu contraseña tiene carácteres no admitidos, los cuales son: %valid_chars%'
+    'wrong_length': '&6&lOL &7| &fTu contraseña es muy larga o muy corta'
+# Login
+'login':
+    'command_usage': '&6&lOL &7| &fUso: &e"/login contraseña"'
+    'wrong_password': '&6&lOL &7| &CContraseña incorrecta'
+    'success': '&6&lOL &7| &fSesión iniciada!'
+    'login_request': '&6&lOL &7| &fInicia sesión con &e"/login contraseña&e"'
+    'timeout_error': '&6&lOL &7| &fTiempo de espera para inicio de sesión excedido'
+# Errors
+'error':
+    'denied_command': '&6&lOL &7| &c¡Para utilizar este comando debes iniciar sesión!'
+    'denied_chat': '&6&lOL &7| &f¡Para poder hablar en el chat debes iniciar sesión!'
+    'unregistered_user': '&6&lOL &7| &fUsuario no registrado'
+    'not_logged_in': '&6&lOL &7| &c¡No has iniciado sesión!'
+    'no_permission': '&6&lOL &7| &cNo tienes permiso'
+    'unexpected_error': '&6&lOL &7| &cHa ocurrido un error. Por favor contacta al administrador.'
+    'max_registration': '&6&lOL &7| &cHas excedido la cantidad máxima de registros para tu cuenta'
+    'logged_in': '&6&lOL &7| &f¡Ya has iniciado sesión!'
+    'kick_for_vip': '&6&lOL &7| &f¡Un jugador VIP ha ingresado al servidor lleno!'
+    'kick_unresolved_hostname': '&6&lOL &7| &fAn error occurred: unresolved player hostname!'
+    'tempban_max_logins': '&6&lOL &7| &fHas sido expulsado temporalmente por intentar iniciar sesión demasiadas veces.'
+# AntiBot
+'antibot':
+    'kick_antibot': '&6&lOL &7| ¡El modo de protección AntiBot está habilitado! Tienes que esperar varios minutos antes de entrar en el servidor.'
+    'auto_enabled': '&6&lOL &7| AntiBotMod activado automáticamente debido a conexiones masivas!'
+    'auto_disabled': '&6&lOL &7| AntiBotMod desactivado automáticamente después de %m minutos. Esperamos que haya terminado'
+# Unregister
+'unregister':
+    'success': '&6&lOL &7| &f¡Cuenta eliminada del registro!'
+    'command_usage': '&6&lOL &7| &fUso: &e"/unregister contraseña"'
+# Other messages
+'misc':
+    'account_not_activated': '&6&lOL &7| &fTu cuenta no está activada aún, ¡revisa tu correo!'
+    'password_changed': '&6&lOL &7| &f¡Contraseña cambiada!'
+    'logout': '&6&lOL &7| &fDesconectado correctamente.'
+    'reload': '&6&lOL &7| &fLa configuración y la base de datos han sido recargados'
+    'usage_change_password': '&6&lOL &7| &fUso: /changepw contraseñaActual contraseñaNueva'
+    'accounts_owned_self': '&6&lOL &7| Eres propietario de %count cuentas:'
+    'accounts_owned_other': '&6&lOL &7| El jugador %name tiene %count cuentas:'
+# Session messages
+'session':
+    'valid_session': '&6&lOL &7| &fInicio de sesión'
+    'invalid_session': '&6&lOL &7| &fLos datos de sesión no corresponden. Por favor espera a terminar la sesión.'
+# Error messages when joining
+'on_join_validation':
+    'same_ip_online': '&6&lOL &7| &f¡Un jugador con la misma IP ya está en el juego!'
+    'same_nick_online': '&6&lOL &7| &fYa hay un usuario con ese nick conectado (posible error)'
+    'name_length': '&6&lOL &7| &fTu nombre de usuario es muy largo o muy corto.'
+    'characters_in_name': '&6&lOL &7| &fTu usuario tiene carácteres no admitidos, los cuales son: %valid_chars'
+    'kick_full_server': '&6&lOL &7| &f¡El servidor está lleno, lo sentimos!'
+    'country_banned': '&6&lOL &7| ¡Tu país ha sido baneado de este servidor!'
+    'not_owner_error': '&6&lOL &7| No eres el propietario de esta cuenta. ¡Por favor, elije otro nombre!'
+    'invalid_name_case': '&6&lOL &7| Solo puedes unirte mediante el nombre de usuario %valid, no %invalid.'
+    'quick_command': '&6&lOL &7| Has usado el comando demasiado rápido! Porfavor, entra al servidor de nuevo y espera un poco antes de usar cualquier comando.'
+# Email
+'email':
+    'add_email_request': '&6&lOL &7| &fPor favor agrega tu e-mail con: /email add tuEmail confirmarEmail'
+    'usage_email_add': '&6&lOL &7| &fUso: /email add <email> <confirmaEmail> '
+    'usage_email_change': '&6&lOL &7| &fUso: /email change <anteriorEmail> <nuevoEmail> '
+    'new_email_invalid': '&6&lOL &7| [AuthMe] Nuevo email inválido!'
+    'old_email_invalid': '&6&lOL &7| [AuthMe] Email anterior inválido!'
+    'invalid': '&6&lOL &7| [AuthMe] Email inválido'
+    'added': '&6&lOL &7| [AuthMe] Email agregado !'
+    'add_not_allowed': '&6&lOL &7| &fNo se permite añadir un Email'
+    'request_confirmation': '&6&lOL &7| [AuthMe] Confirma tu Email !'
+    'changed': '&6&lOL &7| [AuthMe] Email cambiado !'
+    'change_not_allowed': '&6&lOL &7| &fNo se permite el cambio de Email'
+    'email_show': '&6&lOL &7| &2Tu dirección de E-Mail actual es: &f%email'
+    'no_email_for_account': '&6&lOL &7| &2No tienes ningun E-Mail asociado en esta cuenta.'
+    'already_used': '&6&lOL &7| &4La dirección Email ya está siendo usada'
+    'incomplete_settings': '&6&lOL &7| Error: no todos los ajustes necesarios se han configurado para poder enviar correos. Por favor, contacta con un administrador.'
+    'send_failure': '&6&lOL &7| No se ha podido enviar el correo electrónico. Por favor, contacta con un administrador.'
+    'change_password_expired': '&6&lOL &7| No puedes cambiar la contraseña utilizando este comando.'
+    'email_cooldown_error': '&6&lOL &7| &fEl correo ha sido enviado recientemente. Debes esperar %time antes de volver a enviar uno nuevo.'
+# Password recovery by email
+'recovery':
+    'forgot_password_hint': '&6&lOL &7| &f¿Olvidaste tu contraseña? Por favor usa /email recovery <tuEmail>'
+    'command_usage': '&6&lOL &7| &fUso: /email recovery <Email>'
+    'email_sent': '&6&lOL &7| [AuthMe] Correo de recuperación enviado !'
+    'code':
+        'code_sent': '&6&lOL &7| El código de recuperación para recuperar tu contraseña se ha enviado a tu correo.'
+        'incorrect': '&6&lOL &7| ¡El código de recuperación no es correcto! Usa &e"/email recovery [email]&e" para generar uno nuevo'
+        'tries_exceeded': '&6&lOL &7| Has excedido el número máximo de intentos para introducir el código de recuperación. Escribe &e"/email recovery [tuEmail]&e" para generar uno nuevo.'
+        'correct': '&6&lOL &7| ¡Código de recuperación introducido correctamente!'
+        'change_password': '&6&lOL &7| Por favor usa el comando &e"/email setpassword <nuevaContraseña>&e" para cambiar tu contraseña inmediatamente.'
+# Captcha
+'captcha':
+    'usage_captcha': '&6&lOL &7| &fUso: /captcha %captcha_code'
+    'wrong_captcha': '&6&lOL &7| &fCaptcha incorrecto, por favor usa: /captcha %captcha_code'
+    'valid_captcha': '&6&lOL &7| &f¡Captcha ingresado correctamente!'
+    'captcha_for_registration': '&6&lOL &7| Para registrarse primero debes resolver el captcha, por favor usa el comando: /captcha %captcha_code'
+    'register_captcha_valid': '&6&lOL &7| &2¡Captcha validado! Ahora puedes registrarte usando /register'
+# Verification code
+'verification':
+    'code_required': '&6&lOL &7| &3¡Este comando es privado y requiere una verificación por correo electrónico! Revisa tu bandeja de entrada y sigue las instrucciones del correo electrónico.'
+    'command_usage': '&6&lOL &7| &fUso: /verification <código>'
+    'incorrect_code': '&6&lOL &7| &fCódigo incorrecto, por favor escribe &e"/verification <código>&e" en el chat, utilizando el código que has recibido por correo electrónico.'
+    'success': '&6&lOL &7| &2Tu identidad ha sido verificada! Ahora puedes ejecutar todos los comandos dentro de la sesión actual.'
+    'already_verified': '&6&lOL &7| &2¡Ya puedes ejecutar todos los comandos de seguridad dentro de la sesión actual!'
+    'code_expired': '&6&lOL &7| &3Tu código ha expirado! Ejecuta otra vez el comando de seguridad para obtener un nuevo código!'
+    'email_needed': '&6&lOL &7| &3¡Para verificar tu identidad necesitas añadir tu correo electrónico a tu cuenta!'
+# Time units
+'time':
+    'second': '&6&lOL &7| segundo'
+    'seconds': '&6&lOL &7| segundos'
+    'minute': '&6&lOL &7| minuto'
+    'minutes': '&6&lOL &7| minutos'
+    'hour': '&6&lOL &7| hora'
+    'hours': '&6&lOL &7| horas'
+    'day': '&6&lOL &7| día'
+    'days': '&6&lOL &7| días'
+# Two-factor authentication
+'two_factor':
+    'code_created': '&6&lOL &7| &2Tu código secreto es %code. Lo puedes escanear desde aquí %url'
+    'confirmation_required': '&6&lOL &7| Por favor, confirma tu código con /2fa confirm <código>'
+    'code_required': '&6&lOL &7| Por favor, envía tu código de atenticación de dos factores con /2fa code <código>'
+    'already_enabled': '&6&lOL &7| ¡La autenticación de dos factores ha sido habilitada para tu cuenta!'
+    'enable_error_no_code': '&6&lOL &7| No se ha generado ninguna clave o código 2fa o ha expirado. Por favor usa /2fa add'
+    'enable_success': '&6&lOL &7| Se ha habilitado correctamente la autenticación de dos factores para tu cuenta'
+    'enable_error_wrong_code': '&6&lOL &7| El código es incorrecto o ha expirado. Por favor usa /2fa add'
+    'not_enabled_error': '&6&lOL &7| La autenticación de dos factores no está habilitada para tu cuenta. Por favor usa /2fa add'
+    'removed_success': '&6&lOL &7| Se ha eliminado correctamente la autenticación de dos factores de tu cuenta'
+    'invalid_code': '&6&lOL &7| ¡Código incorrecto!'

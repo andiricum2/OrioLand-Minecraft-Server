@@ -1,0 +1,117 @@
+#This is where you create the scoreboard, the first section will always be the title. 
+#Every section after that will be a line displayed on the scoreboard. You can have a max
+#of 15 lines display due to the limitations of minecraft.
+display:
+    #This is the first section, it will always be the title of the scoreboard. 
+    #You can also use placeholders here if you want.
+    title:
+      #This is the text that will be display as the title, it can have as many lines as you want and it will automatically rotate through them or
+      #choose a random one, depending on what you set random to.
+      text:
+      - "&6&l  OL &8| &6&lSURVIVAL  "
+      #If this is true there will be a random line every time it updates. 
+      #If it is false than it will rotate through them and you can make some animations with it.
+      random: false
+      #The time between updates, 20 ticks is 1 second.
+      #Every x ticks it will go to the next line, if random is false, once all lines are displayed it will go to the first line.
+      interval: 500
+    #This section is the first line, here you set the data of that line. It doesn't matter what the name of the section is, as long
+    # as there is no other section with the exact same name 
+    line-1:
+      #Same as with the title, no limit on text. If you just put " " here it will display a blank line on the scoreboard.
+      text:
+      - " "
+      #If it should be random or not.
+      random: false
+      #The time between updates, 20 ticks is 1 second.
+      #Every x ticks it will go to the next line, if random is false, once all lines are displayed it will go to the first line.
+      interval: 500
+      #The score display next to the text, this can only be a number and not removed.
+      # If the score of the other lines are higher than this one, they will be displayed above this one.
+      score: 19
+    line-2:
+      text:
+      - "&6» Información"   
+      random: false
+      interval: 500
+      score: 18
+    #This animation works together with the line below it. The interval is the same so it displays the data at the same time.     
+    #This animation shows the actual data of the player  
+    line-5:
+      text:
+      - "&e • Nombre: &f%player_name%" 
+      random: false
+      interval: 500
+      score: 17
+    line-22:
+      text:
+      - "&e • Liga: &f%alonsoleagues_league_display%" 
+      random: false
+      interval: 500
+      score: 3 
+    line-7:
+      text:
+      - "&e • Ping: &f%player_ping%"
+      random: false
+      interval: 500
+      score: 14
+    #In this animation random is set to true so it will go randomly through all the text and display it on the scoreboard. 
+    #In this case it will just change the color of the text but it could be anything and you are also able to use placeholders here.  
+    line-8:
+      text:
+      - "&e • Dinero: &f%vault_eco_balance_formatted%⛃"       
+      random: false
+      interval: 500
+      score: 13
+    #It will display the player's health here with hearts, you can also use score=%placeholder% if you have PlaceholderAPI installed
+    #Here we will repeat | 10 times, you can also use times=%placeholder% if you have PlaceholderAPI installed
+    line-10:
+      text:
+      - ""       
+      random: false
+      interval: 500
+      score: 12
+    #1.13+ supports up to 128 characters per scoreboard line!
+    line-13:
+      text:
+      - "&6» Estadisticas"
+      random: true
+      interval: 500
+      score: 11
+    line-15:
+      text:
+      - "&e • Kills: &f%statistic_player_kills%"
+      random: true
+      interval: 500
+      score: 10
+    line-16:
+      text:
+      - "&e • Muertes: &f%statistic_deaths%"
+      random: true
+      interval: 500
+      score: 9
+    line-17:
+      text:
+      - "&e • Ram: &f%server_ram_used%&e/&f%server_ram_max% &eCPU: &f%spark_cpu_process_10s%"       
+      random: false
+      interval: 500
+      score: 8
+    line-21:
+      text:
+      - "&e • Jugadores: &f%server_online%&e/&f100"
+      random: true
+      interval: 500
+      score: 7
+    line-18:
+      text:
+      - "&7"
+      random: true
+      interval: 500
+      score: 6
+    line-30:
+      text:
+      - "&7&6» Niveles"
+      random: true
+      interval: 500
+      score: 4
+#You are able to add more lines to the scoreboard if you want, this scoreboard is just to explain all the possibilities of this plugin.   

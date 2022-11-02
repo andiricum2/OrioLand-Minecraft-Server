@@ -1,0 +1,362 @@
+
+Tags:
+  tag-chilena:
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: "&f[&9C&f&H&4L&f]"
+    Displayname: "&7&l{COLOR}Tag Chilena"
+    Permission: "none"
+    Lore:
+      Locked:
+      - "&7Tag Chilena, Viva Chile Weon!"
+      - "&7Vista Previa: &f{TAG}"
+      - ""
+      - "&cse desbloquea automaticamente."
+      Unlocked:
+      - "&7Tag Chilena, Viva Chile Weon!"
+      - "&7Vsta Previa: &f{TAG}"
+      - " "
+      - "&eClick para equipar."
+      Selected:
+      - "&7Tag Chilena, Viva Chile Weon!"
+      - "&7Vista Previa: &f{TAG}"
+      - " "
+      - "&aEquipada"
+    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
+    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+  tag-argentina:
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: "&f[&bA&fR&bG&f]"
+    Displayname: "&7&l{COLOR}Tag Argentina"
+    Permission: "none"
+    Lore:
+      Locked:
+      - "&7Tag Argentina, Aguante Argentina Pa!"
+      - "&7Vista Previa: &f{TAG}"
+      - ""
+      - "&cse desbloquea automaticamente."
+      Unlocked:
+      - "&7Tag Argentina, Aguante Argentina Pa!"
+      - "&7Vsta Previa: &f{TAG}"
+      - " "
+      - "&eClick para equipar."
+      Selected:
+      - "&7Tag Argentina, Aguante Argentina Pa!"
+      - "&7Vista Previa: &f{TAG}"
+      - " "
+      - "&aEquipada"
+    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
+    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+  tag-española: 
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: "&f[&4E&6S&4P&f]"
+    Displayname: "&7&l{COLOR}Tag Española"
+    Permission: "none"
+    Lore:
+      Locked:
+      - "&7Tag Española, Arriba España Tío!"
+      - "&7Vista Previa: &f{TAG}"
+      - ""
+      - "&cse desbloquea automaticamente."
+      Unlocked:
+      - "&7Tag Española, Arriba España Tío!"
+      - "&7Vsta Previa: &f{TAG}"
+      - " "
+      - "&eClick para equipar."
+      Selected:
+      - "&7Tag Española, Arriba España Tío!!"
+      - "&7Vista Previa: &f{TAG}"
+      - " "
+      - "&aEquipada"
+    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
+    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+  tag-mexicana: 
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: "&f[&2M&fE&4X&f]"
+    Displayname: "&7&l{COLOR}Tag Mexicana"
+    Permission: "none"
+    Lore:
+      Locked:
+      - "&7Tag Mexicana, Viva Mexico Wey!"
+      - "&7Vista Previa: &f{TAG}"
+      - ""
+      - "&cse desbloquea automaticamente."
+      Unlocked:
+      - "&7Tag Mexicana, Viva Mexico Wey!"
+      - "&7Vsta Previa: &f{TAG}"
+      - ""
+      - "&eClick para equipar."
+      Selected:
+      - "&7Tag Mexicana, Viva Mexico Wey!"
+      - "&7Vista Previa: &f{TAG}"
+      - " "
+      - "&aEquipada"
+    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
+    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+  tag-peruana:  
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: "&f[&4P&fE&4R&f]"
+    Displayname: "&7&l{COLOR}Tag Peruana"
+    Permission: "none"
+    Lore:
+      Locked:
+      - "&7Tag Peruana, Aguante Perú Pe!"
+      - "&7Vista Previa: &f{TAG}"
+      - ""
+      - "&cse desbloquea automaticamente."
+      Unlocked:
+      - "&7Tag Peruana, Aguante Perú Pe!"
+      - "&7Vsta Previa: &f{TAG}"
+      - " "
+      - "&eClick para equipar."
+      Selected:
+      - "&7Tag Peruana, Aguante Perú Pe!"
+      - "&7Vista Previa: &f{TAG}"
+      - " "
+      - "&aEquipada"
+    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
+    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+  tag-colombiana:
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: "&f[&6C&9O&4L&f]"
+    Displayname: "&7&l{COLOR}Tag Colombiana"
+    Permission: "none"
+    Lore:
+      Locked:
+      - "&7Tag Colombiana, Colombia Bacana!"
+      - "&7Vista Previa: &f{TAG}"
+      - ""
+      - "&cse desbloquea automaticamente."
+      Unlocked:
+      - "&7Tag Colombiana, Colombia Bacana!"
+      - "&7Vsta Previa: &f{TAG}"
+      - " "
+      - "&eClick para equipar."
+      Selected:
+      - "&7Tag Colombiana, Colombia Bacana!"
+      - "&7Vista Previa: &f{TAG}"
+      - " "
+      - "&aEquipada"
+    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
+    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+  tag-guatemalteca:
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: "&f[&bG&fT&bM&f]"
+    Displayname: "&7&l{COLOR}Tag Guatemalteca!"
+    Permission: "none"
+    Lore:
+      Locked:
+      - "&7Tag Guatemalteca, Viva Guatemala!"
+      - "&7Vista Previa: &f{TAG}"
+      - ""
+      - "&cse desbloquea automaticamente."
+      Unlocked:
+      - "&7Tag Guatemalteca, Viva Guatemala!"
+      - "&7Vsta Previa: &f{TAG}"
+      - " "
+      - "&eClick para equipar."
+      Selected:
+      - "&7Tag Guatemalteca, Viva Guatemala!"
+      - "&7Vista Previa: &f{TAG}"
+      - " "
+      - "&aEquipada"
+    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
+    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+  tag-panameña:
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: "&f[&fP&4R&9N&&f]"
+    Displayname: "&7&l{COLOR}Tag Panameña"
+    Permission: "none"
+    Lore:
+      Locked:
+      - "&7Tag Panameña, Panamá Mi Chantin!"
+      - "&7Vista Previa: &f{TAG}"
+      - ""
+      - "&cse desbloquea automaticamente."
+      Unlocked:
+      - "&7Tag Panameña, Panamá Mi Chantin!"
+      - "&7Vsta Previa: &f{TAG}"
+      - " "
+      - "&eClick para equipar."
+      Selected:
+      - "&7Tag Panameña, Panamá Mi Chantin!"
+      - "&7Vista Previa: &f{TAG}"
+      - " "
+      - "&aEquipada"
+    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
+    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+  tag-brasileña:
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: "&f[&2B&6R&9A&f]"
+    Displayname: "&7&l{COLOR}Tag Brasileña"
+    Permission: "none"
+    Lore:
+      Locked:
+      - "&7Tag Brasileña, Viva Brasil Caranho!"
+      - "&7Vista Previa: &f{TAG}"
+      - ""
+      - "&cse desbloquea automaticamente."
+      Unlocked:
+      - "&7Tag Brasileña, Viva Brasil Caranho!"
+      - "&7Vsta Previa: &f{TAG}"
+      - " "
+      - "&eClick para equipar."
+      Selected:
+      - "&7Tag Brasileña, Viva Brasil Caranho!"
+      - "&7Vista Previa: &f{TAG}"
+      - " "
+      - "&aEquipada"
+    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
+    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+  tag-uruguaya:
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: "&f[&6U&9R&fU&f]"
+    Displayname: "&7&l{COLOR}Tag Uruguaya"
+    Permission: "none"
+    Lore:
+      Locked:
+      - "&7Tag Uruguaya, Aguante Uruguay!"
+      - "&7Vista Previa: &f{TAG}"
+      - ""
+      - "&cse desbloquea automaticamente."
+      Unlocked:
+      - "&7Tag Uruguaya, Aguante Uruguay!"
+      - "&7Vsta Previa: &f{TAG}"
+      - " "
+      - "&eClick para equipar."
+      Selected:
+      - "&7Tag Uruguaya, Aguante Uruguay!"
+      - "&7Vista Previa: &f{TAG}"
+      - " "
+      - "&aEquipada"
+    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
+    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+  tag-paraguaya:
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: "&f[&4P&fA&9R&f]"
+    Displayname: "&7&l{COLOR}Tag Paraguaya"
+    Permission: "none"
+    Lore:
+      Locked:
+      - "&7Tag Paraguaya, Viva Paraguay!"
+      - "&7Vista Previa: &f{TAG}"
+      - ""
+      - "&cse desbloquea automaticamente."
+      Unlocked:
+      - "&7Tag Paraguaya, Viva Paraguay!"
+      - "&7Vsta Previa: &f{TAG}"
+      - " "
+      - "&eClick para equipar."
+      Selected:
+      - "&7Tag Paraguaya, Viva Paraguay!"
+      - "&7Vista Previa: &f{TAG}"
+      - " "
+      - "&aEquipada"
+    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
+    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+  tag-francesa:
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: "&f[&9C&f&H&4L&f]"
+    Displayname: "&7&l{COLOR}Tag Francesa"
+    Permission: "none"
+    Lore:
+      Locked:
+      - "&7Tag Francesa. Beep Boop!"
+      - "&7Vista Previa: &f{TAG}"
+      - ""
+      - "&cse desbloquea automaticamente."
+      Unlocked:
+      - "&7Tag Francesa. Beep Boop!"
+      - "&7Vsta Previa: &f{TAG}"
+      - " "
+      - "&eClick para equipar."
+      Selected:
+      - "&7Tag Francesa. Beep Boop!"
+      - "&7Vista Previa: &f{TAG}"
+      - " "
+      - "&aEquipada"
+    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
+    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+  tag-chilena:
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: "&f[&6V&9E&4N&f]"
+    Displayname: "&7&l{COLOR}Tag Venezolana"
+    Permission: "none"
+    Lore:
+      Locked:
+      - "&7Tag Venezolana, Viva Venezuela!!"
+      - "&7Vista Previa: &f{TAG}"
+      - ""
+      - "&cse desbloquea automaticamente."
+      Unlocked:
+      - "&7Tag Venezolana, Viva Venezuela!"
+      - "&7Vsta Previa: &f{TAG}"
+      - " "
+      - "&eClick para equipar."
+      Selected:
+      - "&7Tag Venezolana, Viva Venezuela!"
+      - "&7Vista Previa: &f{TAG}"
+      - " "
+      - "&aEquipada"
+    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
+    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+  tag-salvadoreña:
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: "&f[&9S&fA&9L&f]"
+    Displayname: "&7&l{COLOR}Tag Salvadoreña"
+    Permission: "none"
+    Lore:
+      Locked:
+      - "&7Tag Salvadoreña, Viva Salvador!"
+      - "&7Vista Previa: &f{TAG}"
+      - ""
+      - "&cse desbloquea automaticamente."
+      Unlocked:
+      - "&7Tag Salvadoreña, Viva Salvador!"
+      - "&7Vsta Previa: &f{TAG}"
+      - " "
+      - "&eClick para equipar."
+      Selected:
+      - "&7Tag Salvadoreña, Viva Salvador!"
+      - "&7Vista Previa: &f{TAG}"
+      - " "
+      - "&aEquipada"
+    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
+    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+  tag-boliviana:
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: "&f[&4B&6O&2L&f]"
+    Displayname: "&7&l{COLOR}Tag Boliviana"
+    Permission: "none"
+    Lore:
+      Locked:
+      - "&7Tag Boliviana, Viva Bolivia!"
+      - "&7Vista Previa: &f{TAG}"
+      - ""
+      - "&cse desbloquea automaticamente."
+      Unlocked:
+      - "&7Tag Boliviana, Viva Bolivia!"
+      - "&7Vsta Previa: &f{TAG}"
+      - " "
+      - "&eClick para equipar."
+      Selected:
+      - "&7Tag Boliviana, Viva Bolivia!"
+      - "&7Vista Previa: &f{TAG}"
+      - " "
+      - "&aEquipada"
+    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
+    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"

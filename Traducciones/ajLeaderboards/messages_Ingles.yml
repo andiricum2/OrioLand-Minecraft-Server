@@ -1,0 +1,37 @@
+signs:
+    top:
+        default:
+        - '&7&m       &r #{POSITION} &7&m       '
+        - '&6{NAME}'
+        - '&e{VALUE} {VALUENAME}'
+        - '&7&m                   '
+formatted:
+    k: k
+    m: m
+    t: t
+    b: b
+    q: q
+time:
+    w: 'w '
+    d: 'd '
+    h: 'h '
+    m: 'm '
+    s: s
+noperm: You don't have permission to do this!
+commands:
+    reload:
+        success: '&aConfigs reloaded!'
+        fail: '&cAn error occurred while reloading one of your configs. Check the
+            console for more info.'
+    export:
+        fileexists: '&cThe file &f{FILE}&c already exists!'
+        starting: '&7Fetching all players from the datbase. This might take a bit.'
+        fail: '&cAn error occurred while exporting. Check the console for more info.'
+        progress: '&eProgress: &f{DONE}&7/&f{TOTAL}&7 boards fetched'
+        success: '&aThe cache has been exported to the file &f{FILE}&a!'
+    import:
+        nofile: '&cThe file &f{FILE}&c doesnt exist!'
+        starting: '&7Loading all cached stats from &f{FILE}'
+        fail: '&cAn error occurred while importing. Check the console for more info.'
+        insertprogress: '&eProgress: &f{DONE}&7/&f{TOTAL}&7 boards imported'
+        success: '&aThe cache has been imported from the file &f{FILE}&a!'
