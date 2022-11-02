@@ -22,8 +22,8 @@ Tags:
       - "&7Vista Previa: &f{TAG}"
       - " "
       - "&aEquipada"
-    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
-    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+    No-permission-message: "&cTú no tens permissos per ocupar aquest Tag!"
+    Not-enough-money-message: "&cTú no tens suficients diners per comprar aquest tag"
   tag-argentina:
     Material: NAME_TAG
     Custom-model-data: 0
@@ -46,8 +46,8 @@ Tags:
       - "&7Vista Previa: &f{TAG}"
       - " "
       - "&aEquipada"
-    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
-    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+    No-permission-message: "&cTú no tens permissos per ocupar aquest Tag!"
+    Not-enough-money-message: "cNo ens suficients diners per comprar aquest tag"
   tag-española: 
     Material: NAME_TAG
     Custom-model-data: 0
@@ -70,8 +70,8 @@ Tags:
       - "&7Vista Previa: &f{TAG}"
       - " "
       - "&aEquipada"
-    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
-    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+    No-permission-message: "&cTú no tens permissos per ocupar aquest Tag!"
+    Not-enough-money-message: "&ccNo ens suficients diners per comprar aquest tag!"
   tag-mexicana: 
     Material: NAME_TAG
     Custom-model-data: 0
@@ -94,8 +94,8 @@ Tags:
       - "&7Vista Previa: &f{TAG}"
       - " "
       - "&aEquipada"
-    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
-    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+    No-permission-message: "&cTú no tens permissos per ocupar aquest Tag!"
+    Not-enough-money-message: "cNo tens suficients diners per comprar aquest tag!"
   tag-peruana:  
     Material: NAME_TAG
     Custom-model-data: 0
@@ -118,8 +118,8 @@ Tags:
       - "&7Vista Previa: &f{TAG}"
       - " "
       - "&aEquipada"
-    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
-    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+    No-permission-message: "&cTú no tens permissos per ocupar aquest Tag!"
+    Not-enough-money-message: "cNo tens suficients diners per comprar aquest tag!"
   tag-colombiana:
     Material: NAME_TAG
     Custom-model-data: 0
@@ -142,8 +142,8 @@ Tags:
       - "&7Vista Previa: &f{TAG}"
       - " "
       - "&aEquipada"
-    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
-    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+    No-permission-message: "&cTú no tens permissos per ocupar aquest Tag!"
+    Not-enough-money-message: "cNo tens suficients diners per comprar aquest tag!"
   tag-guatemalteca:
     Material: NAME_TAG
     Custom-model-data: 0
@@ -166,8 +166,8 @@ Tags:
       - "&7Vista Previa: &f{TAG}"
       - " "
       - "&aEquipada"
-    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
-    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+    No-permission-message: "&cTú no tens permissos per ocupar aquest Tag!"
+    Not-enough-money-message: "cNo tens suficients diners per comprar aquest tag!"
   tag-panameña:
     Material: NAME_TAG
     Custom-model-data: 0
@@ -190,8 +190,8 @@ Tags:
       - "&7Vista Previa: &f{TAG}"
       - " "
       - "&aEquipada"
-    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
-    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+    No-permission-message: "&cTú no tens permissos per ocupar aquest Tag!"
+    Not-enough-money-message: "cNo tens suficients diners per comprar aquest tag!"
   tag-brasileña:
     Material: NAME_TAG
     Custom-model-data: 0
@@ -214,8 +214,8 @@ Tags:
       - "&7Vista Previa: &f{TAG}"
       - " "
       - "&aEquipada"
-    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
-    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+    No-permission-message: "&cTú no tens permissos per ocupar aquest Tag!"
+    Not-enough-money-message: "cNo tens suficients diners per comprar aquest tag!"
   tag-uruguaya:
     Material: NAME_TAG
     Custom-model-data: 0
@@ -238,8 +238,8 @@ Tags:
       - "&7Vista Previa: &f{TAG}"
       - " "
       - "&aEquipada"
-    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
-    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+    No-permission-message: "&cTú no tens permissos per ocupar aquest Tag!"
+    Not-enough-money-message: "cNo tens suficients diners per comprar aquest tag!"
   tag-paraguaya:
     Material: NAME_TAG
     Custom-model-data: 0
@@ -262,8 +262,8 @@ Tags:
       - "&7Vista Previa: &f{TAG}"
       - " "
       - "&aEquipada"
-    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
-    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+    No-permission-message: "&cTú no tens permissos per ocupar aquest Tag!"
+    Not-enough-money-message: "cNo tens suficients diners per comprar aquest tag!"
   tag-francesa:
     Material: NAME_TAG
     Custom-model-data: 0
@@ -286,11 +286,11 @@ Tags:
       - "&7Vista Previa: &f{TAG}"
       - " "
       - "&aEquipada"
-    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
-    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+    No-permission-message: "&cTú no tens permissos per ocupar aquest Tag!"
+    Not-enough-money-message: "cNo tens suficients diners per comprar aquest tag!"
   tag-chilena:
     Material: NAME_TAG
-    Custom-model-data: 0
+    Custom-model-data: 
     Tag: "&f[&6V&9E&4N&f]"
     Displayname: "&7&l{COLOR}Tag Venezolana"
     Permission: "none"
@@ -310,8 +310,8 @@ Tags:
       - "&7Vista Previa: &f{TAG}"
       - " "
       - "&aEquipada"
-    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
-    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+    No-permission-message: "&cTú no tens permissos per ocupar aquest Tag!"
+    Not-enough-money-message: "cNo tens suficients diners per comprar aquest tag!"
   tag-salvadoreña:
     Material: NAME_TAG
     Custom-model-data: 0
@@ -334,8 +334,8 @@ Tags:
       - "&7Vista Previa: &f{TAG}"
       - " "
       - "&aEquipada"
-    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
-    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+    No-permission-message: "&cTú no tens permissos per ocupar aquest Tag!"
+    Not-enough-money-message: "cNo tens suficients diners per comprar aquest tag!"
   tag-boliviana:
     Material: NAME_TAG
     Custom-model-data: 0
@@ -358,5 +358,5 @@ Tags:
       - "&7Vista Previa: &f{TAG}"
       - " "
       - "&aEquipada"
-    No-permission-message: "&cTú no tienes permisos para ocupar esta Tag!"
-    Not-enough-money-message: "&cTú no tienes suficiente dinero para comprar esta Tag!"
+    No-permission-message: "&cTú no tens permissos per ocupar aquest Tag!"
+    Not-enough-money-message: "cNo tens suficients diners per comprar aquest tag!"
