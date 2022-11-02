@@ -5,18 +5,18 @@
 #                           by AlonsoAliaga  |___/                    Twitch: https://alonsoaliaga.com/twitch
 #      Considering donating? https://alonsoaliaga.com/donate          Want even more features? Consider purchasing Pro version on https://alonsoaliaga.com/AlonsoLeaguesPro
 Messages:
-  No-permission: "&cNo tienes permiso para hacer esto."
-  Reloaded: "&aSe ha reiniciado el plugin!"
-  Invalid-player: "&cEl jugador no esta conectado!"
-  Invalid-amount: "&cSe ha definido una cantidad invalida!"
-  Invalid-league: "&cLa liga no es valida!"
-  Please-reconnect: "&cAlgo ha ido mal, por favor reconectate al server!"
-  Please-reconnect-other: "&cEl jugador no esta registrado. {PLAYER} tiene que reconectarse al servidor!"
-  You-received: " &8+&d{POINTS} Punto(s)!"
-  You-lost: " &8-&d{POINTS} Punto(s)!"
-  You-added-to-target: "&aHas añadido {POINTS} punto(s) a {TARGET}!"
-  You-removed-from-target: "&aHas eliminado {POINTS} puntos(s) a {TARGET}!"
-  Target-not-registered: "&cEl jugador no esta registrado!"
+  No-permission:"&cNo tens permissos per fer això." 
+  Reloaded: "&aSe ha reiniciado el plugin!"&"s'ha reiniciat el plugin."
+  Invalid-player: "&aEl jugador no està conectat
+  Invalid-amount: "&cS'ha definit una cuantitad invallida"
+  Invalid-league: "&cLa lliga no es vallida
+  Please-reconnect: "&cAlguna cosa ha anat malament conectat al servidor.
+  Please-reconnect-other: "&cEl jugador no està registrat. {PLAYER} Tens que conectarte al servidor
+  You-received: " &8+&d{POINTS} Punto(s)!"&8+&d{POINTS} Punts(s)!
+  You-lost: " &8-&d{POINTS} Punts(s)!"
+  You-added-to-target: "&aHas añadid {POINTS} punto(s) a {TARGET}!
+  You-removed-from-target: "&aHas eliminad {POINTS} puntos(s) a {TARGET}!"
+  Target-not-registered: "&cEl jugador no està registrad!"
   #Set to none to disable
   #Available placeholders:
   # {PLAYER} replaced with player name;
@@ -48,17 +48,16 @@ Messages:
       Max-league-short: "&c&lMAX"
       Max-next-league-color: "&c"
   Add-points:
-    Cannot-add-zero: "&cNo se pueden añadir 0 puntos."
-    Error: "&cNo se pueden añadir puntos al jugador!"
-  Remove-points:
-    Cannot-remove-zero: "&cNo se pueden quitar 0 puntos."
-    Error: "&cNo se pueden quitar puntos al jugado!"
+    Cannot-add-zero: "&cNo es poden anyadir 0 punts."
+    Error: "&cNo es poden anyadir punts al jugador  Remove-points:
+    Cannot-remove-zero: "&cNo es poden quitar 0 punts"
+    Error: "&cNo es poden quitar punts al jugador
   Set-points:
-    You-set-points: "&aHas definido los puntos de {TARGET} a {POINTS}!"
+    You-set-points:"&aHas definid els punts de {TARGET} a {POINTS}!"
   Reset:
-    You-reset-data: "&aHas reiniciado los datos de {TARGET}!"
+    You-reset-data: " &aHas reiniciad els  datos de {TARGET}!"
   Set:
-    Set-league: "&aHas definido la liga de {TARGET} a {LEAGUE}!"
+    Set-league:&aHas definid la lliga de {TARGET} a {LEAGUE}!"
   Help:
     Admin:
     - "&6 /alonsoleagues stats <player> &f- &eCheck statistics of a players"
@@ -70,57 +69,56 @@ Messages:
     - "&6 /alonsoleagues resetdata <player> <hide-ouput> &f- &eReset data for player (Console only)"
     - "&6 /alonsoleagues reload &f- &eReload configuration (Restart recommended)"
     User:
-    - "&6 /liga &f- &eVer tus estadisticas"
+    - "&6 /liga &f- &eVer tus estadisticas - "&6 /lliga &f- &eVeure les teves estadisticas
   Stats:
     #Supports PlaceholderAPI if available.
     Self:
     - "{COLOR}&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r"
     - "                &aTus estadisticas!"
     - "&a "
-    - "  &7Liga actual: &a{LEAGUE}"
-    - "  &7Siguiente liga: &a{NEXT_LEAGUE}"
-    - "  &7Progreso: &b{PROGRESS} &3{PERCENT}%"
+   - "  &7Lliga actual: &a{LEAGUE}"
+     - "  &7Seguent lliga: &a{NEXT_LEAGUE}"
+    - "  &7Progres: &b{PROGRESS} &3{PERCENT}%"
     - "&b "
-    - "  &7Puntos actuales: &a{LEAGUE_POINTS}"
-    - "  &7Puntos requeridos: &a{REQUIRED_POINTS}"
-    - "  &7Puntos totales: &a{TOTAL_POINTS}"
+     - "  &7Punts actuals: &a{LEAGUE_POINTS}"
+   - "  &7Punts requerids: &a{REQUIRED_POINTS}"
+    - "  &7Punts totals: &a{TOTAL_POINTS}"
     - "{COLOR}&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r"
     #Supports PlaceholderAPI if available.
     Self-max-league:
     - "{COLOR}&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r"
-    - "           &aTus estadisticas!"
-    - "             &c&lLIGA MAX!&r"
-    - "  &7Liga actual: &a{LEAGUE}&r"
-    - "  &7Puntos actuales: &a{TOTAL_POINTS}"
+  - "           &ales teves estadistiques!"
+   - "             &c&lLLIGA MAX!&r"
+  - "  &7Lliga actual: &a{LEAGUE}&r"
+    - "  &7Punts actuals: &a{TOTAL_POINTS}"
     - "{COLOR}&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r"
     #Supports PlaceholderAPI if available.
     Other:
     - "{COLOR}&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r"
-    - "          &aEstadisticas de {PLAYER}"
+    - "          &aEstadisticas de {PLAYER}"  - "          &aEstadistiques de {PLAYER}"
     - "&a "
-    - "  &7Liga actual: &a{LEAGUE}"
-    - "  &7Siguiente liga: &a{NEXT_LEAGUE}"
-    - "  &7Progreso: &b{PROGRESS} &3{PERCENT}%"
+    - "  &7Lliga actual: &a{LEAGUE}"
+    "  &7Seguent lliga: &a{NEXT_LEAGUE}"
+    - "  &7Progres: &b{PROGRESS} &3{PERCENT}%"
     - "&b "
-    - "  &7Puntos actuales: &a{LEAGUE_POINTS}"
-    - "  &7Puntos requeridos: &a{REQUIRED_POINTS}"
-    - "  &7Puntos totales: &a{TOTAL_POINTS}"
+ - "  &7Punts actuals: &a{LEAGUE_POINTS}"
+     - "  &7Punts requerids: &a{REQUIRED_POINTS}
     - "{COLOR}&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r"
     #Supports PlaceholderAPI if available.
     Other-max-league:
     - "{COLOR}&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r"
-    - "      &aEstadisticas de {PLAYER}"
-    - "             &c&lLIGA MAX!&r"
-    - "  &7Liga actual: &a{LEAGUE}&r"
-    - "  &7Puntos actuales: &a{TOTAL_POINTS}"
+    - "      &aEstadistiques de {PLAYER}"
+ - "             &c&lLLIGA MAX!&r"
+  - "  &7Lliga actual: &a{LEAGUE}&r"
+     - "  &7Punts actuals: &a{TOTAL_POINTS}"
     - "{COLOR}&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r"
   Leaderboards:
     League:
       Placeholders:
         Entry: "&e{RANKING}. &b{PLAYER} &7- &e{SCORE}"
-        No-data: "&7No hay datos"
-        No-name: "&7Pues no lo sé"
-        No-score: "&7Pues no lo sé"
+        No-data:  "&7No hi han datos"
+        No-name: "&7Doncs no ho se
+        No-score: "&7Doncs no ho se
       Signs:
         Score:
         - "&c--&e #{RANKING} &c--"
@@ -135,9 +133,9 @@ Messages:
     Points:
       Placeholders:
         Entry: "&e{RANKING}. &b{PLAYER} &7- &e{SCORE}"
-        No-data: "&7No hay datos"
-        No-name: "&7Pues no lo sé"
-        No-score: "&7Pues no lo sé"
+        No-data: "&7No hi han dats" NO DATA
+        No-name: "&7Doncs no ho se" NO-NAME
+        No-score: "&7Doncs no ho se"
       Signs:
         Score:
         - "&c--&e #{RANKING} &c--"
@@ -146,8 +144,8 @@ Messages:
         - "&c-------------"
         Empty:
         - "&c--&e #{RANKING} &c--"
-        - "&cNingun Jugador"
-        - "&bNo sé"
+        - "&cNingun Jugador"  - "&cNingún Jugador"
+        - "&bNo sé" - "&bNo sé
         - "&c-------------"
 
 Permissions:
@@ -206,10 +204,10 @@ Options:
     #Support PlaceholderAPI, it might not properly with many plugins because is most likely that
     #the placeholders are not loading at the moment the player is kicked. (because he just joined)
     #Available placeholders: {PLAYER} player name, {UUID} player uuid
-    - "&cNo se han podido cargar tus datos."
-    - "&fReconectate al servidor por favor."
+    - "&cNo se han podido cargar tus datos." - "&cNo s'han pugut carregar el teus dats"
+    - "&fReconectate al servidor por favor."  - "&fReconectat al servidor sius plau."
     - "&r"
-    - "&7Si el problema persiste ponte en contacto con el administrador."
+    - "&7Si el problema persiste ponte en contacto con el administrador." - "&7Si el problema segueix posat en contacte amb l'administrador"
   Compatibility:
     #Recommended if you are using EssentialsChat. Some of my plugins add this support.
     #Make sure you enable ONLY if it's necessary. In addition, ONLY one is enough. If you have this option enabled in
