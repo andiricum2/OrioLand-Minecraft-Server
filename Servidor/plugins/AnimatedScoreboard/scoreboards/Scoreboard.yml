@@ -31,7 +31,7 @@ display:
       score: 19
     line-2:
       text:
-      - "&6» Información"   
+      - "&6» Informació"   
       random: false
       interval: 500
       score: 18
@@ -74,7 +74,7 @@ display:
     #1.13+ supports up to 128 characters per scoreboard line!
     line-13:
       text:
-      - "&6» Estadisticas"
+      - "&6» Estadistiques"
       random: true
       interval: 500
       score: 11
@@ -110,7 +110,7 @@ display:
       score: 6
     line-30:
       text:
-      - "&7&6» Niveles"
+      - "&7&6» Nivells"
       random: true
       interval: 500
       score: 4
