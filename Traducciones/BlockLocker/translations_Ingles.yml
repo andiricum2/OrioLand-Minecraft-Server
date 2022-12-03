@@ -1,19 +1,19 @@
 command:
   cannot_be_used_by_console: This command cannot be used by the console. Sorry!
   cannot_edit_owner: '&4No puedes cambiar el owner de esta proteccion, rompe el cartel para hacer esto.'
-  line_number_out_of_bounds: '&4Introduce un numero de linea entre 2 y 4 (2 y 4 Incluidos).'
+  line_number_out_of_bounds: '&4Enter a line number between 2 and 4 (2 and 4 Included).'
   no_permission: '&4You don''t have permission to execute this command. Sorry!'
-  no_sign_selected: '&4Tienes que seleccionar un cartel con el click derecho.'
-  player_name_too_long: '&4El nombre es mas largo de lo permitido (16 Caracteres).'
+  no_sign_selected: '&4You have to select a sing with the right click.'
+  player_name_too_long: '&4The name is longer than allowed (16 Characters).'
   plugin_reloaded: '&6Reloaded the configuration files!'
-  sign_no_longer_part_of_protection: '&4El signo seleccionado ya no pertenece a la proteccion.'
-  updated_sign: '&6Cartel Actualizado!'
+  sign_no_longer_part_of_protection: '&4The selected sign no longer belongs to the protection.'
+  updated_sign: '&6Sing Updated!'
 protection:
-  add_more_users_sign_instead: '&4Solo puede haber un cartel [Privado] en una proteccion.
-    añade un cartel [Mas Usuarios].'
-  bypassed: '&6Has bypasseado la proteccion de {0}.'
-  cannot_change_sign: '&4No puedes cambiar una señal cerca de un contenedor reclamado.'
-  chest_hint: '&6Coloca una señal en este baúl para protegerlo.'
+  add_more_users_sign_instead: '&4There can only be one sing [Privated] in a protection.
+    add a sing [More Users].'
+  bypassed: '&6You have bypassed the protection of {0}.'
+  cannot_change_sign: '&4You can not change a sing near a claim container.'
+  chest_hint: '&6Place a sing in teh chest to protect it.'
   claimed_container: '&6Reclamó este contenedor. Nadie más puede acceder a él.'
   claimed_manually: '&6Creó una reclamación. Solo las personas que figuran en la señal pueden acceder a ella.'
   expired: '&6La protección de este bloque ha expirado debido a la inactividad del propietario.'
