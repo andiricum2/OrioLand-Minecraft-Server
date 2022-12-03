@@ -13,7 +13,7 @@ reload:
 switch:
   error: '%prefix&cPlease provide a valid scoreboard!'
   success: '%prefix&aSwitched to scoreboard &2%scoreboard%&a!'
-  nopermission: '%prefix&cYou don''t have the right permission to switch to %scoreboard%!'
+  nopermission: '%prefix&cYou don't have the right permission to switch to %scoreboard%!'
   world: '%prefix&cYou cannot activate this scoreboard in this world!'
   already_activated: '%prefix&cYou already have this scoreboard active!'
   already_active_other: '%prefix&c%target% already has %scoreboard% active!'
