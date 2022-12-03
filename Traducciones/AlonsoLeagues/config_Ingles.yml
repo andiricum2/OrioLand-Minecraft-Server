@@ -5,18 +5,18 @@
 #                           by AlonsoAliaga  |___/                    Twitch: https://alonsoaliaga.com/twitch
 #      Considering donating? https://alonsoaliaga.com/donate          Want even more features? Consider purchasing Pro version on https://alonsoaliaga.com/AlonsoLeaguesPro
 Messages:
-  No-permission: "&cNo tienes permiso para hacer esto."
-  Reloaded: "&aSe ha reiniciado el plugin!"
-  Invalid-player: "&cEl jugador no esta conectado!"
-  Invalid-amount: "&cSe ha definido una cantidad invalida!"
-  Invalid-league: "&cLa liga no es valida!"
-  Please-reconnect: "&cAlgo ha ido mal, por favor reconectate al server!"
-  Please-reconnect-other: "&cEl jugador no esta registrado. {PLAYER} tiene que reconectarse al servidor!"
-  You-received: " &8+&d{POINTS} Punto(s)!"
-  You-lost: " &8-&d{POINTS} Punto(s)!"
-  You-added-to-target: "&aHas añadido {POINTS} punto(s) a {TARGET}!"
-  You-removed-from-target: "&aHas eliminado {POINTS} puntos(s) a {TARGET}!"
-  Target-not-registered: "&cEl jugador no esta registrado!"
+  No-permission: "&cYou don't have permission to do this."
+  Reloaded: "&aThe plugin has been reloaded!"
+  Invalid-player: "&c The player is not online!"
+  Invalid-amount: "&cInvalid quantity has been defined!"
+  Invalid-league: "&cThe league is not valid!"
+  Please-reconnect: "&cSomething has gone wrong, please reconnect to the server!"
+  Please-reconnect-other: "&cThe player is not registered. {PLAYER} you need to reconnect to the server!"
+  You-received: " &8+&d{POINTS} Point(s)!"
+  You-lost: " &8-&d{POINTS} Point(s)!"
+  You-added-to-target: "&aYou added {POINTS} point(s) to {TARGET}!"
+  You-removed-from-target: "&aYou have removed {POINTS} points(s) to {TARGET}!"
+  Target-not-registered: "&cThe player is not registered!"
   #Set to none to disable
   #Available placeholders:
   # {PLAYER} replaced with player name;
@@ -31,10 +31,10 @@ Messages:
   #Supports PlaceholderAPI if available.
   Rank-up:
     Title: "{NEW_LEAGUE_COLOR}&l{NEW_LEAGUE_NAME}"
-    Subtitle: "&eHas subido de liga!"
+    Subtitle: "&eYou rank up in league!"
   Rank-down:
     Title: "{NEW_LEAGUE_COLOR}&l{NEW_LEAGUE_NAME}"
-    Subtitle: "&cHas bajado de liga :("
+    Subtitle: "&cYou rank down in league :("
   Keys:
     Progress-bar:
       Amount: 15
