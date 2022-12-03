@@ -1,10 +1,595 @@
-# ----------------------------------------------------------------------------------------------------
-# Configuration file for QuestCreator
-# More information can be found in the documentation
-# ----------------------------------------------------------------------------------------------------
+###########################
+#     daily    Quests     #
+###########################
+daily_1_goal: 10
+daily_2_goal: 15
+daily_3_goal: 15
 
-#message_prefix: '&6[QuestCreator] &7'
-#sample_variable_placeholderapi: 'Hey, %player_name%'
-#sample_variable_qc: '{variable:my_variable} is the value'
-#sample_spawn_location: 'world,0,64,0'
-#sample_player_location_through_papi: '%player_world%,%player_x%,%player_y%,%player_z%'
+daily_4_goal: 25
+daily_5_goal: 15
+daily_6_goal: 25
+
+daily_7_goal: 50
+daily_8_goal: 15
+daily_9_goal: 1
+
+daily_10_goal: 5
+daily_11_goal: 5
+daily_12_goal: 5
+
+daily_13_goal: 30
+daily_14_goal: 30
+daily_15_goal: 1
+
+daily_16_goal: 10
+daily_17_goal: 10
+daily_18_goal: 50
+
+daily_19_goal: 500
+daily_20_goal: 500
+daily_21_goal: 500
+
+daily_22_goal: 10
+daily_23_goal: 1
+daily_24_goal: 15
+
+###########################
+#  crafting    Quests     #
+###########################
+craft_chest_goal: 50
+craft_dropper_goal: 75
+craft_observer_goal: 25
+craft_hopper_goal: 25
+craft_bed_goal: 1
+craft_blast_furnace_goal: 25
+craft_smoker_goal: 50
+craft_anvil_goal: 15
+craft_piston_goal: 50
+craft_sticky_piston_goal: 25
+craft_ender_chest_goal: 15
+craft_enchanting_table_goal: 5
+craft_bow_goal: 1
+craft_arrow_goal: 100
+craft_crossbow_goal: 10
+craft_composter_goal: 25
+craft_stonecutter_goal: 15
+
+
+###########################
+#  food    Quests         #
+###########################
+
+bread_1_goal: 50
+bread_2_goal: 150
+bread_3_goal: 250
+bread_4_goal: 500
+
+cake_1_goal: 5
+cake_2_goal: 15
+cake_3_goal: 25
+cake_4_goal: 50
+
+pumpkin_pie_1_goal: 25
+pumpkin_pie_2_goal: 75
+pumpkin_pie_3_goal: 150
+pumpkin_pie_4_goal: 250
+
+raw_beef_1_goal: 50
+raw_beef_2_goal: 150
+raw_beef_3_goal: 250
+raw_beef_4_goal: 500
+
+raw_chicken_1_goal: 50
+raw_chicken_2_goal: 150
+raw_chicken_3_goal: 250
+raw_chicken_4_goal: 500
+
+raw_mutton_1_goal: 50
+raw_mutton_2_goal: 150
+raw_mutton_3_goal: 250
+raw_mutton_4_goal: 500
+
+raw_porkchop_1_goal: 50
+raw_porkchop_2_goal: 150
+raw_porkchop_3_goal: 250
+raw_porkchop_4_goal: 500
+
+raw_rabbit_1_goal: 50
+raw_rabbit_2_goal: 150
+raw_rabbit_3_goal: 250
+raw_rabbit_4_goal: 500
+
+rabbit_stew_1_goal: 5
+rabbit_stew_2_goal: 15
+rabbit_stew_3_goal: 25
+rabbit_stew_4_goal: 50
+
+mushroom_stew_1_goal: 25
+mushroom_stew_2_goal: 75
+mushroom_stew_3_goal: 150
+mushroom_stew_4_goal: 250
+
+beetroot_soup_1_goal: 25
+beetroot_soup_2_goal: 75
+beetroot_soup_3_goal: 150
+beetroot_soup_4_goal: 250
+
+raw_potatoes_1_goal: 50
+raw_potatoes_2_goal: 150
+raw_potatoes_3_goal: 250
+raw_potatoes_4_goal: 500
+
+raw_cod_1_goal: 15
+raw_cod_2_goal: 25
+raw_cod_3_goal: 50
+raw_cod_4_goal: 75
+
+raw_salmon_1_goal: 15
+raw_salmon_2_goal: 25
+raw_salmon_3_goal: 50
+raw_salmon_4_goal: 75
+
+
+###########################
+#  misc    Quests         #
+###########################
+
+time_1_goal: 30
+time_2_goal: 120
+time_3_goal: 300
+time_4_goal: 600
+
+fly_1_goal: 1000
+fly_2_goal: 5000
+fly_3_goal: 10000
+fly_4_goal: 25000
+
+walk_1_goal: 1000
+walk_2_goal: 5000
+walk_3_goal: 10000
+walk_4_goal: 25000
+
+swim_1_goal: 1000
+swim_2_goal: 5000
+swim_3_goal: 10000
+swim_4_goal: 25000
+
+run_1_goal: 1000
+run_2_goal: 5000
+run_3_goal: 10000
+run_4_goal: 25000
+
+xp_1_goal: 1395
+xp_2_goal: 4020
+xp_3_goal: 8670
+xp_4_goal: 15345
+
+milk_1_goal: 5
+milk_2_goal: 15
+milk_3_goal: 30
+milk_4_goal: 60
+
+
+###########################
+#  animals Quests         #
+###########################
+
+
+pig_1_goal: 25
+pig_2_goal: 75
+
+chicken_1_goal: 25
+chicken_2_goal: 75
+
+cow_1_goal: 25
+cow_2_goal: 75
+
+mushroom_cow_1_goal: 25
+mushroom_cow_2_goal: 75
+
+ocelot_1_goal: 25
+ocelot_2_goal: 75
+
+rabbit_1_goal: 25
+rabbit_2_goal: 75
+
+sheep_1_goal: 25
+sheep_2_goal: 75
+
+cod_1_goal: 5
+cod_2_goal: 25
+
+salmon_1_goal: 5
+salmon_2_goal: 25
+
+tropical_fish_1_goal: 5
+tropical_fish_2_goal: 25
+
+pufferfish_1_goal: 5
+pufferfish_2_goal: 25
+
+donkey_1_goal: 5
+donkey_2_goal: 15
+
+horse_1_goal: 5
+horse_2_goal: 15
+
+
+cat_1_goal: 5
+cat_2_goal: 15
+
+parrot_1_goal: 5
+parrot_2_goal: 15
+
+mule_1_goal: 5
+mule_2_goal: 15
+
+wolf_1_goal: 5
+wolf_2_goal: 15
+
+fox_1_goal: 5
+fox_2_goal: 15
+
+
+###########################
+#  Blacksmith Quests      #
+###########################
+
+glass_smelter_1_goal: 50
+glass_smelter_2_goal: 100
+glass_smelter_3_goal: 250
+glass_smelter_4_goal: 500 
+
+iron_smelter_1_goal: 25
+iron_smelter_2_goal: 50
+iron_smelter_3_goal: 100
+iron_smelter_4_goal: 250
+
+clay_smelter_1_goal: 50
+clay_smelter_2_goal: 100
+clay_smelter_3_goal: 250
+clay_smelter_4_goal: 500
+
+cactus_smelter_1_goal: 25
+cactus_smelter_2_goal: 50
+cactus_smelter_3_goal: 100
+cactus_smelter_4_goal: 250
+
+netherbrick_smelter_1_goal: 75
+netherbrick_smelter_2_goal: 150
+netherbrick_smelter_3_goal: 300
+netherbrick_smelter_4_goal: 750
+
+stone_smelter_1_goal: 75
+stone_smelter_2_goal: 150
+stone_smelter_3_goal: 300
+stone_smelter_4_goal: 750
+
+gold_smelter_1_goal: 25
+gold_smelter_2_goal: 50
+gold_smelter_3_goal: 100
+gold_smelter_4_goal: 250
+
+craft_tools_1_goal: 1
+craft_armours_1_goal: 1
+
+
+###########################
+#  Builder Quests         #
+###########################
+
+obsidian_1_goal: 14
+obsidian_light_1_goal: 1
+
+iron_beacon: 244
+gold_beacon: 244
+diamond_beacon: 244
+emerald_beacon: 244
+beacon: 1
+
+snowblock: 10
+pumpkin: 5
+
+house_wood_goal: 40
+house_glass_goal: 4
+house_door_goal: 1
+house_bed_goal: 1
+
+###########################
+#  Lumber Quests          #
+###########################
+
+oak_log_1_goal: 50
+oak_log_2_goal: 250
+oak_log_3_goal: 500
+oak_log_4_goal: 750
+oak_leaves_1_goal: 75
+oak_leaves_2_goal: 350
+oak_planter_1_goal: 5
+oak_planter_2_goal: 25
+
+spruce_log_1_goal: 50
+spruce_log_2_goal: 250
+spruce_log_3_goal: 500
+spruce_log_4_goal: 750
+spruce_leaves_1_goal: 75
+spruce_leaves_2_goal: 350
+spruce_planter_1_goal: 5
+spruce_planter_2_goal: 25
+
+birch_log_1_goal: 50
+birch_log_2_goal: 250
+birch_log_3_goal: 500
+birch_log_4_goal: 750
+birch_leaves_1_goal: 75
+birch_leaves_2_goal: 350
+birch_planter_1_goal: 5
+birch_planter_2_goal: 25
+
+jungle_log_1_goal: 50
+jungle_log_2_goal: 250
+jungle_log_3_goal: 500
+jungle_log_4_goal: 750
+jungle_leaves_1_goal: 75
+jungle_leaves_2_goal: 350
+jungle_planter_1_goal: 5
+jungle_planter_2_goal: 25
+
+acacia_log_1_goal: 50
+acacia_log_2_goal: 250
+acacia_log_3_goal: 500
+acacia_log_4_goal: 750
+acacia_leaves_1_goal: 75
+acacia_leaves_2_goal: 350
+acacia_planter_1_goal: 5
+acacia_planter_2_goal: 25
+
+
+dark_oak_log_1_goal: 50
+dark_oak_log_2_goal: 250
+dark_oak_log_3_goal: 500
+dark_oak_log_4_goal: 750
+dark_oak_leaves_1_goal: 75
+dark_oak_leaves_2_goal: 350
+dark_oak_planter_1_goal: 5
+dark_oak_planter_2_goal: 25
+
+###########################
+#  HUNTER Quests          #
+###########################
+
+creeper_1_goal: 50
+creeper_2_goal: 100
+creeper_3_goal: 250
+creeper_4_goal: 500
+
+skeleton_1_goal: 50
+skeleton_2_goal: 100
+skeleton_3_goal: 250
+skeleton_4_goal: 500
+
+zombie_1_goal: 50
+zombie_2_goal: 100
+zombie_3_goal: 250
+zombie_4_goal: 500
+
+slime_1_goal: 25
+slime_2_goal: 50
+slime_3_goal: 75
+slime_4_goal: 100
+
+husk_1_goal: 25
+husk_2_goal: 50
+husk_3_goal: 100
+husk_4_goal: 250
+
+spider_1_goal: 50
+spider_2_goal: 100
+spider_3_goal: 250
+spider_4_goal: 500
+
+evoker_1_goal: 25
+evoker_2_goal: 50
+evoker_3_goal: 75
+evoker_4_goal: 100
+
+guardian_1_goal: 25
+guardian_2_goal: 50
+guardian_3_goal: 75
+guardian_4_goal: 100
+
+stray_1_goal: 25
+stray_2_goal: 50
+stray_3_goal: 75
+stray_4_goal: 100
+
+
+
+###########################
+#  Mining Quests          #
+###########################
+
+netherrack_1_goal: 250
+netherrack_2_goal: 500
+netherrack_3_goal: 750
+netherrack_4_goal: 1250
+
+soul_sand_1_goal: 100
+soul_sand_2_goal: 250
+soul_sand_3_goal: 500
+soul_sand_4_goal: 1000
+
+basalt_1_goal: 50
+basalt_2_goal: 150
+basalt_3_goal: 250
+basalt_4_goal: 500
+
+magma_block_1_goal: 50
+magma_block_2_goal: 150
+magma_block_3_goal: 250
+magma_block_4_goal: 500
+
+nether_bricks_1_goal: 50
+nether_bricks_2_goal: 150
+nether_bricks_3_goal: 250
+nether_bricks_4_goal: 500
+
+nether_gold_ore_1_goal: 25
+nether_gold_ore_2_goal: 50
+nether_gold_ore_3_goal: 100
+nether_gold_ore_4_goal: 250
+
+nether_quartz_ore_1_goal: 50
+nether_quartz_ore_2_goal: 150
+nether_quartz_ore_3_goal: 300
+nether_quartz_ore_4_goal: 500
+
+
+coal_ore_1_goal: 100
+coal_ore_2_goal: 250
+coal_ore_3_goal: 500
+coal_ore_4_goal: 1000
+
+iron_ore_1_goal: 100
+iron_ore_2_goal: 250
+iron_ore_3_goal: 500
+iron_ore_4_goal: 1000
+
+gold_ore_1_goal: 100
+gold_ore_2_goal: 250
+gold_ore_3_goal: 500
+gold_ore_4_goal: 1000
+
+lapis_ore_1_goal: 100
+lapis_ore_2_goal: 250
+lapis_ore_3_goal: 500
+lapis_ore_4_goal: 1000
+
+redstone_ore_1_goal: 100
+redstone_ore_2_goal: 250
+redstone_ore_3_goal: 500
+redstone_ore_4_goal: 1000
+
+
+diamond_ore_1_goal: 10
+diamond_ore_2_goal: 25
+diamond_ore_3_goal: 50
+diamond_ore_4_goal: 100
+
+emerald_ore_1_goal: 1
+emerald_ore_2_goal: 5
+emerald_ore_3_goal: 10
+emerald_ore_4_goal: 25
+
+
+stone_1_goal: 500
+stone_2_goal: 2500
+stone_3_goal: 5000
+stone_4_goal: 10000
+
+andesite_1_goal: 50
+andesite_2_goal: 250
+andesite_3_goal: 500
+andesite_4_goal: 1000
+
+granite_1_goal: 50
+granite_2_goal: 250
+granite_3_goal: 500
+granite_4_goal: 1000
+
+diorite_1_goal: 50
+diorite_2_goal: 250
+diorite_3_goal: 500
+diorite_4_goal: 1000
+
+stonebricks_1_goal: 50
+stonebricks_2_goal: 250
+stonebricks_3_goal: 500
+stonebricks_4_goal: 1000
+
+sandstone_1_goal: 75
+sandstone_2_goal: 250
+sandstone_3_goal: 1000
+sandstone_4_goal: 2500
+
+mossy_cobblestone_1_goal: 10
+mossy_cobblestone_2_goal: 25
+mossy_cobblestone_3_goal: 50
+mossy_cobblestone_4_goal: 100
+
+
+###########################
+#  Farming Quests         #
+###########################
+
+farm_wheat_1_goal: 50
+farm_wheat_2_goal: 100
+farm_wheat_3_goal: 250
+farm_wheat_4_goal: 500
+
+farm_carrots_1_goal: 50
+farm_carrots_2_goal: 100
+farm_carrots_3_goal: 250
+farm_carrots_4_goal: 500
+
+farm_pumpkin_1_goal: 50
+farm_pumpkin_2_goal: 100
+farm_pumpkin_3_goal: 250
+farm_pumpkin_4_goal: 500
+
+farm_cactus_1_goal: 50
+farm_cactus_2_goal: 100
+farm_cactus_3_goal: 250
+farm_cactus_4_goal: 500
+
+farm_sugarcane_1_goal: 50
+farm_sugarcane_2_goal: 100
+farm_sugarcane_3_goal: 250
+farm_sugarcane_4_goal: 500
+
+
+farm_redmushroom_1_goal: 50
+farm_redmushroom_2_goal: 100
+farm_redmushroom_3_goal: 250
+farm_redmushroom_4_goal: 500
+
+farm_brownmushroom_1_goal: 50
+farm_brownmushroom_2_goal: 100
+farm_brownmushroom_3_goal: 250
+farm_brownmushroom_4_goal: 500
+
+farm_potato_1_goal: 50
+farm_potato_2_goal: 100
+farm_potato_3_goal: 250
+farm_potato_4_goal: 500
+
+farm_beetroot_1_goal: 50
+farm_beetroot_2_goal: 100
+farm_beetroot_3_goal: 250
+farm_beetroot_4_goal: 500
+
+farm_melon_1_goal: 50
+farm_melon_2_goal: 100
+farm_melon_3_goal: 250
+farm_melon_4_goal: 500
+
+farm_bamboo_1_goal: 50
+farm_bamboo_2_goal: 100
+farm_bamboo_3_goal: 250
+farm_bamboo_4_goal: 500
+
+farm_netherwart_1_goal: 50
+farm_netherwart_2_goal: 100
+farm_netherwart_3_goal: 250
+farm_netherwart_4_goal: 500
+
+farm_chorus_1_goal: 50
+farm_chorus_2_goal: 100
+farm_chorus_3_goal: 250
+farm_chorus_4_goal: 500
+
+############################
+
+
+
+

@@ -1,0 +1,29 @@
+{
+  "version": 4,
+  "uuid": "dee8f0fc-7ee2-49bc-bb6f-2d3fbd391489",
+  "lastProgressedQuests": [
+    "8d6ad91a-4790-4986-bb6f-566af3d29b93",
+    "19593069-dd6d-499e-953a-0b65c0a821cf",
+    "6b7016fc-3b8a-4f46-a1fc-b626dc809823",
+    "e9616b43-399e-41b0-8cd0-96f4d0d2d709",
+    "97183b90-c70c-4338-9024-b4c1a0b63d8a",
+    "b1756257-b228-4a43-b400-ad208f50e0e6",
+    "2e298371-aa26-4329-a511-338381b04201"
+  ],
+  "questHistory": {
+    "elements": [
+      "nether_portal@null@1626965302512@1626965317574@0@GUI@GOTO@SUCCESS@main/build/null/1626965309315-main/light/null/1626965317574",
+      "farm_wheat_2@null@1626893116502@1626896730100@267@GUI@GUI@CANCEL@null",
+      "farm_pumpkin_1@null@1626893371850@1626896728250@268@GUI@GUI@CANCEL@null"
+    ]
+  },
+  "questPools": {
+    "tokens": ""
+  },
+  "journalToggle": false,
+  "gpsToggle": true,
+  "actionbarToggle": true,
+  "bossbarToggle": false,
+  "scoreboardToggle": true,
+  "titleToggle": true
+}

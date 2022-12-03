@@ -1,0 +1,74 @@
+name: '&8           &n(*)&r &#5c5c5cS&#555555e&#4d4d4dt&#464646t&#3f3f3fi&#373737n&#303030g&#292929s&r &8&n(*)'
+type: CHEST_3_ROW
+
+
+
+contents:
+
+  - type: NONE
+    locations:
+      - 0,11
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM5MmU1MTExZWE3ZDdlYjNmMDU1ODMzZTFmMzVkNjUxYzBkYTU1NjQzYzkzODNlMGJjZTZjMjM2OTZkNThiOSJ9fX0='
+      name: '&8        (*) &7Toggle Scoreboard &8(*)'
+      lore: |
+        &7
+        &8 » &7Click to toggle scoreboard tracking!
+        &7
+    override_clicks:
+      LEFT: COMMANDS_AS_PLAYER qc scoreboard
+      RIGHT: COMMANDS_AS_PLAYER qc scoreboard
+      DEFAULT: COMMANDS_AS_PLAYER qc scoreboard
+
+  - type: NONE
+    locations:
+      - 0,13
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGJlMmJhZjQwZmQ4NWViNTczZmU1YjJlNWI2Yzg4MTdjZjUwZjg4M2Q5NTc2OTQxNTgwN2FiMDcyODhhNDdjZCJ9fX0='
+      name: '&8        (*) &7Toggle Actionbar &8(*)'
+      lore: |
+        &7
+        &8 » &7Click to toggle actionbar tracking!
+        &7
+    override_clicks:
+      LEFT: COMMANDS_AS_PLAYER qc actionbar
+      RIGHT: COMMANDS_AS_PLAYER qc actionbar
+      DEFAULT: COMMANDS_AS_PLAYER qc actionbar
+
+  - type: NONE
+    locations:
+      - 0,15
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNhNjljM2NhYTMxMzA0ZTk5NTIzMjhjNzJjZWUwYjU3YjJhMmJkNDZjZTljNWNiODhjMDdkMTI2NjI3N2Q2YSJ9fX0='
+      name: '&8        (*) &7Toggle Journal &8(*)'
+      lore: |
+        &7
+        &8 » &7Click to toggle journal tracking!
+        &7
+    override_clicks:
+      LEFT: COMMANDS_AS_PLAYER qc journal 
+      RIGHT: COMMANDS_AS_PLAYER qc journal 
+      DEFAULT: COMMANDS_AS_PLAYER qc journal 
+
+
+
+
+  - locations: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 19, 20,21,22,23,24,25,17,10,12,14,16, 26]
+    persistent: true
+    icon:
+      type: GRAY_STAINED_GLASS_PANE
+      name: '&r'
+
+  - type: QC_GUI
+    gui: main
+    locations: 
+      - 0,18
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0='
+      name: '&fBack'
+
+

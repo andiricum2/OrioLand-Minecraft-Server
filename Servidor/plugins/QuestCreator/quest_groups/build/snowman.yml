@@ -1,0 +1,50 @@
+max_concurrent: 1
+
+execution_order: true
+
+
+
+models: [snowman]
+
+
+
+rewards:
+
+  - object:
+
+      type: SERVER_FIREWORKS_LAUNCH
+
+      effects:
+
+        1:
+
+          type: CREEPER
+
+          colors: |
+
+            AQUA
+
+            BLUE
+
+          fade_colors: |
+
+            AQUA
+
+            BLUE
+
+          flicker: true
+
+          trail: true
+
+      count: 10
+
+      position:
+
+        type: PLAYER_RELATIVE_SPHERE_INSIDE
+
+        center:
+
+          distance: 0
+
+        radius: 5
+

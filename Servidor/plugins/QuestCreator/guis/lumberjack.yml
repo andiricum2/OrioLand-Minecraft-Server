@@ -1,0 +1,270 @@
+name: '&r     &8&n(*)&r  &#5d4500&lL&#584900&lu&#534d00&lm&#4d5100&lb&#485500&le&#435900&lr &#386100&lQ&#336500&lu&#2d6900&le&#286d00&ls&#237100&lt&#1e7400&ls  &8&n(*)&r     '
+type: CHEST_6_ROW
+
+
+
+contents:
+
+
+
+  - type: QC_QUESTS
+
+    quests: [group:oak_log]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,10
+
+      - 0,19
+
+      - 0,28
+
+      - 0,37
+
+  - type: QC_QUESTS
+
+    quests: [group:oak_leaves]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,11
+
+      - 0,20
+
+  - type: QC_QUESTS
+
+    quests: [group:oak_planter]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,29
+
+      - 0,38
+
+  - type: QC_QUESTS
+
+    quests: [group:birch_log]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,12
+
+      - 0,21
+
+      - 0,30
+
+      - 0,39
+
+  - type: QC_QUESTS
+
+    quests: [group:birch_leaves]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,13
+
+      - 0,22
+
+  - type: QC_QUESTS
+
+    quests: [group:birch_planter]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,31
+
+      - 0,40
+
+
+  - type: QC_QUESTS
+
+    quests: [group:spruce_log]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,14
+
+      - 0,23
+
+      - 0,32
+
+      - 0,41
+
+  - type: QC_QUESTS
+
+    quests: [group:spruce_leaves]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,15
+
+      - 0,24
+
+  - type: QC_QUESTS
+
+    quests: [group:spruce_planter]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,33
+
+      - 0,42
+
+
+  - type: QC_QUESTS
+
+    quests: [group:dark_oak_log]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 1,10
+
+      - 1,19
+
+      - 1,28
+
+      - 1,37
+
+  - type: QC_QUESTS
+
+    quests: [group:dark_oak_leaves]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 1,11
+
+      - 1,20
+
+  - type: QC_QUESTS
+
+    quests: [group:dark_oak_planter]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 1,29
+
+      - 1,38
+
+  - type: QC_QUESTS
+
+    quests: [group:jungle_log]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 1,12
+
+      - 1,21
+
+      - 1,30
+
+      - 1,39
+
+  - type: QC_QUESTS
+
+    quests: [group:jungle_leaves]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 1,13
+
+      - 1,22
+
+  - type: QC_QUESTS
+
+    quests: [group:jungle_planter]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 1,31
+
+      - 1,40
+
+  - type: QC_QUESTS
+
+    quests: [group:acacia_log]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 1,14
+
+      - 1,23
+
+      - 1,32
+
+      - 1,41
+
+  - type: QC_QUESTS
+
+    quests: [group:acacia_leaves]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 1,15
+
+      - 1,24
+
+  - type: QC_QUESTS
+
+    quests: [group:acacia_planter]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 1,33
+
+      - 1,42
+
+
+  - locations: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 26, 27, 35, 36, 44, 46, 47, 48, 49, 50, 51, 52, 53]
+    persistent: true
+    icon:
+      type: GRAY_STAINED_GLASS_PANE
+      name: '&r'
+
+  - type: QC_GUI
+    gui: main
+    locations: 
+      - 0,45
+      - 1,45
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0='
+      name: '&fBack'
+
+
+

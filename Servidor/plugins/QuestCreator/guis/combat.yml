@@ -1,0 +1,176 @@
+name: '&r     &8&n(*)&r  &#6c0707&lC&#740f0f&lo&#7c1717&lm&#841e1e&lb&#8c2626&la&#942e2e&lt &#a43d3d&lQ&#ac4545&lu&#b44c4c&le&#bc5454&ls&#c45c5c&lt&#cb6363&ls  &8&n(*)&r     '
+type: CHEST_6_ROW
+
+
+
+contents:
+
+
+
+  - type: QC_QUESTS
+
+    quests: [group:creeper]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,10
+
+      - 0,19
+
+      - 0,28
+
+      - 0,37
+
+  - type: QC_QUESTS
+
+    quests: [group:spider]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,11
+
+      - 0,20
+
+      - 0,29
+
+      - 0,38
+
+
+  - type: QC_QUESTS
+
+    quests: [group:skeleton]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,12
+
+      - 0,21
+
+      - 0,30
+
+      - 0,39
+
+  - type: QC_QUESTS
+
+    quests: [group:zombie]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,13
+
+      - 0,22
+
+      - 0,31
+
+      - 0,40
+
+  - type: QC_QUESTS
+
+    quests: [group:slime]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,14
+
+      - 0,23
+
+      - 0,32
+
+      - 0,41
+
+  - type: QC_QUESTS
+
+    quests: [group:husk]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,15
+
+      - 0,24
+
+      - 0,33
+
+      - 0,42
+
+  - type: QC_QUESTS
+
+    quests: [group:evoker]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,16
+
+      - 0,25
+
+      - 0,34
+
+      - 0,43
+
+  - type: QC_QUESTS
+
+    quests: [group:guardian]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 1,10
+
+      - 1,19
+
+      - 1,28
+
+      - 1,37
+
+
+  - type: QC_QUESTS
+
+    quests: [group:stray]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 1,11
+
+      - 1,20
+
+      - 1,29
+
+      - 1,38
+
+
+
+
+  - locations: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 26, 27, 35, 36, 44, 46, 47, 48, 49, 50, 51, 52, 53]
+    persistent: true
+    icon:
+      type: GRAY_STAINED_GLASS_PANE
+      name: '&r'
+
+  - type: QC_GUI
+    gui: main
+    locations: 
+      - 0,45
+      - 1,45
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0='
+      name: '&fBack'
+
+
+

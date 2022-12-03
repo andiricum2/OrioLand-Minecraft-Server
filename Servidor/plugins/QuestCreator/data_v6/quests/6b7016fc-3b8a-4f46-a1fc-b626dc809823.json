@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "uuid": "6b7016fc-3b8a-4f46-a1fc-b626dc809823",
+  "modelId": "creeper_1",
+  "startCause": "GUI",
+  "started": 1626952845839,
+  "pauseTime": 595,
+  "lastUpdate": 1626961037701,
+  "players": [
+    "dee8f0fc-7ee2-49bc-bb6f-2d3fbd391489"
+  ],
+  "currentBranches": {
+    "main": {
+      "objectId": "kill",
+      "lastObjectProgression": 1626952862698,
+      "objectProgression": {
+        "kill": "a/1.0/25.0"
+      }
+    }
+  },
+  "cameraMode": false,
+  "path": {
+    "lastObject": "main,kill"
+  }
+}

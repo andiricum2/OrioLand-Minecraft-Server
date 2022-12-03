@@ -25,7 +25,6 @@ commandDescriptionQuestcreatorList: list quests
 commandDescriptionQuestcreatorLogspam: toggle debug log spam
 commandDescriptionQuestcreatorPoints: manage quest points
 commandDescriptionQuestcreatorMenu: open a specific menu
-commandDescriptionQuestcreatorModelVariable: manage variables for a quest
 commandDescriptionQuestcreatorPerformglobalbranch: perform all objects from a global branch
 commandDescriptionQuestcreatorPerformglobalobject: perform a global object
 commandDescriptionQuestcreatorProgress: check quest progression
@@ -125,9 +124,6 @@ messageCommandQuestcreatorLogspamToggleOn: |
 
 messageCommandQuestcreatorLogspamToggleOff: |
   &7Log spam for &c{player} &7was toggled &coff&7.
-
-messageCommandQuestcreatorModelVariableNoQuest: |
-  &7This quest isn't active.
 
 messageCommandQuestcreatorRunglobalbranchUnknown: |
   &7Unknown global branch &c{branch}&7.
@@ -427,7 +423,6 @@ textDetailedProgressionBranchNoName: []
 
 textDetailedProgressionObject: '&a> &7{name} &7(&a{progression}&7/&a{goal}&7)'
 textDetailedProgressionObjectDistance: '&a> &7{name} &7(&a{distance}m&7)'
-textDetailedProgressionObjectTime: '&a> &7{name} &7(&a{time}&7)'
 textDetailedProgressionObjectNoDetail: '&2> &7{name}'
 textDetailedProgressionObjectNoName: []
 
@@ -438,8 +433,6 @@ textDetailedProgressionObjectDelegate: '&a- &7{name} &7(&a{progression}&7/&a{goa
 textDetailedProgressionObjectDelegateCompleted: '&7&m- {name} &7({progression}/{goal}&7)'
 textDetailedProgressionObjectDelegateDistance: '&a- &7{name} &7(&a{distance}m&7)'
 textDetailedProgressionObjectDelegateDistanceCompleted: '&7&m- {name} &7({distance}m&7)'
-textDetailedProgressionObjectDelegateTime: '&a- &7{name} &7(&a{time}&7)'
-textDetailedProgressionObjectDelegateTimeCompleted: '&7&m- {name} &7({time}&7)'
 textDetailedProgressionObjectDelegateNoDetail: '&a- &7{name}'
 textDetailedProgressionObjectDelegateNoDetailCompleted: '&7&m- {name}&7'
 textDetailedProgressionObjectDelegateNoName: []
@@ -452,7 +445,6 @@ textDetailedProgressionScoreboardBranchNoName: []
 
 textDetailedProgressionScoreboardObject: '&a> &7{name} &7(&a{progression}&7/&a{goal}&7)'
 textDetailedProgressionScoreboardObjectDistance: '&a> &7{name} &7(&a{distance}m&7)'
-textDetailedProgressionScoreboardObjectTime: '&a> &7{name} &7(&a{time}&7)'
 textDetailedProgressionScoreboardObjectNoDetail: '&2> &7{name}'
 textDetailedProgressionScoreboardObjectNoName: []
 
@@ -463,8 +455,6 @@ textDetailedProgressionScoreboardObjectDelegate: '&a- &7{name} &7(&a{progression
 textDetailedProgressionScoreboardObjectDelegateCompleted: '&7&m- {name} &7({progression}/{goal}&7)'
 textDetailedProgressionScoreboardObjectDelegateDistance: '&a- &7{name} &7(&a{distance}m&7)'
 textDetailedProgressionScoreboardObjectDelegateDistanceCompleted: '&7&m- {name} &7({distance}m&7)'
-textDetailedProgressionScoreboardObjectDelegateTime: '&a- &7{name} &7(&a{time}&7)'
-textDetailedProgressionScoreboardObjectDelegateTimeCompleted: '&7&m- {name} &7({time}&7)'
 textDetailedProgressionScoreboardObjectDelegateNoDetail: '&a- &7{name}'
 textDetailedProgressionScoreboardObjectDelegateNoDetailCompleted: '&7&m- {name}&7'
 textDetailedProgressionScoreboardObjectDelegateNoName: []
@@ -474,7 +464,6 @@ textDetailedProgressionScoreboardObjectDelegateNoNameCompleted: []
 
 textDetailedProgressionPlaceholderAPIObject: '&7{name} &7(&a{progression}&7/&a{goal}&7)'
 textDetailedProgressionPlaceholderAPIObjectDistance: '&7{name} &7(&a{distance}m&7)'
-textDetailedProgressionPlaceholderAPIObjectTime: '&7{name} &7(&a{time}&7)'
 
 textDetailedProgressionPlaceholderAPIObjectNoDetail: '&7{name}'
 textDetailedProgressionPlaceholderAPIObjectNoName: '&7/'

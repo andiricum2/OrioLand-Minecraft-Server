@@ -1,26 +1,55 @@
 # ----------------------------------------------------------------------------------------------------
+
 # Configuration file for QuestCreator
+
 # More information can be found in the documentation
+
 # ----------------------------------------------------------------------------------------------------
 
-name: '&dQuests ranking'
+
+
+name: '&8       &n(*)&r &#ef00e6L&#df00d8e&#cf00c9a&#c000bbd&#b000ace&#a0009er&#90008fb&#810081o&#710072a&#610064r&#510055d&#420047s &8&n(*)'
+
 type: CHEST_6_ROW
 
+
+
 item_ranked_name: '&6{player}'
+
 item_ranked_lore: |
-  &e{points} &7point{plural}
-  &7Rank &e{rank} &7in category &e{category}
+  &r
+  &8» &7Total Points{plural} &d{points}
+  &8» &7Rank &d&l{rank} &7in category &d{category}
 
-item_unranked_name: '&a{player}'
+
+
+item_unranked_name: '&c{player}'
+
 item_unranked_lore: |
-  &e0 &7point{plural}
-  &7Unranked in category &e{category}
+  &r
+  &8» &7Total point{plural} &d0
+  &8» &7Unranked in category &e{category}
 
-# custom contents
-#contents:
-#  - type: NONE
-#    locations: [0,1,2,3,4,5,6,7,8,9,18,17,18,19,20,21,22,23,24,25,26]
-#    persistent: true
-#    icon:
-#      type: GRAY_STAINED_GLASS_PANE
-#      name: '&r'
+
+
+contents:
+
+
+  - type: NONE
+
+    locations: [0,1,2,3,4,5,6,7,8,9,17,18,26,27,35,36,44,46,47,48,49,50,51,52,53]
+    persistent: true
+
+    icon:
+      type: GRAY_STAINED_GLASS_PANE
+      name: '&f'
+
+
+  - type: QC_GUI
+    gui: main
+    locations: 
+      - 0,45
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0='
+      name: '&fBack'

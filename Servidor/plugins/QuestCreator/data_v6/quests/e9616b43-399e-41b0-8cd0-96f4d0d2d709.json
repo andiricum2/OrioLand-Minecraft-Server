@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "uuid": "e9616b43-399e-41b0-8cd0-96f4d0d2d709",
+  "modelId": "stone_1",
+  "startCause": "GUI",
+  "started": 1626946228043,
+  "pauseTime": 594,
+  "lastUpdate": 1626961037701,
+  "players": [
+    "dee8f0fc-7ee2-49bc-bb6f-2d3fbd391489"
+  ],
+  "currentBranches": {
+    "main": {
+      "objectId": "mine",
+      "lastObjectProgression": 1626946245098,
+      "objectProgression": {
+        "mine": "a/2.0/500.0"
+      }
+    }
+  },
+  "cameraMode": false,
+  "path": {
+    "lastObject": "main,mine"
+  }
+}

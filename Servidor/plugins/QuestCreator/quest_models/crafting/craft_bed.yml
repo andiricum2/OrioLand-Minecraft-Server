@@ -1,0 +1,365 @@
+# -------------------- Display settings --------------------
+
+
+
+display_name: '&fCraft All Beds'
+
+description: |
+  &r
+  &8»&7 You'll need to craft the following beds
+  &8» &7white, orange, magenta, L blue, yellow, lime,
+  &8» &7pink, gray, l gray, cyan, purple, blue, brown,
+  &8» &7green, red and black
+  &8» &7in this quest to receive your rewards
+  &8» &7and to unlock the next quest.
+  &r
+  &r&#6b1162&lR&#721d69&le&#792971&lw&#803478&la&#874080&lr&#8e4c87&ld&#95578f&ls
+  &r &8[&d+&8] &7$2,000
+  &r &8[&d+&8] &73 Quest Points
+
+
+
+
+
+start_notify:
+
+  title: '&6Quest started'
+
+  title_subtitle: '&7You started quest {quest} &7!'
+
+  sound: ENTITY_PLAYER_LEVELUP
+
+
+
+progress_notify:
+
+  actionbar: '&7| {objective}'
+
+progress_notify_scoreboard: true
+
+
+
+all_status_item:
+
+  type: PLAYER_HEAD
+  skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZiMjkwYTEzZGY4ODI2N2VhNWY1ZmNmNzk2YjYxNTdmZjY0Y2NlZTVjZDM5ZDQ2OTcyNDU5MWJhYmVlZDFmNiJ9fX0='
+
+  name: '&6{quest}'
+
+  lore: |
+
+    &7{description}
+
+    {completions}
+
+    {last_completion}
+
+    {cooldown}
+
+    {detailed_progression}
+
+    {detailed_errors}
+
+    {controls}
+
+
+
+status_items:
+
+  UNAVAILABLE:
+
+    type: PLAYER_HEAD
+    skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZkMWZhYmRmM2UzNDI2NzFiZDlmOTVmNjg3ZmUyNjNmNDM5ZGRjMmYxYzllYThmZjE1YjEzZjFlN2U0OGI5In19fQ=='
+
+    name: '&c{quest}'
+
+    lore: |
+
+      &r
+
+      &c&nYou have not completed the previous quest!
+
+
+
+# -------------------- Post-quest settings --------------------
+
+
+
+completion:
+
+  max_completions: 1
+
+  notify:
+
+    SUCCESS:
+
+      title: '&dQuest completed'
+
+      title_subtitle: '&7You completed quest &a{quest} &7!'
+
+      sound: ENTITY_PLAYER_LEVELUP
+
+    FAIL:
+
+      title: '&cQuest failed'
+
+      title_subtitle: '&7You failed quest &c{quest} &7!'
+
+      sound: BLOCK_ANVIL_DESTROY
+
+    CANCEL:
+
+      title: '&cQuest cancelled'
+
+      title_subtitle: '&7You cancelled quest &c{quest}'
+
+      sound: BLOCK_ANVIL_DESTROY
+
+
+
+# -------------------- Quest content --------------------
+
+
+
+branches:
+
+
+
+  MAIN:
+    starts_directly: true
+    starts_at: WHITE
+
+    objects:
+      WHITE:
+        name_short: white Bed
+        objective_detail: '&7Craft White Bed | &#64065B{objective_progression}&7/&#95588F{objective_goal}'
+
+        type: PLAYER_ITEMS_CRAFT
+        goals:
+          a:
+            item:
+              type: WHITE_BED
+            goal: '{gvariable:craft_bed_goal}'  # the goal for this item
+            take: false  # to take the item after progression
+        goto: OBJECT ORANGE
+
+      ORANGE:
+        name_short: Orange Bed
+        objective_detail: '&7Craft Orange Bed | &#64065B{objective_progression}&7/&#95588F{objective_goal}'
+
+        type: PLAYER_ITEMS_CRAFT
+        goals:
+          a:
+            item:
+              type: ORANGE_BED
+            goal: '{gvariable:craft_bed_goal}'  # the goal for this item
+            take: false  # to take the item after progression
+        goto: OBJECT MAGENTA
+
+      MAGENTA:
+        name_short: Magenta Bed
+        objective_detail: '&7Craft Magenta Bed | &#64065B{objective_progression}&7/&#95588F{objective_goal}'
+
+        type: PLAYER_ITEMS_CRAFT
+        goals:
+          a:
+            item:
+              type: MAGENTA_BED
+            goal: '{gvariable:craft_bed_goal}'  # the goal for this item
+            take: false  # to take the item after progression
+        goto: OBJECT LBLUE
+
+      LBLUE:
+        name_short: Light Blue Bed
+        objective_detail: '&7Craft Light Blue Bed | &#64065B{objective_progression}&7/&#95588F{objective_goal}'
+
+        type: PLAYER_ITEMS_CRAFT
+        goals:
+          a:
+            item:
+              type: LIGHT_BLUE_BED
+            goal: '{gvariable:craft_bed_goal}'  # the goal for this item
+            take: false  # to take the item after progression
+        goto: OBJECT YELLOW
+
+      YELLOW:
+        name_short: Yellow Bed
+        objective_detail: '&7Craft Yellow Bed | &#64065B{objective_progression}&7/&#95588F{objective_goal}'
+
+        type: PLAYER_ITEMS_CRAFT
+        goals:
+          a:
+            item:
+              type: YELLOW_BED
+            goal: '{gvariable:craft_bed_goal}'  # the goal for this item
+            take: false  # to take the item after progression
+        goto: OBJECT LIME
+
+      LIME:
+        name_short: Lime Bed
+        objective_detail: '&7Craft Lime Bed | &#64065B{objective_progression}&7/&#95588F{objective_goal}'
+
+        type: PLAYER_ITEMS_CRAFT
+        goals:
+          a:
+            item:
+              type: LIME_BED
+            goal: '{gvariable:craft_bed_goal}'  # the goal for this item
+            take: false  # to take the item after progression
+        goto: OBJECT PINK
+
+      PINK:
+        name_short: Pink Bed
+        objective_detail: '&7Craft Pink Bed | &#64065B{objective_progression}&7/&#95588F{objective_goal}'
+
+        type: PLAYER_ITEMS_CRAFT
+        goals:
+          a:
+            item:
+              type: PINK_BED
+            goal: '{gvariable:craft_bed_goal}'  # the goal for this item
+            take: false  # to take the item after progression
+        goto: OBJECT GRAY
+
+      GRAY:
+        name_short: Gray Bed
+        objective_detail: '&7Craft Gray Bed | &#64065B{objective_progression}&7/&#95588F{objective_goal}'
+
+        type: PLAYER_ITEMS_CRAFT
+        goals:
+          a:
+            item:
+              type: GRAY_BED
+            goal: '{gvariable:craft_bed_goal}'  # the goal for this item
+            take: false  # to take the item after progression
+        goto: OBJECT LGRAY
+
+      LGRAY:
+        name_short: Light Gray Bed
+        objective_detail: '&7Craft Light Gray Bed | &#64065B{objective_progression}&7/&#95588F{objective_goal}'
+
+        type: PLAYER_ITEMS_CRAFT
+        goals:
+          a:
+            item:
+              type: LIGHT_GRAY_BED
+            goal: '{gvariable:craft_bed_goal}'  # the goal for this item
+            take: false  # to take the item after progression
+        goto: OBJECT CYAN
+
+      CYAN:
+        name_short: Cyan Bed
+        objective_detail: '&7Craft Cyan Bed | &#64065B{objective_progression}&7/&#95588F{objective_goal}'
+
+        type: PLAYER_ITEMS_CRAFT
+        goals:
+          a:
+            item:
+              type: CYAN_BED
+            goal: '{gvariable:craft_bed_goal}'  # the goal for this item
+            take: false  # to take the item after progression
+        goto: OBJECT PURPLE
+
+      PURPLE:
+        name_short: Purple Bed
+        objective_detail: '&7Craft Purple Bed | &#64065B{objective_progression}&7/&#95588F{objective_goal}'
+
+        type: PLAYER_ITEMS_CRAFT
+        goals:
+          a:
+            item:
+              type: PURPLE_BED
+            goal: '{gvariable:craft_bed_goal}'  # the goal for this item
+            take: false  # to take the item after progression
+        goto: OBJECT BLUE
+
+      BLUE:
+        name_short: Blue Bed
+        objective_detail: '&7Craft Blue Bed | &#64065B{objective_progression}&7/&#95588F{objective_goal}'
+
+        type: PLAYER_ITEMS_CRAFT
+        goals:
+          a:
+            item:
+              type: BLUE_BED
+            goal: '{gvariable:craft_bed_goal}'  # the goal for this item
+            take: false  # to take the item after progression
+        goto: OBJECT BROWN
+
+      BROWN:
+        name_short: Brown Bed
+        objective_detail: '&7Craft Brown Bed | &#64065B{objective_progression}&7/&#95588F{objective_goal}'
+
+        type: PLAYER_ITEMS_CRAFT
+        goals:
+          a:
+            item:
+              type: BROWN_BED
+            goal: '{gvariable:craft_bed_goal}'  # the goal for this item
+            take: false  # to take the item after progression
+        goto: OBJECT GREEN
+
+      GREEN:
+        name_short: Green Bed
+        objective_detail: '&7Craft Green Bed | &#64065B{objective_progression}&7/&#95588F{objective_goal}'
+
+        type: PLAYER_ITEMS_CRAFT
+        goals:
+          a:
+            item:
+              type: GREEN_BED
+            goal: '{gvariable:craft_bed_goal}'  # the goal for this item
+            take: false  # to take the item after progression
+        goto: OBJECT RED
+
+      RED:
+        name_short: Red Bed
+        objective_detail: '&7Craft Red Bed | &#64065B{objective_progression}&7/&#95588F{objective_goal}'
+
+        type: PLAYER_ITEMS_CRAFT
+        goals:
+          a:
+            item:
+              type: RED_BED
+            goal: '{gvariable:craft_bed_goal}'  # the goal for this item
+            take: false  # to take the item after progression
+        goto: OBJECT BLACK
+
+      BLACK:
+        name_short: Black Bed
+        objective_detail: '&7Craft Black Bed | &#64065B{objective_progression}&7/&#95588F{objective_goal}'
+
+        type: PLAYER_ITEMS_CRAFT
+        goals:
+          a:
+            item:
+              type: BLACK_BED
+            goal: '{gvariable:craft_bed_goal}'  # the goal for this item
+            take: false  # to take the item after progression
+
+
+
+
+        complete_notify:
+
+          sound: ENTITY_PLAYER_LEVELUP
+
+          message: '&7[&a{quest}&7] Congratulations you have completed the quest!'
+
+        goto: QUEST_SUCCESS
+
+
+
+# -------------------- Rewards settings --------------------
+
+
+
+end_objects:
+
+  SUCCESS:
+
+    - type: SERVER_COMMANDS_PERFORM
+
+      commands: |
+        eco give {player} 2000
+        qc points {player} add 3 global

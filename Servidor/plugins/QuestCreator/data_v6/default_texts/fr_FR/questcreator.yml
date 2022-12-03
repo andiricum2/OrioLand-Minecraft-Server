@@ -25,7 +25,6 @@ commandDescriptionQuestcreatorList: lister les quêtes
 commandDescriptionQuestcreatorLogspam: basculer le spam de log de débug
 commandDescriptionQuestcreatorPoints: gérer les points de quête
 commandDescriptionQuestcreatorMenu: ouvrir un menu spécifique
-commandDescriptionQuestcreatorModelVariable: gérer les variables d'une quête
 commandDescriptionQuestcreatorPerformglobalbranch: exécuter tous les objets d'une branche globale
 commandDescriptionQuestcreatorPerformglobalobject: exécuter un objet global
 commandDescriptionQuestcreatorProgress: vérifier la progression d'une quête
@@ -125,9 +124,6 @@ messageCommandQuestcreatorLogspamToggleOn: |
 
 messageCommandQuestcreatorLogspamToggleOff: |
   &7Le spam de log de débugs pour &c{player} &7a été &cdésctivé&7.
-
-messageCommandQuestcreatorModelVariableNoQuest: |
-  &7Cette quête n'est pas active.
 
 messageCommandQuestcreatorRunglobalbranchUnknown: |
   &7Branche globale inconnue : &c{branch}&7.

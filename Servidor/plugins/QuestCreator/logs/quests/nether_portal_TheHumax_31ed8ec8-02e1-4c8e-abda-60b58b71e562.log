@@ -1,0 +1,5 @@
+[22/07 13:46:33] [info] TheHumax | quest TheHumax/nether_portal | pushing quest nether_portal = 31ed8ec8-02e1-4c8e-abda-60b58b71e562
+[22/07 13:46:33] [info] TheHumax | quest TheHumax/nether_portal | started quest : cause GUI
+[22/07 13:46:33] [info] TheHumax | quest TheHumax/nether_portal/main | started branch
+[22/07 13:46:48] [info] TheHumax | quest TheHumax/nether_portal | goto NONE | applying goto
+[22/07 13:46:48] [info] TheHumax | quest TheHumax/nether_portal | stopped quest : cause INVALID_NO_BRANCHES

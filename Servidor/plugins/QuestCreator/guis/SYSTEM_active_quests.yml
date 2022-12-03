@@ -1,15 +1,37 @@
 # ----------------------------------------------------------------------------------------------------
+
 # Configuration file for QuestCreator
+
 # More information can be found in the documentation
+
 # ----------------------------------------------------------------------------------------------------
 
-name: '&dActive quests'
+
+
+name: '&8       &n(*)&r &#01f009A&#02e208c&#04d407t&#05c606i&#07b806v&#08aa05e &#0b8d03Q&#0d7f03u&#0e7102e&#106301s&#115500t&#124702s&r &8&n(*)'
+
 type: CHEST_3_ROW
 
-#contents:
-#  - type: NONE
-#    locations: [0,1,2,3,4,5,6,7,8,9,18,17,18,19,20,21,22,23,24,25,26]
-#    persistent: true
-#    icon:
-#      type: GRAY_STAINED_GLASS_PANE
-#      name: '&f'
+
+
+contents:
+
+
+  - type: NONE
+
+    locations: [0,1,2,3,4,5,6,7,8,9,17,19,20,21,22,23,24,25,26]
+    persistent: true
+
+    icon:
+      type: GRAY_STAINED_GLASS_PANE
+      name: '&f'
+
+
+  - type: QC_GUI
+    gui: main
+    locations: 
+      - 0,18
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0='
+      name: '&fBack'

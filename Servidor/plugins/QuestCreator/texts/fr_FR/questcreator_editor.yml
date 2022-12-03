@@ -170,9 +170,6 @@ descriptionModelOnlyLeaderParsing: |
 descriptionModelNotifyCoopPlayerLeave: |
   &7Pour notifier les autres joueurs lorsqu'un joueur coop quitte
 
-descriptionModelBypassMaxConcurrentQuestsPerPlayer: |
-  &7Pour ignorer le paramètre global du nombre maximum de quêtes par joueur
-
 descriptionModelActivators: |
   &7Les activateurs de cette quête
 
@@ -459,10 +456,6 @@ descriptionObjectTypeGenericEntityObjectiveHorseStyles: |
   &7Les styles autorisées pour les chevaux
   &7Laisser vide pour tous
 
-descriptionObjectTypeGenericEntityObjectivePlayerPermission: |
-  &7La permission requise pour le joueur cible
-  &7Laisser vide pour aucune
-
 descriptionObjectTypeGenericEntityObjectiveGoal: |
   &7Le but numérique pour cet objectif
 
@@ -650,9 +643,6 @@ descriptionObjectTypePlayerEntitiesMountAllowSameEntitiesErrorMessage: |
 
 descriptionObjectTypePlayerItemsContainerPutInventoryTypes: |
   &7Pour autoriser uniquement certains types d'inventaires
-
-descriptionObjectTypePlayerItemsContainerPutInventorySlots: |
-  &7Pour autoriser uniquement certains slots
 
 descriptionObjectTypePlayerItemsContainerTakeInventoryTypes: |
   &7Pour autoriser uniquement certains types d'inventaires
@@ -845,9 +835,6 @@ descriptionObjectTypeServerFireworksLaunchEffects: |
 
 descriptionObjectTypeServerFireworksLaunchCount: |
   &7Le nombre de feux d'artifices
-
-descriptionObjectTypeServerFireworksDamage: |
-  &7Pour faire en sorte que les feux d'artifices fasse des dégâts aux entités
 
 descriptionObjectTypeServerLightningStrikeDamage: |
   &7Pour faire en sorte que la foudre fasse des dégâts aux entités
@@ -1241,17 +1228,11 @@ descriptionConditionGenericLogicLogicPlaceholder: |
   &r
   &7Placeholders spécifiques à cette condition : {placeholders}
 
-descriptionConditionGenericLogicOnlineGoal: |
-  &7Le nombre de joueurs connectés qui doivent respecter cette logique
-
 descriptionConditionLogicMoneyCurrency: |
   &7La devise à vérifier
 
 descriptionConditionPermissionPermission: |
   &7La permission
-
-descriptionConditionPermissionOnlineGoal: |
-  &7Le nombre de joueurs connectés qui doivent avoir cette permission
 
 descriptionConditionPositionPosition: |
   &7La position
@@ -1524,9 +1505,6 @@ descriptionGuiShowStatus: |
 
 descriptionGuiOrderQuests: |
   &7Pour afficher les quêtes dans l'ordre de la liste, ou les afficher dans un ordre aléatoire
-
-descriptionGuiSortQuestsByStatus: |
-  &7Pour afficher les quêtes en fonction de leur status (disponible, en progression, ...)
 
 descriptionGuiOverrideClickTypeInfo: |
   &7Pour utiliser un type de clic d'information spécifique dans ce GUI

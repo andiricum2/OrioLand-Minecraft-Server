@@ -1,0 +1,74 @@
+name: '&r     &8&n(*)&r  &#efa9a9&lB&#e09f9f&lu&#d09595&li&#c18b8b&ll&#b28181&ld&#a27777&le&#936e6d&lr &#745a59&lQ&#65504f&lu&#564645&le&#463c3b&ls&#373231&lt&#282928&ls &8&n(*)&r     '
+type: CHEST_3_ROW
+
+
+
+contents:
+
+
+
+  - type: QC_QUESTS
+
+    quests: [group:netherportal]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,10
+
+
+  - type: QC_QUESTS
+
+    quests: [group:house]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,11
+
+  - type: QC_QUESTS
+
+    quests: [group:snowman]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,12
+
+  - type: QC_QUESTS
+
+    quests: [group:beacon]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,13
+      - 0,14
+      - 0,15
+      - 0,16
+
+
+
+
+  - locations: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17,19,20,21,22,23,24,25 26]
+    persistent: true
+    icon:
+      type: GRAY_STAINED_GLASS_PANE
+      name: '&r'
+
+  - type: QC_GUI
+    gui: main
+    locations: 
+      - 0,18
+      - 1,18
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0='
+      name: '&fBack'
+
+
+

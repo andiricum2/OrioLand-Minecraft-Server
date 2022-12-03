@@ -1,0 +1,116 @@
+display_name: Daily quests
+
+time_frames:
+  a:
+    type: DAILY
+
+quests:
+  daily_2:
+    min_tokens: 1
+    max_tokens: 1
+  daily_3:
+    min_tokens: 1
+    max_tokens: 1
+  daily_4:
+    min_tokens: 1
+    max_tokens: 1
+  daily_5:
+    min_tokens: 1
+    max_tokens: 1
+  daily_6:
+    min_tokens: 1
+    max_tokens: 1
+  daily_7:
+    min_tokens: 1
+    max_tokens: 1
+  daily_8:
+    min_tokens: 1
+    max_tokens: 1
+  daily_9:
+    min_tokens: 1
+    max_tokens: 1
+  daily_10:
+    min_tokens: 1
+    max_tokens: 1
+  daily_11:
+    min_tokens: 1
+    max_tokens: 1
+  daily_12:
+    min_tokens: 1
+    max_tokens: 1
+  daily_13:
+    min_tokens: 1
+    max_tokens: 1
+  daily_14:
+    min_tokens: 1
+    max_tokens: 1
+  daily_15:
+    min_tokens: 1
+    max_tokens: 1
+  daily_16:
+    min_tokens: 1
+    max_tokens: 1
+  daily_17:
+    min_tokens: 1
+    max_tokens: 1
+  daily_18:
+    min_tokens: 1
+    max_tokens: 1
+  daily_19:
+    min_tokens: 1
+    max_tokens: 1
+  daily_20:
+    min_tokens: 1
+    max_tokens: 1
+  daily_21:
+    min_tokens: 1
+    max_tokens: 1
+  daily_22:
+    min_tokens: 1
+    max_tokens: 1
+  daily_23:
+    min_tokens: 1
+    max_tokens: 1
+  daily_24:
+    min_tokens: 1
+    max_tokens: 1
+
+order: RANDOM
+amount: 2
+amount_tolerance: COUNT_STARTED
+
+
+rewards:
+  - object:
+      start_notify:
+        message: >
+          &cCongratulations, you completed your daily quest !
+      type: NONE
+  - min_streak: 5
+    max_streak: 5
+    object:
+      type: SERVER_LOGIC_MONEY
+      currency: VAULT
+      value_formula: {value} + 500  # takes the current money amount and add the reward
+      start_notify:
+        message: '&a&lYou completed your daily quests five days in a row ! Here''s an extra $500 reward.'
+  - min_streak: 5
+    max_streak: 5
+    object:
+      type: SERVER_FIREWORKS_LAUNCH
+      effects:
+        - type: CREEPER
+          colors: |
+            AQUA
+            BLUE
+          fade_colors: |
+            AQUA
+            BLUE
+          flicker: true
+          trail: true
+      count: 1
+      position:
+        type: PLAYER_RELATIVE_SINGLE
+        location:
+          distance: 3.0
+          vertical_offset: 1.0

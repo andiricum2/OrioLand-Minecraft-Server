@@ -1,0 +1,193 @@
+# -------------------- Display settings --------------------
+
+
+
+display_name: '&fBuild a House'
+
+description: |
+  &r
+  &8»&7 You'll need to build a safe house
+  &8» &7in this quest to receive your rewards
+  &8» &7and to unlock the next quest.
+  &r
+  &r&#6b1162&lR&#721d69&le&#792971&lw&#803478&la&#874080&lr&#8e4c87&ld&#95578f&ls
+  &r &8[&d+&8] &7$1,000
+  &r &8[&d+&8] &72 Quest Points
+
+
+
+
+
+start_notify:
+
+  title: '&6Quest started'
+
+  title_subtitle: '&7You started quest {quest} &7!'
+
+  sound: ENTITY_PLAYER_LEVELUP
+
+
+
+progress_notify:
+
+  actionbar: '&7| {objective}'
+
+progress_notify_scoreboard: true
+
+
+
+all_status_item:
+
+  type: PLAYER_HEAD
+  skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWRiNTMyYjVjY2VkNDZiNGI1MzVlY2UxNmVjZWQ3YmJjNWNhYzU1NTk0ZDYxZThiOGY4ZWFjNDI5OWM5ZmMifX19'
+
+  name: '&6{quest}'
+
+  lore: |
+
+    &7{description}
+
+    {completions}
+
+    {last_completion}
+
+    {cooldown}
+
+    {detailed_progression}
+
+    {detailed_errors}
+
+    {controls}
+
+
+
+status_items:
+
+  UNAVAILABLE:
+
+    type: PLAYER_HEAD
+    skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZkMWZhYmRmM2UzNDI2NzFiZDlmOTVmNjg3ZmUyNjNmNDM5ZGRjMmYxYzllYThmZjE1YjEzZjFlN2U0OGI5In19fQ=='
+
+    name: '&c{quest}'
+
+    lore: |
+
+      &r
+
+      &c&nYou have not completed the previous quest!
+
+
+
+# -------------------- Post-quest settings --------------------
+
+
+
+completion:
+
+  max_completions: 1
+
+  notify:
+
+    SUCCESS:
+
+      title: '&dQuest completed'
+
+      title_subtitle: '&7You completed quest &a{quest} &7!'
+
+      sound: ENTITY_PLAYER_LEVELUP
+
+    FAIL:
+
+      title: '&cQuest failed'
+
+      title_subtitle: '&7You failed quest &c{quest} &7!'
+
+      sound: BLOCK_ANVIL_DESTROY
+
+    CANCEL:
+
+      title: '&cQuest cancelled'
+
+      title_subtitle: '&7You cancelled quest &c{quest}'
+
+      sound: BLOCK_ANVIL_DESTROY
+
+
+
+# -------------------- Quest content --------------------
+
+
+
+branches:
+
+
+
+  MAIN:
+    starts_directly: true
+    starts_at: BUILD
+
+    objects:
+      BUILD:
+        name_short: House Wood
+        objective_detail: '&7Place down wood | &#64065B{objective_progression}&7/&#95588F{objective_goal}'
+
+        type: PLAYER_BLOCKS_PLACE
+        goals:
+          - types: [OAK_WOOD]
+            goal: {gvariable:house_wood_goal}
+        goto: OBJECT GLASS
+
+
+      GLASS:
+        name_short: Make the windows
+        objective_detail: '&7Place the windows | &#64065B{objective_progression}&7/&#95588F{objective_goal}'
+
+        type: PLAYER_BLOCKS_PLACE
+        goals:
+          - types: [GLASS]
+            goal: {gvariable:house_glass_goal}
+        goto: OBJECT DOOR
+
+      DOOR:
+        name_short: Make the door
+        objective_detail: '&7Place the door | &#64065B{objective_progression}&7/&#95588F{objective_goal}'
+
+        type: PLAYER_BLOCKS_PLACE
+        goals:
+          - types: [OAK_DOOR]
+            goal: {gvariable:house_door_goal}
+        goto: OBJECT BED
+
+      BED:
+        name_short: Make the bed
+        objective_detail: '&7Place the bed | &#64065B{objective_progression}&7/&#95588F{objective_goal}'
+
+        type: PLAYER_BLOCKS_PLACE
+        goals:
+          - types: [WHITE_BED]
+            goal: {gvariable:house_bed_goal}
+
+
+        complete_notify:
+
+          sound: ENTITY_PLAYER_LEVELUP
+
+          message: '&7[&a{quest}&7] Congratulations you have completed the quest!'
+
+        goto: QUEST_SUCCESS
+
+
+
+# -------------------- Rewards settings --------------------
+
+
+
+end_objects:
+
+  SUCCESS:
+
+    - type: SERVER_COMMANDS_PERFORM
+
+      commands: |
+        eco give {player} 500
+        qc points {player} add 1 global

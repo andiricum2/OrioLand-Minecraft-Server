@@ -972,7 +972,7 @@ descriptionIntegrationMythicMobsSignal: |
 descriptionIntegrationBossObjectives: |
   &7Los objetivos de bosses
 
-descriptionIntegrationBossObjectiveBosses: |
+descriptionIntegrationBossObjectiveBosseses: |
   &7Tipos de boss permitidos
   &7Déjalo en blanco para permitir cualquier boss
 
@@ -1447,6 +1447,10 @@ descriptionGuiItemClickSound: |
 
 descriptionGuiItemOverrideClicks: |
   &7Especificar los tipos de click que tendrán efectos diferenciados a los del tipo inicial de objetivo
+
+descriptionGuiItemCommands: |
+  &7Los comandos que se ejecutarán al hacer click en este objeto
+  &7El nombre del jugador puede obtenerse con el placeholder {player}
 
 descriptionGuiItemQuestsQuests: |
   &7Las misiones que se mostrarán con este objeto

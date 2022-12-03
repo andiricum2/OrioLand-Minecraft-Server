@@ -1,0 +1,251 @@
+name: '&r     &8&n(*)&r  &#8c4a72&lA&#8c4468&ln&#8c3e5f&li&#8c3855&lm&#8c314c&la&#8c2b42&ll &#8c1f2f&lQ&#8c1826&lu&#8c121c&le&#8c0c13&ls&#8c0609&lt&#8c0102&ls  &8&n(*)&r     '
+type: CHEST_6_ROW
+
+
+
+contents:
+
+
+
+  - type: QC_QUESTS
+
+    quests: [group:pig]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,10
+
+      - 0,19
+
+  - type: QC_QUESTS
+
+    quests: [group:chicken]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,11
+
+      - 0,20
+
+  - type: QC_QUESTS
+
+    quests: [group:cow]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,12
+
+      - 0,21
+
+  - type: QC_QUESTS
+
+    quests: [group:mooshroom]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,13
+
+      - 0,22
+
+  - type: QC_QUESTS
+
+    quests: [group:ocelot]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,14
+
+      - 0,23
+
+  - type: QC_QUESTS
+
+    quests: [group:rabbit]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,15
+
+      - 0,24
+
+  - type: QC_QUESTS
+
+    quests: [group:sheep]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,16
+
+      - 0,25
+
+  - type: QC_QUESTS
+
+    quests: [group:cod]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,28
+
+      - 0,37
+
+
+  - type: QC_QUESTS
+
+    quests: [group:salmon]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,30
+
+      - 0,39
+
+  - type: QC_QUESTS
+
+    quests: [group:tropical_fish]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,32
+
+      - 0,41
+
+  - type: QC_QUESTS
+
+    quests: [group:pufferfish]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,34
+
+      - 0,43
+
+
+  - type: QC_QUESTS
+
+    quests: [group:donkey]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 1,10
+
+      - 1,19
+
+  - type: QC_QUESTS
+
+    quests: [group:horse]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 1,11
+
+      - 1,20
+
+  - type: QC_QUESTS
+
+    quests: [group:cat]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 1,12
+
+      - 1,21
+
+  - type: QC_QUESTS
+
+    quests: [group:parrot]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 1,13
+
+      - 1,22
+
+  - type: QC_QUESTS
+
+    quests: [group:mule]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 1,14
+
+      - 1,23
+
+  - type: QC_QUESTS
+
+    quests: [group:wolf]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 1,15
+
+      - 1,24
+
+  - type: QC_QUESTS
+
+    quests: [group:fox]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 1,16
+
+      - 1,25
+
+
+
+
+
+
+
+  - locations: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 26, 27, 35, 36, 44, 46, 47, 48, 49, 50, 51, 52, 53]
+    persistent: true
+    icon:
+      type: GRAY_STAINED_GLASS_PANE
+      name: '&r'
+
+  - type: QC_GUI
+    gui: main
+    locations: 
+      - 0,45
+      - 1,45
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0='
+      name: '&fBack'
+
+
+

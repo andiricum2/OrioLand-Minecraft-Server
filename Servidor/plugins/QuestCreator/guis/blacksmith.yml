@@ -1,0 +1,175 @@
+name: '&r&8&n(*)&r  &#f1f1f1&lB&#e8e8e8&ll&#dfdfdf&la&#d6d6d6&lc&#cdcdcd&lk&#c4c4c4&ls&#bbbbbb&lm&#b2b2b2&li&#a9a9a9&lt&#a0a0a0&lh &#8e8e8e&lQ&#858585&lu&#7c7c7c&le&#737373&ls&#6a6a6a&lt&#616161&ls  &8&n(*)&r     '
+type: CHEST_6_ROW
+
+
+
+contents:
+
+
+
+  - type: QC_QUESTS
+
+    quests: [group:glass_smelter]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,10
+
+      - 0,19
+
+      - 0,28
+
+      - 0,37
+
+  - type: QC_QUESTS
+
+    quests: [group:iron_smelter]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,11
+
+      - 0,20
+
+      - 0,29
+
+      - 0,38
+
+  - type: QC_QUESTS
+
+    quests: [group:gold_smelter]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,12
+
+      - 0,21
+
+      - 0,30
+
+      - 0,39
+
+  - type: QC_QUESTS
+
+    quests: [group:clay_smelter]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,13
+
+      - 0,22
+
+      - 0,31
+
+      - 0,40
+
+  - type: QC_QUESTS
+
+    quests: [group:cactus_smelter]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,14
+
+      - 0,23
+
+      - 0,32
+
+      - 0,41
+
+  - type: QC_QUESTS
+
+    quests: [group:netherbrick_smelter]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,15
+
+      - 0,24
+
+      - 0,33
+
+      - 0,42
+
+  - type: QC_QUESTS
+
+    quests: [group:stone_smelter]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 0,16
+
+      - 0,25
+
+      - 0,34
+
+      - 0,43
+
+  - type: QC_QUESTS
+
+    quests: [group:craft_tools]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 1,10
+
+      - 1,19
+
+      - 1,28
+
+      - 1,37
+
+  - type: QC_QUESTS
+
+    quests: [group:craft_armours]
+
+    mode: ONE_ITEM_PER_LOCATION
+
+    locations:
+
+      - 1,11
+
+      - 1,20
+
+      - 1,29
+
+      - 1,38
+
+
+
+
+
+  - locations: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 26, 27, 35, 36, 44, 46, 47, 48, 49, 50, 51, 52, 53]
+    persistent: true
+    icon:
+      type: GRAY_STAINED_GLASS_PANE
+      name: '&r'
+
+  - type: QC_GUI
+    gui: main
+    locations: 
+      - 0,45
+      - 1,45
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0='
+      name: '&fBack'
+
+
+

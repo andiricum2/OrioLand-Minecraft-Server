@@ -1,29 +1,232 @@
-# ----------------------------------------------------------------------------------------------------
-# Configuration file for QuestCreator
-# More information can be found in the documentation
-# ----------------------------------------------------------------------------------------------------
+name: '&r     &8&n(*)&r  &#0a2565C&#122e69a&#1a376dt&#214071e&#294975g&#315279o&#385b7dr&#406481y &#4f7689M&#577f8de&#5f8891n&#669096u  &8&n(*)&r     '
 
-name: '&dQuestCreator'
-
-type: CHEST_3_ROW
+type: CHEST_5_ROW
 
 contents:
 
-  - locations: [0,1,2,3,4,5,6,7,8,9,17,18,19,20,21,22,23,24,25,26]
+  - type: QC_GUI_ACTIVE_QUESTS
+    category: global
+    locations: 
+      - 0,9
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjE2Y2M1NzU1Y2RkMjYwZjdiNGI1YzFhMWYxZjNiZDMxODUxZmMxZDk4Yjc0NDM3YjJmYjRiZDZlYjhkMiJ9fX0='
+      name: '&f &r'
+      lore: |
+        &8  &n(*)&r &#01f009A&#02e208c&#04d407t&#05c606i&#07b806v&#08aa05e &#0b8d03Q&#0d7f03u&#0e7102e&#106301s&#115500t&#124702s&r &8&n(*)&r   &f
+        &8&l  
+ 
+
+
+  - type: QC_GUI_POINTS_RANKING
+    category: global
+    locations: 
+      - 0,18
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTgyNTQxOWU0MjlhZmMwNDBjOWU2OGIxMDUyM2I5MTdkN2I4MDg3ZDYzZTc2NDhiMTA4MDdkYThiNzY4ZWUifX19'
+      name: '&f &r'
+      lore: |
+        &8  &n(*)&r &#ef00e6L&#df00d8e&#cf00c9a&#c000bbd&#b000ace&#a0009er&#90008fb&#810081o&#710072a&#610064r&#510055d&#420047s &8&n(*)&r   &f
+        &8&l  
+
+
+  - type: QC_GUI
+    gui: settings
+    locations: 
+      - 0,27
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDc5MDEyZDFiZjljNzU3MTA3YjU5MTJiMDY4MzAyMGM1MWFjNDcyZTVjMjU3ZmE4NDQ2NWFkNWUxNDYyYjViYiJ9fX0='
+      name: '&f &r'
+      lore: |
+        &8     &n(*)&r &#5c5c5cS&#555555e&#4d4d4dt&#464646t&#3f3f3fi&#373737n&#303030g&#292929s&r &8&n(*)
+        &8&l  
+
+  - type: QC_GUI
+    gui: farming
+    locations: 
+      - 0,13
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgwNzI3ZDM5MGMzYjM0ZDgwOWE0ZDU5MDhjNThiNWVkNmE4OTFiOGJkZDBiY2ExNjA2NWNkNTVmMGQ4ZGUwYyJ9fX0='
+      name: '&#64055a╔&#670a5d&l═&#6a0f61&l═&#6d1464&l═&#701a67&l═&#731f6b&l═&#76246e&l═&#792971&l═&#7d2f75&l═&#803478&l═&#83397b&l═&#863e7f&l═&#894482&l═&#8c4985&l═&#8f4e89&l═&#92538c&l═&#965990╗'
+      lore: |
+        &r
+        &8&l     » &#64065b&lF&#680c5f&la&#6c1363&lr&#701967&lm&#731f6b&li&#77266f&ln&#7b2c73&lg &#83397b&lQ&#863f7f&lu&#8a4583&le&#8e4c87&ls&#92528b&lt&#95588f&ls  &8&l«
+        &r
+        &d       • &7Amount of Quests: &552
+        &r
+        &#64055a╚&#670a5d&l═&#6a0f61&l═&#6d1464&l═&#701a67&l═&#731f6b&l═&#76246e&l═&#792971&l═&#7d2f75&l═&#803478&l═&#83397b&l═&#863e7f&l═&#894482&l═&#8c4985&l═&#8f4e89&l═&#92538c&l═&#965990╝
+
+  - type: QC_GUI
+    gui: combat
+    locations: 
+      - 0,14
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTFjOTdhMDZlZmRlMDRkMDAyODdiZjIwNDE2NDA0YWIyMTAzZTEwZjA4NjIzMDg3ZTFiMGMxMjY0YTFjMGYwYyJ9fX0'
+      name: '&#6b0505╔&#710b0b&l═&#771111&l═&#7d1717&l═&#831d1d&l═&#892323&l═&#8f2929&l═&#952f2f&l═&#9b3434&l═&#a13a3a&l═&#a74040&l═&#ad4646&l═&#b34c4c&l═&#b95252&l═&#bf5858&l═&#c55e5e&l═&#cc6464╗'
+      lore: |
+        &r
+        &8&l     » &#6c0707&lC&#740f0f&lo&#7c1717&lm&#841e1e&lb&#8c2626&la&#942e2e&lt &#a43d3d&lQ&#ac4545&lu&#b44c4c&le&#bc5454&ls&#c45c5c&lt&#cb6363&ls  &8&l«
+        &r
+        &4       • &7Amount of Quests: &436
+        &r
+        &r&#6b0505╚&#710b0b&l═&#771111&l═&#7d1717&l═&#831d1d&l═&#892323&l═&#8f2929&l═&#952f2f&l═&#9b3434&l═&#a13a3a&l═&#a74040&l═&#ad4646&l═&#b34c4c&l═&#b95252&l═&#bf5858&l═&#c55e5e&l═&#cc6464╝
+
+
+  - type: QC_GUI
+    gui: mining
+    locations: 
+      - 0,15
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY4MWNkNzRkMmM5MzM0MTUxZjM1NjZhOGFkYzdiNDQ0YTg3NWQ3YzQ3ZmJiY2JiMjM5YjQ4M2VkY2MxNTQifX19'
+      name: '&#867676╔&#817272&l═&#7c6e6e&l═&#776a6a&l═&#726666&l═&#6d6262&l═&#685e5e&l═&#635a5a&l═&#5e5656&l═&#595252&l═&#544e4e&l═&#4f4a4a&l═&#4a4646&l═&#454242&l═&#403e3e&l═&#3b3a3a&l═&#363636╗'
+      lore: |
+        &r
+        &8&l      » &#857575&lM&#7e7070&li&#786b6b&ln&#716565&li&#6a6060&ln&#645b5b&lg &#575050&lQ&#504b4b&lu&#494545&le&#434040&ls&#3c3b3b&lt&#363636&ls  &8&l«
+        &r
+        &f        • &7Amount of Quests: &884
+        &r
+        &r&#867676╚&#817272&l═&#7c6e6e&l═&#776a6a&l═&#726666&l═&#6d6262&l═&#685e5e&l═&#635a5a&l═&#5e5656&l═&#595252&l═&#544e4e&l═&#4f4a4a&l═&#4a4646&l═&#454242&l═&#403e3e&l═&#3b3a3a&l═&#363636╝
+
+  - type: QC_GUI
+    gui: animals
+    locations: 
+      - 0,21
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIxNjY4ZWY3Y2I3OWRkOWMyMmNlM2QxZjNmNGNiNmUyNTU5ODkzYjZkZjRhNDY5NTE0ZTY2N2MxNmFhNCJ9fX0='
+      name: '&#8c4c74╔&#8c476d&l═&#8c4266&l═&#8c3d5e&l═&#8c3957&l═&#8c3450&l═&#8c2f48&l═&#8c2a41&l═&#8c263a&l═&#8c2133&l═&#8c1c2b&l═&#8c1724&l═&#8c131d&l═&#8c0e15&l═&#8c090e&l═&#8c0407&l═&#8c0000╗'
+      lore: |
+        &r
+        &8&l      » &#8c4a72&lA&#8c4468&ln&#8c3e5f&li&#8c3855&lm&#8c314c&la&#8c2b42&ll &#8c1f2f&lQ&#8c1826&lu&#8c121c&le&#8c0c13&ls&#8c0609&lt&#8c0102&ls  &8&l«
+        &r
+        &d        • &7Amount of Quests: &c36
+        &r
+        &r&#8c4c74╚&#8c476d&l═&#8c4266&l═&#8c3d5e&l═&#8c3957&l═&#8c3450&l═&#8c2f48&l═&#8c2a41&l═&#8c263a&l═&#8c2133&l═&#8c1c2b&l═&#8c1724&l═&#8c131d&l═&#8c0e15&l═&#8c090e&l═&#8c0407&l═&#8c0000╝
+
+
+  - type: QC_GUI
+    gui: lumberjack
+    locations: 
+      - 0,22
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWFlODI2ZTdkYjg0NDdmYmQ2Mjk4OGZlZTBlODNiYmRkNjk0Mzc4YWVmMTJkMjU3MmU5NzVmMDU5YTU0OTkwIn19fQ=='
+      name: '&#5e4500╔&#5a4800&l═&#564b00&l═&#524e00&l═&#4e5100&l═&#4a5400&l═&#465700&l═&#425a00&l═&#3e5d00&l═&#3a6000&l═&#366300&l═&#326600&l═&#2e6900&l═&#2a6c00&l═&#266f00&l═&#227200&l═&#1e7500╗'
+      lore: |
+        &r
+        &8&l      » &#5d4500&lL&#584900&lu&#534d00&lm&#4d5100&lb&#485500&le&#435900&lr &#386100&lQ&#336500&lu&#2d6900&le&#286d00&ls&#237100&lt&#1e7400&ls&8&l«
+        &r
+        &#634200       • &7Amount of Quests: &#1E750048
+        &r
+        &r&#5e4500╚&#5a4800&l═&#564b00&l═&#524e00&l═&#4e5100&l═&#4a5400&l═&#465700&l═&#425a00&l═&#3e5d00&l═&#3a6000&l═&#366300&l═&#326600&l═&#2e6900&l═&#2a6c00&l═&#266f00&l═&#227200&l═&#1e7500╝
+
+  - type: QC_GUI
+    gui: builder
+    locations: 
+      - 0,23
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Y2YmY5NThhYmQ3ODI5NWVlZDZmZmMyOTNiMWFhNTk1MjZlODBmNTQ5NzY4MjllYTA2ODMzN2MyZjVlOCJ9fX0='
+      name: '&#f2aaaa╔&#e5a2a2&l═&#d99a9a&l═&#cc9292&l═&#bf8a8a&l═&#b38281&l═&#a67a79&l═&#997271&l═&#8d6969&l═&#806161&l═&#735959&l═&#675150&l═&#5a4948&l═&#4d4140&l═&#413938&l═&#343130&l═&#282928╗'
+      lore: |
+        &r
+        &8&l      » &#efa9a9&lB&#e09f9f&lu&#d09595&li&#c18b8b&ll&#b28181&ld&#a27777&le&#936e6d&lr &#745a59&lQ&#65504f&lu&#564645&le&#463c3b&ls&#373231&lt&#282928&ls  &8&l«
+        &r
+        &#FFB3B3        • &7Amount of Quests: &#2829287
+        &r
+        &r&#f2aaaa╚&#e5a2a2&l═&#d99a9a&l═&#cc9292&l═&#bf8a8a&l═&#b38281&l═&#a67a79&l═&#997271&l═&#8d6969&l═&#806161&l═&#735959&l═&#675150&l═&#5a4948&l═&#4d4140&l═&#413938&l═&#343130&l═&#282928╝
+
+  - type: QC_GUI
+    gui: blacksmith
+    locations: 
+      - 0,24
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI0MjVhYTNkOTQ2MThhODdkYWM5Yzk0ZjM3N2FmNmNhNDk4NGMwNzU3OTY3NGZhZDkxN2Y2MDJiN2JmMjM1In19fQ=='
+      name: '&#f1f1f1╔&#e8e8e8&l═&#dfdfdf&l═&#d6d6d6&l═&#cdcdcd&l═&#c4c4c4&l═&#bbbbbb&l═&#b2b2b2&l═&#a9a9a9&l═&#a0a0a0&l═&#979797&l═&#8e8e8e&l═&#858585&l═&#7c7c7c&l═&#737373&l═&#6a6a6a&l═&#616161╗'
+      lore: |
+        &r
+        &8&l   » &#f1f1f1&lB&#e8e8e8&ll&#dfdfdf&la&#d6d6d6&lc&#cdcdcd&lk&#c4c4c4&ls&#bbbbbb&lm&#b2b2b2&li&#a9a9a9&lt&#a0a0a0&lh &#8e8e8e&lQ&#858585&lu&#7c7c7c&le&#737373&ls&#6a6a6a&lt&#616161&ls &8&l«
+        &r
+        &#FBFBFB       • &7Amount of Quests: &#61616136
+        &r
+        &r&#f1f1f1╚&#e8e8e8&l═&#dfdfdf&l═&#d6d6d6&l═&#cdcdcd&l═&#c4c4c4&l═&#bbbbbb&l═&#b2b2b2&l═&#a9a9a9&l═&#a0a0a0&l═&#979797&l═&#8e8e8e&l═&#858585&l═&#7c7c7c&l═&#737373&l═&#6a6a6a&l═&#616161╝
+
+  - type: QC_GUI
+    gui: misc
+    locations: 
+      - 0,25
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmFkYzA0OGE3Y2U3OGY3ZGFkNzJhMDdkYTI3ZDg1YzA5MTY4ODFlNTUyMmVlZWQxZTNkYWYyMTdhMzhjMWEifX19'
+      name: '&#ccc40f╔&#cfc81e&l═&#d2cb2c&l═&#d5cf3c&l═&#d8d34b&l═&#dcd65a&l═&#dfda69&l═&#e2de78&l═&#e5e187&l═&#e8e596&l═&#ebe9a5&l═&#efecb4&l═&#f2f0c3&l═&#f5f4d2&l═&#f8f7e1&l═&#fbfbf0&l═&#ffffff╗'
+      lore: |
+        &r
+        &8&l      » &#cdc617&lM&#d2cc2e&li&#d7d145&ls&#dcd75c&lc &#e6e28b&lQ&#ebe8a2&lu&#f0eeb9&le&#f5f3d0&ls&#faf9e7&lt&#ffffff&ls  &8&l«
+        &r
+        &#cdc617        • &7Amount of Quests: &#ffffff28
+        &r
+        &r&#ccc40f╚&#cfc81e&l═&#d2cb2c&l═&#d5cf3c&l═&#d8d34b&l═&#dcd65a&l═&#dfda69&l═&#e2de78&l═&#e5e187&l═&#e8e596&l═&#ebe9a5&l═&#efecb4&l═&#f2f0c3&l═&#f5f4d2&l═&#f8f7e1&l═&#fbfbf0&l═&#ffffff╝
+
+
+
+  - type: QC_GUI
+    gui: cooking
+    locations: 
+      - 0,31
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWZkMDE0MTEzYzQ1Yjk3OTE5MTdjMjRkYzBjMGEzMDRlODBmMWE1Njc0MTMwYmI1MTcyNGRjMTMwMzBlNDBiNSJ9fX0='
+      name: '&#3fcc0f╔&#4bcf1e&l═&#57d22c&l═&#63d53c&l═&#6fd84b&l═&#7bdc5a&l═&#87df69&l═&#93e278&l═&#9fe587&l═&#abe896&l═&#b7eba5&l═&#c3efb4&l═&#cff2c3&l═&#dbf5d2&l═&#e7f8e1&l═&#f3fbf0&l═&#ffffff╗'
+      lore: |
+        &r
+        &8&l     » &#60d437&lC&#6cd746&lo&#78da55&lo&#84de65&lk&#90e174&li&#9ce483&ln&#a8e892&lg &#c1eeb1&lQ&#cdf1c0&lu&#d9f5d0&le&#e5f8df&ls&#f1fbee&lt&#fdfefd&ls &8&l«
+        &r
+        &#34C900       • &7Amount of Quests: &f56
+        &r
+        &r&#3fcc0f╚&#4bcf1e&l═&#57d22c&l═&#63d53c&l═&#6fd84b&l═&#7bdc5a&l═&#87df69&l═&#93e278&l═&#9fe587&l═&#abe896&l═&#b7eba5&l═&#c3efb4&l═&#cff2c3&l═&#dbf5d2&l═&#e7f8e1&l═&#f3fbf0&l═&#ffffff╝
+
+
+  - type: QC_GUI
+    gui: crafting
+    locations: 
+      - 0,32
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2U3ZDhjMjQyZDJlNGY4MDI4ZjkzMGJlNzZmMzUwMTRiMjFiNTI1NTIwOGIxYzA0MTgxYjI1NzQxMzFiNzVhIn19fQ=='
+      name: '&#c8c2bd╔&#c8bbb1&l═&#c8b4a5&l═&#c7ac99&l═&#c7a68d&l═&#c79e82&l═&#c69876&l═&#c6916a&l═&#c68a5e&l═&#c68352&l═&#c57c46&l═&#c5753b&l═&#c56e2f&l═&#c46623&l═&#c45f17&l═&#c4580b&l═&#c45200╗'
+      lore: |
+        &r
+        &8&l      » &#c8c1bb&lC&#c8b9ae&lr&#c8b1a0&la&#c7a993&lf&#c7a186&lt&#c79978&li&#c6916b&ln&#c6895d&lg &#c57943&lQ&#c57135&lu&#c56928&le&#c4611a&ls&#c4590d&lt&#c45202&ls &8&l«
+        &r
+        &#C9C9C9         • &7Amount of Quests:&#c45202 16
+        &r
+        &r&#c8c2bd╚&#c8bbb1&l═&#c8b4a5&l═&#c7ac99&l═&#c7a68d&l═&#c79e82&l═&#c69876&l═&#c6916a&l═&#c68a5e&l═&#c68352&l═&#c57c46&l═&#c5753b&l═&#c56e2f&l═&#c46623&l═&#c45f17&l═&#c4580b&l═&#c45200╝
+
+  - type: QC_GUI
+    gui: daily
+    locations: 
+      - 0,33
+    icon:
+      type: 'player_head'
+      skin_data: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjg2YjlkNThiY2QxYTU1NWY5M2U3ZDg2NTkxNTljZmQyNWI4ZGQ2ZTliY2UxZTk3MzgyMjgyNDI5MTg2MiJ9fX0='
+      name: '&#0db3ca╔&#1ab6cb&l═&#27b8cc&l═&#34bbcd&l═&#41becf&l═&#4ec0d0&l═&#5bc3d1&l═&#68c6d2&l═&#75c8d4&l═&#82cbd5&l═&#8fced6&l═&#9cd0d7&l═&#a9d3d9&l═&#b6d6da&l═&#c3d8db&l═&#d0dbdc&l═&#dedede╗'
+      lore: |
+        &r
+        &8&l      » &#12b4ca&lD&#25b8cc&la&#37bcce&li&#4ac0d0&ll&#5cc3d1&ly &#81cbd5&lQ&#94cfd7&lu&#a6d2d8&le&#b9d6da&ls&#cbdadc&lt&#dedede&ls &8&l«
+        &r
+        &#00B1C9      • &7Amount of Quests: &#dedede24
+        &r
+        &r&#0db3ca╚&#1ab6cb&l═&#27b8cc&l═&#34bbcd&l═&#41becf&l═&#4ec0d0&l═&#5bc3d1&l═&#68c6d2&l═&#75c8d4&l═&#82cbd5&l═&#8fced6&l═&#9cd0d7&l═&#a9d3d9&l═&#b6d6da&l═&#c3d8db&l═&#d0dbdc&l═&#dedede╝
+
+
+  - locations: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
     persistent: true
     icon:
       type: GRAY_STAINED_GLASS_PANE
-      name: &r
-
-  - locations: 12
-    type: QC_GUI_ACTIVE_QUESTS
-    icon:
-      type: DIAMOND_PICKAXE
-      name: &aActive quests
-
-  - locations: 14
-    type: QC_GUI_POINTS_RANKING
-    category: global
-    icon:
-      type: NETHER_STAR
-      name: &aRanking
+      name: '&r'

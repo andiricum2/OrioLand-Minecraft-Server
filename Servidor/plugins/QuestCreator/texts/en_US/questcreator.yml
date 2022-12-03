@@ -1,148 +1,253 @@
 # -------------------- Commands --------------------
 
+
+
 commandParameterUsageModel: quest
+
 commandParameterUsageBranch: branch
+
 commandParameterUsageObject: object
+
 commandParameterUsagePartId: progression part id
+
 commandParameterUsageGUI: gui
+
 commandParameterUsagePool: pool
+
 commandParameterUsageState: state
+
 commandParameterUsagePointsCategory: category
+
 commandParameterUsageVariable: variable
 
+
+
 commandDescriptionQuestcreator: main command for QuestCreator
+
 commandDescriptionQuestcreatorActionbar: toggle quest actionbar
+
 commandDescriptionQuestcreatorBossbar: toggle quest bossbar
+
 commandDescriptionQuestcreatorComplete: mark quest as completed
+
 commandDescriptionQuestcreatorCompletebranch: mark current branch object as completed
+
 commandDescriptionQuestcreatorCoop: manage coop quests
+
 commandDescriptionQuestcreatorGoto: update quest
+
 commandDescriptionQuestcreatorGPS: toggle quest GPS
+
 commandDescriptionQuestcreatorIncreaseProgress: increase the progression of a quest
+
 commandDescriptionQuestcreatorEdit: edit in-game
+
 commandDescriptionQuestcreatorJournal: manage quest journal
+
 commandDescriptionQuestcreatorList: list quests
+
 commandDescriptionQuestcreatorLogspam: toggle debug log spam
+
 commandDescriptionQuestcreatorPoints: manage quest points
+
 commandDescriptionQuestcreatorMenu: open a specific menu
-commandDescriptionQuestcreatorModelVariable: manage variables for a quest
+
 commandDescriptionQuestcreatorPerformglobalbranch: perform all objects from a global branch
+
 commandDescriptionQuestcreatorPerformglobalobject: perform a global object
+
 commandDescriptionQuestcreatorProgress: check quest progression
+
 commandDescriptionQuestcreatorQueue: check queue progression
+
 commandDescriptionQuestcreatorStop: stop quest(s)
+
 commandDescriptionQuestcreatorStart: start quest
+
 commandDescriptionQuestcreatorState: set state
+
 commandDescriptionQuestcreatorReset: reset quest(s)
+
 commandDescriptionQuestcreatorResetpool: reset pool(s)
+
 commandDescriptionQuestcreatorScoreboard: toggle quest scoreboard
+
 commandDescriptionQuestcreatorServerVariable: manage server variables
+
 commandDescriptionQuestcreatorSetpooltokens: set pool tokens
+
 commandDescriptionQuestcreatorTitle: toggle quest title
+
 commandDescriptionQuestcreatorUser: see some data about an user
+
 commandDescriptionQuestcreatorVariable: manage variables
+
+
 
 messageCommandInvalidModel: |
   &7Quest model &c{value} &7is invalid for argument &c{argument}&7.
 
+
+
 messageCommandInvalidBranch: |
   &7Quest branch &c{value} &7is invalid for argument &c{argument}&7.
+
+
 
 messageCommandInvalidQuestObject: |
   &7Quest object &c{value} &7is invalid for argument &c{argument}&7.
 
+
+
 messageCommandQuestcreatorBungeePlayerIsntOffline: |
   &7That player seems to be connected on another server. Please join that server first.
+
+
 
 messageCommandQuestcreatorActionbarToggleOn: |
   &7Your quest actionbar was toggled &aon&7.
 
+
+
 messageCommandQuestcreatorActionbarToggleOff: |
   &7Your quest actionbar was toggled &coff&7.
+
+
 
 messageCommandQuestcreatorBossbarToggleOn: |
   &7Your quest bossbar was toggled &aon&7.
 
+
+
 messageCommandQuestcreatorBossbarToggleOff: |
   &7Your quest bossbar was toggled &coff&7.
+
+
 
 messageCommandQuestcreatorCoopNotInvited: |
   &7You don't have any pending coop invitation. To create a coop quest, simply start it and you'll see more coop options !
 
+
+
 messageCommandQuestcreatorCoopLeaveEmpty: |
   &7There is no quest to leave.
+
+
 
 messageCommandQuestcreatorCoopLeaveCouldnt: |
   &7Couldn't leave quest : &c{quest}&7.
 
+
+
 messageCommandQuestcreatorCoopLeaveLeft: |
   &7You left quest : &a{quest}&7.
+
+
 
 messageCommandQuestcreatorComplete: |
   &7Your quest is now marked as completed &a{amount} time{plural} &7: &a{quest}&7.
 
+
+
 messageCommandQuestcreatorCompleteBranch: |
   &7Completed the current objective for branch &a{branch} &7in your quest &a{quest}&7.
+
+
 
 messageCommandQuestcreatorCompleteBranchNoQuest: |
   &7This quest isn't active.
 
+
+
 messageCommandQuestcreatorGoto: |
   &7Changes were made to your quest : &a{quest}&7.
+
+
 
 messageCommandQuestcreatorGotoNoQuest: |
   &7This quest isn't active.
 
+
+
 messageCommandQuestcreatorGPSToggleOn: |
   &7Your quest GPS was toggled &aon&7.
+
+
 
 messageCommandQuestcreatorGPSToggleOff: |
   &7Your quest GPS was toggled &coff&7.
 
+
+
 messageCommandQuestcreatorIncreaseProgressNotFound: |
   &7Didn't find anything to progress.
+
+
 
 messageCommandQuestcreatorIncreaseProgressIncreased: |
   &7Progression is now &a{progression}&7.
 
+
+
 messageCommandQuestcreatorJournalToggleOn: |
   &7Your quest journal was toggled &aon&7.
+
+
 
 messageCommandQuestcreatorJournalToggleOff: |
   &7Your quest journal was toggled &coff&7.
 
+
+
 messageCommandQuestcreatorListEmpty: |
   &7There is no quest.
+
+
 
 messageCommandQuestcreatorListHeader: |
   &2Quests :
 
+
+
 messageCommandQuestcreatorListElement: |
   &7- {id} : {name}
+
+
 
 messageCommandQuestcreatorLogspamToggleOn: |
   &7Log spam for &a{player} &7was toggled &aon&7.
 
+
+
 messageCommandQuestcreatorLogspamToggleOff: |
   &7Log spam for &c{player} &7was toggled &coff&7.
 
-messageCommandQuestcreatorModelVariableNoQuest: |
-  &7This quest isn't active.
+
 
 messageCommandQuestcreatorRunglobalbranchUnknown: |
   &7Unknown global branch &c{branch}&7.
 
+
+
 messageCommandQuestcreatorRunglobalobjectUnknown: |
   &7Unknown global object &c{object}&7.
+
+
 
 messageCommandQuestcreatorPoints: |
   &7You have &a{points} point{plural} &7in category &a{category}&7.
 
+
+
 messageCommandQuestcreatorPointsOperate: |
   &7Your quest points were set to &a{amount} &7for category &a{category}&7.
 
+
+
 messageCommandQuestcreatorProgressEmpty: |
   &7There is no active quest.
+
+
 
 messageCommandQuestcreatorProgressOnlineElement: |
   &7&m          &r &7{id} : {name} &7&m          &r
@@ -154,81 +259,131 @@ messageCommandQuestcreatorProgressOnlineElement: |
   &7Checkpoint : &a{checkpoint}
   {branches}
 
+
+
 messageCommandQuestcreatorProgressOnlineElementBranch: |
   &7- Branch &a{branch}&7, object &a{object}
   {progression}
 
+
+
 messageCommandQuestcreatorProgressOnlineElementProgression: |
   &7  > &a{object}&7/&a{part} &7: &a{progression}&7/&a{goal}
+
+
 
 messageCommandQuestcreatorQueueNone: |
   &7You're not in a quest queue.
 
+
+
 messageCommandQuestcreatorQueueActive: |
   &7You're queuing for : &e{quest} &7(players : &e{players}&7).
   &7Position : &e{position}&7/&e{max}
+
+
 
 messageCommandQuestcreatorQueueActiveError: |
   &7You're queuing for : &e{quest} &7(players : &e{players}&7).
   &7Position : &e{position}&7/&e{max}
   &cMake sure to fix this problem before reaching position 1 : {error}
 
+
+
 messageCommandQuestcreatorResetEmpty: |
   &7There is no quest to reset.
+
+
 
 messageCommandQuestcreatorReset: |
   &7You quest was reset : &a{quest}&7.
 
+
+
 messageCommandQuestcreatorResetpoolEmpty: |
   &7There is no quest pool to reset.
+
+
 
 messageCommandQuestcreatorResetpoolReprocessed: |
   &7Reprocessed quest pools : &a{pools}&7.
 
+
+
 messageCommandQuestcreatorResetpool: |
   &7You quest pool was reset : &a{pool}&7.
+
+
 
 messageCommandQuestcreatorScoreboardToggleOn: |
   &7Your quest scoreboard was toggled &aon&7.
 
+
+
 messageCommandQuestcreatorScoreboardToggleOff: |
   &7Your quest scoreboard was toggled &coff&7.
+
+
 
 messageCommandQuestcreatorServerVariable: |
   &7Server variable &a{variable} &7has value &a{value}&7.
 
+
+
 messageCommandQuestcreatorServerVariableOperate: |
   &7Server variable &a{variable} &7was set to &a{value}&7.
+
+
 
 messageCommandQuestcreatorSetpooltokens: |
   &7You now have &a{amount} &7tokens for quest &a{quest}&7.
 
+
+
 messageCommandQuestcreatorStartCouldnt: |
   &7Couldn't start quest : &c{quest}&7.
+
+
 
 messageCommandQuestcreatorStartEmpty: |
   &7There is no quest to start.
 
+
+
 messageCommandQuestcreatorStarted: |
   &7Started quest : &a{quest}&7.
+
+
 
 messageCommandQuestcreatorState: |
   &7Set state &a{state}&7.
 
+
+
 messageCommandQuestcreatorStopEmpty: |
   &7There is no quest to stop.
+
+
 
 messageCommandQuestcreatorStopCouldnt: |
   &7Couldn't stop your quest : &c{quest}&7.
 
+
+
 messageCommandQuestcreatorStopped: |
   &7Your quest was stopped : &a{quest}&7.
+
+
 
 messageCommandQuestcreatorTitleToggleOn: |
   &7Your quest title was toggled &aon&7.
 
+
+
 messageCommandQuestcreatorTitleToggleOff: |
   &7Your quest title was toggled &coff&7.
+
+
 
 messageCommandQuestcreatorUser: |
   &7&m          &r &7{player} &7&m          &r
@@ -237,312 +392,514 @@ messageCommandQuestcreatorUser: |
   &7Completed quests :
   {completed_quests}
 
+
+
 messageCommandQuestcreatorUserCompletedQuestElement: |
   &7- &a{quest} &7: &a{counts}
+
+
 
 messageCommandQuestcreatorVariable: |
   &7Your variable &a{variable} &7has value &a{value}&7.
 
+
+
 messageCommandQuestcreatorVariableOperate: |
   &7Your variable &a{variable} &7was set to &a{value}&7.
 
+
+
 # -------------------- Quest --------------------
+
+
 
 messageQuestCancelInactive: |
   &7Your quest &c{quest} &7has been inactive for &c{time}&7, so it has been cancelled.
 
+
+
 # -------------------- Coop --------------------
+
+
 
 messageCoopCreateLeader: |
   &7You just created a coop quest : &a{quest}&7. [1/{max}]
 
+
+
 messageCoopCreateAlreadyCoop: |
   &c{player} &7is already in a coop.
+
+
 
 messageCoopFull: |
   &7There's no more room for the coop quest of &c{leader}&7.
 
+
+
 messageCoopInvite: |
   &7Enter the player to invite in chat, or &c{cancel} &7to cancel.
+
+
 
 messageCoopInviteAlreadyThereLeader: |
   &a{player} &7is already in your coop quest, or invited.
 
+
+
 messageCoopInvited: |
   &a{leader} &7invited you for a coop quest : &a{quest}&7. Join with /quest coop.
+
+
 
 messageCoopInvitedLeader: |
   &7You invited &a{player} &7in your coop quest.
 
+
+
 messageCoopNotInvited: |
   &7You need &a{leader} &7to invite you to join his coop quest.
+
+
 
 messageCoopNotInvitedLeader: |
   &c{player} &7attempted to join your coop quest but he wasn't invited.
 
+
+
 messageCoopJoin: |
   &7You joined &a{leader}&7's coop quest : &a{quest}&7. [{current}/{max}]
+
+
 
 messageCoopJoinOthers: |
   &a{player} &7joined the coop quest : &a{quest}&7. [{current}/{max}]
 
+
+
 messageCoopLeave: |
   &7You left &c{leader}&7's coop quest.
+
+
 
 messageCoopLeaveOthers: |
   &c{player} &7left the coop quest. [{current}/{max}]
 
+
+
 messageCoopDisband: |
   &7You disbanded your coop quest : &c{quest}&7.
+
+
 
 messageCoopDisbandOthers: |
   &c{leader} &7disbanded his coop quest : &c{quest}&7.
 
+
+
 messageCoopKickNotInLeader: |
   &c{player} &7is not in your coop quest, and wasn't invited.
+
+
 
 messageCoopKickInviteLeader: |
   &7The invitation for &c{player} &7to join was removed.
 
+
+
 messageCoopKick: |
   &7You were kicked from &c{leader}&7's coop quest : &c{quest}&7.
+
+
 
 messageCoopKickOthers: |
   &c{player} &7was kicked from the coop quest. [{current}/{max}]
 
+
+
 # -------------------- Queue --------------------
+
+
 
 messageQueueCreateAlreadyCoop: |
   &c{player} &7is already queuing for this quest.
 
+
+
 messageQueueCreateCantMultiple: |
   &7You can't queue for multiple quests at the same time.
+
+
 
 messageQueueCouldntStartPosition: |
   &cCouldn't start quest : &c{quest}&7. You were added later in queue, in position &c{position}&7/&c{max}&7.
 
+
+
 messageQueuePosition: |
   &7You're in position &a{position}&7/&a{max} &7in queue for quest : &a{quest}&7.
+
+
 
 messageQueueStarted: |
   &7You're done with queuing for quest : &a{quest}&7. Starting now !
 
+
+
 messageQueueLeave: |
   &7You left the queue for quest : &c{quest}&7.
 
+
+
 # -------------------- Preconditions --------------------
+
+
 
 messagePreconditionsError: |
   &c{error}
+
+
 
 textPreconditionsErrorInvalidModelErrors: |
   &7Quest model is invalid :
   &c{errors}
 
+
+
 textPreconditionsErrorAloneUserNotLoader: |
   &7Your user data isn't loaded.
+
+
 
 textPreconditionsErrorCoopUserNotLoader: |
   &c{player}&7's user data isn't loaded.
 
+
+
 textPreconditionsErrorQuestTooManyInstances: |
   &7Too many players are playing this quest at the moment.
+
+
 
 textPreconditionsErrorAlonePlayerAlreadyActive: |
   &7You're already following this quest.
 
+
+
 textPreconditionsErrorCoopPlayerAlreadyActive: |
   &c{player} &7is already following this quest.
+
+
 
 textPreconditionsErrorAlonePlayerTooManyQuests: |
   &7You're already following enough quests.
 
+
+
 textPreconditionsErrorCoopPlayerTooManyQuests: |
   &c{player} &7is already following enough quests.
+
+
 
 textPreconditionsErrorAlonePlayerMaxCompletions: |
   &7You already completed that quest.
 
+
+
 textPreconditionsErrorCoopPlayerMaxCompletions: |
   &c{player} &7already completed that quest.
+
+
 
 textPreconditionsErrorAlonePlayerGroupTooManyQuests: |
   &7You're already following enough quests from this group.
 
+
+
 textPreconditionsErrorCoopPlayerGroupTooManyQuests: |
   &c{player} &7is already following enough quests from this group.
+
+
 
 textPreconditionsErrorAlonePlayerGroupPreviousQuestNotCompleted: |
   &7You didn't complete the previous quest from the same group.
 
+
+
 textPreconditionsErrorCoopPlayerGroupPreviousQuestNotCompleted: |
   &c{player} &7didn't complete the previous quest from the same group.
+
+
 
 textPreconditionsErrorAlonePlayerCooldown: |
   &7You have to wait &c{time} &7to follow this quest again.
 
+
+
 textPreconditionsErrorCoopPlayerCooldown: |
   &c{player} &7has to wait &c{time} &7to follow this quest again.
+
+
 
 textPreconditionsErrorAlonePlayerNoTokens: |
   &7You don't have any token for this quest.
 
+
+
 textPreconditionsErrorCoopPlayerNoTokens: |
   &c{player} &7doesn't have any token for this quest.
+
+
 
 textPreconditionsErrorQuestCoopQuest: |
   &cThis is a coop quest.
 
+
+
 textPreconditionsErrorQuestNotCoopQuest: |
   &cThis isn't a coop quest.
+
+
 
 textPreconditionsErrorQuestNotEnoughPlayers: |
   &7You must be at least &c{min} player{plural} &7for this quest.
 
+
+
 textPreconditionsErrorQuestTooManyPlayers: |
   &7You must be at most &c{max} player{plural} &7for this quest.
+
+
 
 textPreconditionsErrorAlonePlayerNoPermission: |
   &7You don't have the permission to start this quest.
 
+
+
 textPreconditionsErrorCoopPlayerNoPermission: |
   &c{player} &7doesn't have the permission to start this quest.
+
+
 
 textPreconditionsErrorAlonePlayerDisallowedWorld: |
   &7You're in a disallowed world for this quest.
 
+
+
 textPreconditionsErrorCoopPlayerDisallowedWorld: |
   &c{player} &7is in a disallowed world for this quest.
+
+
 
 textPreconditionsErrorStartConditionsDontMatch: |
   &7Start conditions are invalid.
 
+
+
 textPreconditionsErrorGroupStartConditionsDontMatch: |
   &7Group start conditions are invalid.
 
+
+
 # -------------------- Detailed progression (verbose) --------------------
 
+
+
 textDetailedProgressionBranch: '&2&l{name}'
+
 textDetailedProgressionBranchNoName: []
 
+
+
 textDetailedProgressionObject: '&a> &7{name} &7(&a{progression}&7/&a{goal}&7)'
+
 textDetailedProgressionObjectDistance: '&a> &7{name} &7(&a{distance}m&7)'
-textDetailedProgressionObjectTime: '&a> &7{name} &7(&a{time}&7)'
+
 textDetailedProgressionObjectNoDetail: '&2> &7{name}'
+
 textDetailedProgressionObjectNoName: []
 
+
+
 textDetailedProgressionObjectDelegateHeader: '&a> &7{name}'
+
 textDetailedProgressionObjectDelegateHeaderNoName: []
 
+
+
 textDetailedProgressionObjectDelegate: '&a- &7{name} &7(&a{progression}&7/&a{goal}&7)'
+
 textDetailedProgressionObjectDelegateCompleted: '&7&m- {name} &7({progression}/{goal}&7)'
+
 textDetailedProgressionObjectDelegateDistance: '&a- &7{name} &7(&a{distance}m&7)'
+
 textDetailedProgressionObjectDelegateDistanceCompleted: '&7&m- {name} &7({distance}m&7)'
-textDetailedProgressionObjectDelegateTime: '&a- &7{name} &7(&a{time}&7)'
-textDetailedProgressionObjectDelegateTimeCompleted: '&7&m- {name} &7({time}&7)'
+
 textDetailedProgressionObjectDelegateNoDetail: '&a- &7{name}'
+
 textDetailedProgressionObjectDelegateNoDetailCompleted: '&7&m- {name}&7'
+
 textDetailedProgressionObjectDelegateNoName: []
+
 textDetailedProgressionObjectDelegateNoNameCompleted: []
+
+
 
 # -------------------- Detailed progression (scoreboard) --------------------
 
+
+
 textDetailedProgressionScoreboardBranch: '&2&l{name}'
+
 textDetailedProgressionScoreboardBranchNoName: []
 
+
+
 textDetailedProgressionScoreboardObject: '&a> &7{name} &7(&a{progression}&7/&a{goal}&7)'
+
 textDetailedProgressionScoreboardObjectDistance: '&a> &7{name} &7(&a{distance}m&7)'
-textDetailedProgressionScoreboardObjectTime: '&a> &7{name} &7(&a{time}&7)'
+
 textDetailedProgressionScoreboardObjectNoDetail: '&2> &7{name}'
+
 textDetailedProgressionScoreboardObjectNoName: []
+
+
 
 textDetailedProgressionScoreboardObjectDelegateHeader: '&a> &7{name}'
 textDetailedProgressionScoreboardObjectDelegateHeaderNoName: []
 
+
+
 textDetailedProgressionScoreboardObjectDelegate: '&a- &7{name} &7(&a{progression}&7/&a{goal}&7)'
+
 textDetailedProgressionScoreboardObjectDelegateCompleted: '&7&m- {name} &7({progression}/{goal}&7)'
+
 textDetailedProgressionScoreboardObjectDelegateDistance: '&a- &7{name} &7(&a{distance}m&7)'
+
 textDetailedProgressionScoreboardObjectDelegateDistanceCompleted: '&7&m- {name} &7({distance}m&7)'
-textDetailedProgressionScoreboardObjectDelegateTime: '&a- &7{name} &7(&a{time}&7)'
-textDetailedProgressionScoreboardObjectDelegateTimeCompleted: '&7&m- {name} &7({time}&7)'
+
 textDetailedProgressionScoreboardObjectDelegateNoDetail: '&a- &7{name}'
+
 textDetailedProgressionScoreboardObjectDelegateNoDetailCompleted: '&7&m- {name}&7'
+
 textDetailedProgressionScoreboardObjectDelegateNoName: []
+
 textDetailedProgressionScoreboardObjectDelegateNoNameCompleted: []
+
+
 
 # -------------------- Detailed progression (PlaceholderAPI) --------------------
 
+
+
 textDetailedProgressionPlaceholderAPIObject: '&7{name} &7(&a{progression}&7/&a{goal}&7)'
+
 textDetailedProgressionPlaceholderAPIObjectDistance: '&7{name} &7(&a{distance}m&7)'
-textDetailedProgressionPlaceholderAPIObjectTime: '&7{name} &7(&a{time}&7)'
+
+
 
 textDetailedProgressionPlaceholderAPIObjectNoDetail: '&7{name}'
+
 textDetailedProgressionPlaceholderAPIObjectNoName: '&7/'
 
+
+
 # -------------------- Journal --------------------
+
+
 
 textJournalEmpty: |
   &7Your Quest Journal is empty.
 
+
+
 # -------------------- Diverge --------------------
 
+
+
 textDivergeLineSplit: '&r    '
+
+
 
 textDivergeSelect: |
   &dClick to select
 
+
+
 textDivergeCantSelect: |
   &7You can't select choices for this quest
+
+
 
 textDivergeCantSelectUnavailable: |
   &7This choice isn't available
 
+
+
 textServerActionPromptNext: |
   &dClick to continue
 
+
+
 # -------------------- Scoreboard --------------------
 
+
+
 textScoreboarOneQuestTitle: |
-  &7&m    &r &d&lQuest &7&m    &r
+  &7&m(*)&r  &3&lQuests  &7&m(*)
+
+
 
 textScoreboardOneQuestContent: |
-  &r
   &a{quest}
-  &r
-  {detailed_progression}
-  &r
-  &e&ohttp://guillaumevdn.com
+  &b{objective_progression}&7/&3{objective_goal}
+  &e&oConfig by Humax
+
+
 
 textScoreboardOneQuestContentNone: |
   &r
   &7No active quest !
   &r
-  &dguillaumevdn.com
+  &e&oConfig by Humax
+
 
 textScoreboardMultipleQuestTitle: |
-  &7&m    &r &d&lQuest &7&m    &r
+  &7&m(*)&r  &3&lQuests  &7&m(*)
+
+
 
 textScoreboardMultipleQuestContent: |
-  {quests}
   &r
-  &e&ohttp://guillaumevdn.com
+  &a{quests}
+  &e&oConfig by Humax
+
+
+
 
 textScoreboardMultipleQuestContentQuest: |
-  &r
   &a{quest}
+  &7&oGoal &b{objective_progression}&7/&3{objective_goal}
   &r
-  {detailed_progression}
+
+
 
 textScoreboardMultipleQuestContentNone: |
   &r
   &7No active quest !
   &r
-  &e&ohttp://guillaumevdn.com
+  &e&oConfig by Humax
+
+
 
 # -------------------- GUI --------------------
 
+
+
 guiDefaultActivatorName: |
   &7Quests
+
+
 
 guiQuestCoopPlayers: |
   &r
@@ -550,106 +907,173 @@ guiQuestCoopPlayers: |
   &7{leader}
   &r
 
+
+
 guiQuestCoopLeader: |
   &7You're the leader.
 
+
+
 guiQuestCoopNotLeader: |
   &7Leader is {leader}.
+
+
 
 guiQuestControls: |
   &r
   &d{controls}
 
+
+
 guiQuestControlsInfo: |
   &dLeft-click for more information
+
+
 
 guiQuestControlsStart: |
   &dRight-click to start quest
 
+
+
 guiQuestControlsStartCoop: |
   &dShift + right-click to start coop quest
+
+
 
 guiQuestControlsPhysicalActivatorGUIStart: |
   &dRight-click to start quest
 
+
+
 guiQuestControlsPhysicalActivatorGUIStartCoop: |
   &dShift + right-click to start coop quest
+
+
 
 guiQuestControlsStop: |
   &dRight-click to stop quest
 
+
+
 guiQuestControlsLeave: |
   &dRight-click to leave coop quest
+
+
 
 guiQuestDetailedProgression: |
   &r
   {detailed_progression}
 
+
+
 guiQuestDetailedErrors: |
   &r
   {detailed_errors}
+
+
 
 guiQuestCompletionCount: |
   &r
   &7You completed this quest {count} time{plural}
 
+
+
 guiQuestCompletionCountGoal: |
   &r
   &7You completed this quest {count}/{max} time{plural}
+
+
 
 guiQuestCooldown: |
   &r
   &7Please wait &a{time} &7to start this quest again.
 
+
+
 guiQuestCooldownPool: |
   &r
-  &7New quests will be calculated in &a{time}&7.
+  &cMore daily quests will be available
+  &cto start in &a{time}&7.
+
+
 
 guiQuestCompleted: |
   &7Date of completion : &a{date}&7.
+
+
 
 guiConfirmLoreStopQuest: |
   &7Click here to &cstop this quest &7:
   &c{quest}
 
+
+
 guiConfirmLoreLeaveCoopQuest: |
   &7Click here to &cleave this coop quest &7:
   &c{quest}
+
+
 
 guiConfirmLoreStartQuest: |
   &7Click here to &astart this quest &7:
   &a{quest}
 
+
+
 guiConfirmLoreStartCoopQuest: |
   &7Click here to &astart this quest in coop &7:
   &a{quest}
 
+
+
 guiConfirmLoreStartQuestAfterActivatorDialog: |
   &7Quest : &a{quest}
+
+
 
 guiConfirmLoreStartCoopQuestAfterActivatorDialog: |
   &7Click here to &astart this quest in coop &7:
   &a{quest}
 
+
+
 # -------------------- Integration --------------------
 
+
+
 integrationDynmapMarkerSetName: Quests
+
 integrationHolographicDisplaysActivatorHologramStatusCount: '&a{count}'
+
 integrationHolographicDisplaysActivatorHologramNoStatusCount: '&c0'
+
 integrationHolographicDisplaysActivatorHologramStatusList: '&a{list}'
+
 integrationHolographicDisplaysActivatorHologramStatusListSeparator: '&7, &a'
+
 integrationHolographicDisplaysActivatorHologramNoStatusList: '&cnone'
 
+
+
 # -------------------- Scoreboard --------------------
+
+
 
 messageScoreboardScrollingStart: >
   &aYou started scrolling your scoreboard. Left-click to go up, right-click to go down. Rewrite the same chat to quit.
 
+
+
 messageScoreboardScrollingStop: >
   &7You stopped scrolling your scoreboard.
+
+
 
 messageScoreboardScrollingReachedTop: >
   &7You reached the top of the scoreboard.
 
+
+
 messageScoreboardScrollingReachedBottom: >
   &7You reached the bottom of the scoreboard.
+

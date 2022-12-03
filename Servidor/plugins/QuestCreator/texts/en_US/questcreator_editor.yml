@@ -169,9 +169,6 @@ descriptionModelOnlyLeaderParsing: |
 descriptionModelNotifyCoopPlayerLeave: |
   &7To notify other players that a coop player left
 
-descriptionModelBypassMaxConcurrentQuestsPerPlayer: |
-  &7To ignore the global max concurrent quests per player setting for this quest
-
 descriptionModelActivators: |
   &7The activators of this quest
 
@@ -393,19 +390,6 @@ descriptionQuestObjectItemsNeededFailGoto: |
 descriptionQuestObjectInitialProgression: |
   &7The initial progression for this goal
 
-descriptionQuestObjectItemsDynamicProgression: |
-  &7To dynamically recalculate the progression and/or goal when progressing
-  &7This should be used with caution, as it completely overrides the behavior of the object type for most objects
-
-descriptionQuestObjectItemsDynamicProgressionPartId: |
-  &7The part identifier for which the progression and/or goal will be dynamically updated
-
-descriptionQuestObjectItemsDynamicProgressionCurrent: |
-  &7The formula to dynamically recalculate the progression
-
-descriptionQuestObjectItemsDynamicProgressionGoal: |
-  &7The formula to dynamically recalculate the goal
-
 # -------------------- Quest object : event --------------------
 
 descriptionQuestObjectMatchFailCancelEvent: |
@@ -469,10 +453,6 @@ descriptionObjectTypeGenericEntityObjectiveHorseColors: |
 descriptionObjectTypeGenericEntityObjectiveHorseStyles: |
   &7The horse styles that are allowed
   &7Leave it empty to allow any style
-
-descriptionObjectTypeGenericEntityObjectivePlayerPermission: |
-  &7The permission required for the target entity player
-  &7Leave it empty for none
 
 descriptionObjectTypeGenericEntityObjectiveGoal: |
   &7The goal for this entity objective
@@ -633,9 +613,6 @@ descriptionObjectTypePlayerEntitiesDamageAllowSameEntities: |
 descriptionObjectTypePlayerEntitiesDamageAllowSameEntitiesErrorMessage: |
   &7If &6allow_same_entities &7is false but the player still tries
 
-descriptionObjectTypePlayerEntitiesDeathNearbyMaxDistance: |
-  &7The maximum distance from the death mob
-
 descriptionObjectTypePlayerEntitiesDismountAllowSameEntities: |
   &7To allow the same entities to be dismounted multiple times
 
@@ -664,9 +641,6 @@ descriptionObjectTypePlayerEntitiesMountAllowSameEntitiesErrorMessage: |
 
 descriptionObjectTypePlayerItemsContainerPutInventoryTypes: |
   &7To only allow certain inventory types
-
-descriptionObjectTypePlayerItemsContainerPutInventorySlots: |
-  &7To only allow certain slots
 
 descriptionObjectTypePlayerItemsContainerTakeInventoryTypes: |
   &7To only allow certain inventory types
@@ -859,9 +833,6 @@ descriptionObjectTypeServerFireworksLaunchEffects: |
 
 descriptionObjectTypeServerFireworksLaunchCount: |
   &7The amount of fireworks
-
-descriptionObjectTypeServerFireworksDamage: |
-  &7To toggle fireworks damage to entities
 
 descriptionObjectTypeServerLightningStrikeDamage: |
   &7To make the lightning damage entities
@@ -1071,7 +1042,7 @@ descriptionIntegrationMythicMobsSignal: |
 descriptionIntegrationBossObjectives: |
   &7The bosses objectives
 
-descriptionIntegrationBossObjectiveBosses: |
+descriptionIntegrationBossObjectiveBosseses: |
   &7The bosses that are allowed
   &7Leave it empty to allow any boss
 
@@ -1217,9 +1188,6 @@ descriptionConditionsNoMatchAmount: |
   &7The minimum amount of conditions that mustn't match
   &7If this is greater than the amount of available conditions, this one will be used
 
-descriptionConditionsAllPlayersMustMatchSame: |
-  &7True if all players must match exactly the same conditions (useful if you customized &6match_amount &7or &6no_match_amount&7)
-
 descriptionConditionsErrorMessage: |
   &7Error message to display when no working match was found
 
@@ -1256,17 +1224,11 @@ descriptionConditionGenericLogicLogicPlaceholder: |
   &r
   &7Placeholders specific to this condition : {placeholders}
 
-descriptionConditionGenericLogicOnlineGoal: |
-  &7The number of online players required to match the logic string
-
 descriptionConditionLogicMoneyCurrency: |
   &7The currency to check
 
 descriptionConditionPermissionPermission: |
   &7The permission
-
-descriptionConditionPermissionOnlineGoal: |
-  &7The number of online players required to have this permission
 
 descriptionConditionPositionPosition: |
   &7The position
@@ -1499,9 +1461,6 @@ descriptionActivatorInteractionClicks: |
 descriptionActivatorSneakClickCancel: |
   &7To cancel quests when sneaking and using an interaction click
 
-descriptionActivatorSendErrorsOnInteract: |
-  &7To display quest start errors if there are any, when interacting with the NPC
-
 descriptionActivatorGuiShowStatus: |
   &7The quest states that will be allowed in this activator's GUI (if no custom GUI)
 
@@ -1542,9 +1501,6 @@ descriptionGuiShowStatus: |
 
 descriptionGuiOrderQuests: |
   &7To order the quests in the list order, or to randomly display them
-
-descriptionGuiSortQuestsByStatus: |
-  &7To order the quests depending on their status (available, in progress, ...)
 
 descriptionGuiOverrideClickTypeInfo: |
   &7To override the info click type for this GUI

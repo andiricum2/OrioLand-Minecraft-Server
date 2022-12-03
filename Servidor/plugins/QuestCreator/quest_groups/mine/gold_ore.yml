@@ -1,0 +1,62 @@
+max_concurrent: 1
+
+execution_order: true
+
+
+
+models: [gold_ore_1,gold_ore_2,gold_ore_3,gold_ore_4]
+
+
+
+rewards:
+
+  - object:
+
+      type: SERVER_LOGIC_MONEY
+
+      currency: VAULT
+
+      value_formula: {value} + 500  # takes the current money amount and add the reward
+
+      start_notify:
+
+        message: '&a&lYou completed the stone quests ! Here''s an extra $500 reward.'
+
+  - object:
+
+      type: SERVER_FIREWORKS_LAUNCH
+
+      effects:
+
+        1:
+
+          type: CREEPER
+
+          colors: |
+
+            AQUA
+
+            BLUE
+
+          fade_colors: |
+
+            AQUA
+
+            BLUE
+
+          flicker: true
+
+          trail: true
+
+      count: 10
+
+      position:
+
+        type: PLAYER_RELATIVE_SPHERE_INSIDE
+
+        center:
+
+          distance: 0
+
+        radius: 5
+

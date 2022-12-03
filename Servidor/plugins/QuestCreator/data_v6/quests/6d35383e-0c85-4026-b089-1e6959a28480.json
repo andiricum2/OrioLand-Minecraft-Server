@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "uuid": "6d35383e-0c85-4026-b089-1e6959a28480",
+  "modelId": "nether_portal",
+  "startCause": "GUI",
+  "started": 1626961043662,
+  "pauseTime": 0,
+  "lastUpdate": 1626961071233,
+  "players": [
+    "dee8f0fc-7ee2-49bc-bb6f-2d3fbd391489"
+  ],
+  "cameraMode": false,
+  "path": {
+    "lastObject": "null,null"
+  }
+}

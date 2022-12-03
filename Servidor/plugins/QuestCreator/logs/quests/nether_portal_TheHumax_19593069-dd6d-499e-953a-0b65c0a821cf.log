@@ -1,0 +1,6 @@
+[22/07 14:46:52] [info] TheHumax | quest TheHumax/nether_portal | pushing quest nether_portal = 19593069-dd6d-499e-953a-0b65c0a821cf
+[22/07 14:46:52] [info] TheHumax | quest TheHumax/nether_portal | started quest : cause GUI
+[22/07 14:46:52] [info] TheHumax | quest TheHumax/nether_portal/main | started branch
+[22/07 14:47:07] [info] TheHumax | quest TheHumax/nether_portal | goto OBJECT LIGHT | applying goto
+[22/07 14:47:09] [info] TheHumax | quest TheHumax/nether_portal | goto QUEST_SUCCESS | applying goto
+[22/07 14:47:09] [info] TheHumax | quest TheHumax/nether_portal | stopped quest : cause GOTO

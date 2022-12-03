@@ -1,0 +1,5 @@
+[21/07 14:23:39] [info] TheHumax | quest TheHumax/farm_wheat_2 | pushing quest farm_wheat_2 = b1756257-b228-4a43-b400-ad208f50e0e6
+[21/07 14:23:39] [info] TheHumax | quest TheHumax/farm_wheat_2 | started quest : cause GUI
+[21/07 14:23:39] [info] TheHumax | quest TheHumax/farm_wheat_2/main | started branch
+[21/07 14:23:43] [info] TheHumax | quest TheHumax/farm_wheat_2 | goto QUEST_SUCCESS | applying goto
+[21/07 14:23:43] [info] TheHumax | quest TheHumax/farm_wheat_2 | stopped quest : cause GOTO
