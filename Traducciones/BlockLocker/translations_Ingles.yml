@@ -1,5 +1,5 @@
 command:
-  cannot_be_used_by_console: This command cannot be used by the console. Sorry!
+  cannot_be_used_by_console: This command cannot be used by the console. Sorry!'
   cannot_edit_owner: '&4You can't change the owner of this protection, brake the sing to do that.'
   line_number_out_of_bounds: '&4Enter a line number between 2 and 4 (2 and 4 Included).'
   no_permission: '&4You don''t have permission to execute this command. Sorry!'
