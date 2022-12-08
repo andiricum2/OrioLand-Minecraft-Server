@@ -220,6 +220,7 @@ sharkInit:
 sharkBite:
   Cooldown: 8
   Skills:
+  - damage{amount=15} @target
   - state{s=attack;li=3;lo=2} @self
   - sound{s=entity.generic.eat} @self
   - effect:bloodyScreen{d=60} @target
