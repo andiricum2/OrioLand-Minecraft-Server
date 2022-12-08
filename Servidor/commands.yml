@@ -25,3 +25,9 @@ aliases:
   - staffplusplus:staff
   register:
   - authme:register $1 $2
+  fly:
+  - essentials:fly
+  misiones:
+  - quests
+  mision:
+  - quests
